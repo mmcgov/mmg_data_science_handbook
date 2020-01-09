@@ -32,6 +32,7 @@ https://www.oreilly.com/library/view/aws-certified-machine/9780135556597/<br>
     
 ## CRT020: Databricks Certified Associate Developer for Apache Spark 2.4 with Scala 2.11 – Assessment
 
+
 ### Useful Links
 #### Official exam page<br>
 https://academy.databricks.com/category/certifications<br>
@@ -1776,7 +1777,7 @@ interact(plot_new,
 ```
 
 
-    interactive(children=(Dropdown(description='ticker', index=31, options=('DELL', 'SBUX', 'HUYA', 'ADBE', 'HTLF'…
+    interactive(children=(Dropdown(description='ticker', index=50, options=('PNRA', 'BANR', 'TER', 'DGX', 'UAA', '…
 
 
 ## Productionisation of code
@@ -2223,6 +2224,21 @@ https://sundog-education.com/spark-scala/<br>
 https://www.edx.org/learn/apache-spark<br>
 zeppelin jetbrains plugin<br>
 https://plugins.jetbrains.com/plugin/10023-intellij-zeppelin<br>
+
+## Important note on compatible verisons
+It is critical that the versions of scala, spark, hadoop and sbt are compatible. It is not necessarily the case that the most recent versions of each will work together.<br>
+The latest compatible set of versions are:<br>
+`scala=2.12.10`<br>
+`spark=3.0`<br>
+`hadoop=3.2.1`<br>
+`sbt=1.3.5`<br>
+
+`Previous setup`<br>
+`scala=2.11.12`<br>
+`spark=2.4.3`<br>
+`hadoop=2.7.3`<br>
+`sbt=1.2.8`<br>
+
 
 ## Initial setup linux
 https://sundog-education.com/spark-scala/
