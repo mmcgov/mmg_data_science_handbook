@@ -2253,7 +2253,39 @@ Therefore if already have wrong version eg version11 then to uninstall
 `sudo apt-get install openjdk-8-jre`<br>
 (use headless if don’t need gui)<br>
 
+ ### Spark
+Download file from: https://spark.apache.org/downloads.html <br>
+Then extract <br>
+`tar xvf spark-1.3.1-bin-hadoop2.6.tgz`<br>
+Then move this file to  `/usr/local/spark`<br>
+`mv spark-1.3.1-bin-hadoop2.6 /usr/local/spark`<br>
+Finally add below line to .bashrc<br>
+`export PATH=$PATH:/usr/local/spark/bin`<br>
+Then extract as below and run bash script<br>
+`cd /opt/`<br>
+`sudo tar -xvzf ~/Downloads/ideaIC-2018.3.2.tar.gz`<br>
+`sudo mv idea-IC-183.4886.37 idea`<br>
+`/opt/idea/bin/idea.sh`<br>
+After first open add desktop launcher option.<br>
+ 
+### Hadoop
+Download the binary file from link below (Note use generic hadoop folder name without version number as when updating can simply put new version into same hadoop folder without having to update the PATH variable etc.<br>
+`http://hadoop.apache.org/releases.html`<br>
+Extract and move to desired location as below
+`tar xzvf hadoop-3.2.1.tar.gz`<br>
+`mv hadoop-3.2.1/* ~/linux_shared/training/spark_scala/software/hadoop/`<br>
 
+Add the Hadoop and Java paths in the bash file (.bashrc).<br>
+Open. bashrc file. Now, add Hadoop and Java Path as shown below.<br>
+`Command:  vim .bashrc`<br>
+`export HADOOP_HOME=~/linux_shared/training/spark_scala/software/hadoop-2.7.3`<br>
+`export HADOOP_CLASSPATH=$HADOOP_CLASSPATH:~/linux_shared/training/spark_scala/software/hadoop-2.7.3/share/hadoop/common/lib`<br>
+`export HADOOP_CONF_DIR=~/linux_shared/training/spark_scala/software/hadoop-2.7.3/etc/hadoop`<br>
+`export HADOOP_MAPRED_HOME=~/linux_shared/training/spark_scala/software/hadoop-2.7.3`<br>
+`export HADOOP_COMMON_HOME=~/linux_shared/training/spark_scala/software/hadoop-2.7.3`<br>
+`export HADOOP_HDFS_HOME=~/linux_shared/training/spark_scala/software/hadoop-2.7.3`<br>
+`export YARN_HOME=~/linux_shared/training/spark_scala/software/hadoop-2.7.3`<br>
+`export PATH=$PATH:~/linux_shared/training/spark_scala/software/hadoop-2.7.3/bin`<br>
 
 ### Scala
 https://www.scala-lang.org/download/
@@ -2274,9 +2306,9 @@ Therefore if using below method be sure to move the extracted file to `/usr/shar
 `tar xvf scala-2.11.6.tgz`<br>
 Next move contents to `/usr/share/scala`<br>
 
-
 Finall add below line to .bashrc:<br>
 `export SCALA_HOME=/usr/bin/scala`<br>
+ 
  
 ### SBT
 https://www.scala-sbt.org/download.html<br>
@@ -2294,25 +2326,8 @@ Next move contents to `/usr/share/sbt`<br>
 Finally add following line to .bashrc<br>
 `Export PATH=$PATH:/usr/local/sbt/bin`<br>
 
-### Hadoop
-Download the binary file from link below (Note use generic hadoop folder name without version number as when updating can simply put new version into same hadoop folder without having to update the PATH variable etc.<br>
-`http://hadoop.apache.org/releases.html`<br>
-Extract and move to desired location as below
-`tar xzvf hadoop-3.2.1.tar.gz`<br>
-`mv hadoop-3.2.1/* ~/linux_shared/training/spark_scala/software/hadoop/`<br>
 
-Add the Hadoop and Java paths in the bash file (.bashrc).<br>
-Open. bashrc file. Now, add Hadoop and Java Path as shown below.<br>
-`Command:  vim .bashrc`<br>
-`export HADOOP_HOME=~/linux_shared/training/spark_scala/software/hadoop-2.7.3`<br>
-`export HADOOP_CLASSPATH=$HADOOP_CLASSPATH:~/linux_shared/training/spark_scala/software/hadoop-2.7.3/share/hadoop/common/lib`<br>
-`export HADOOP_CONF_DIR=~/linux_shared/training/spark_scala/software/hadoop-2.7.3/etc/hadoop`<br>
-`export HADOOP_MAPRED_HOME=~/linux_shared/training/spark_scala/software/hadoop-2.7.3`<br>
-`export HADOOP_COMMON_HOME=~/linux_shared/training/spark_scala/software/hadoop-2.7.3`<br>
-`export HADOOP_HDFS_HOME=~/linux_shared/training/spark_scala/software/hadoop-2.7.3`<br>
-`export YARN_HOME=~/linux_shared/training/spark_scala/software/hadoop-2.7.3`<br>
-`export PATH=$PATH:~/linux_shared/training/spark_scala/software/hadoop-2.7.3/bin`<br>
-
+### Check installations
 Update bashrc<br>
 `Command source ~/.bashrc`<br>
 
@@ -2321,27 +2336,6 @@ check if installed<br>
 `Result: openjdk version "1.8.0_212"`<br>
 `Command: hadoop version`<br>
 `Result: Hadoop 2.7.3`<br>
-
-### Spark
-Download file from: https://spark.apache.org/downloads.html <br>
-Then extract <br>
-`tar xvf spark-1.3.1-bin-hadoop2.6.tgz`<br>
-Then move this file to  `/usr/local/spark`<br>
-`mv spark-1.3.1-bin-hadoop2.6 /usr/local/spark`<br>
-Finally add below line to .bashrc<br>
-`export PATH=$PATH:/usr/local/spark/bin`<br>
-
-
-
-
-
-Then extract as below and run bash script<br>
-`cd /opt/`<br>
-`sudo tar -xvzf ~/Downloads/ideaIC-2018.3.2.tar.gz`<br>
-`sudo mv idea-IC-183.4886.37 idea`<br>
-`/opt/idea/bin/idea.sh`<br>
-After first open add desktop launcher option.<br>
-
 
 
 
@@ -2358,28 +2352,13 @@ https://sundog-education.com/spark-scala/
 
 ### Java
 Install the JDK for java 8, do not install Java 9,10 or 11, go-to the following page and download the .exe for windows and follow the installer instructions.<br>
+Note change the install path to avoid spaces like in `program files` so change to `C:jdk/`<br>
 https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
    
 <img src="media/spark_1.png">    
     
 After the JDK is installed verify the installation by issuing the following command:<br>
 `Java -version`<br> 
-
-
-
-### Scala
-Download Scala binary msi from the following link https://www.scala-lang.org/download/ and follow installation instructions.
-
-<img src="media/spark_7.png">
-
-
-
-### SBT 
-Download and install SBT msi from the following link  https://www.scala-sbt.org/download.html
-
-<img src="media/spark_6.png">
-
-
 
 ### Spark
 Try and run the next steps in the order they are presented here.<br>
@@ -2393,18 +2372,35 @@ Right click on the `spark-XXXX.tgz` file, Choose `7-zip > extract here`. This sh
 Right click on the `spark-XXXX.tar` file, Choose `7-zip > extract files`. This should create a folder called `spark-XXXX` in the downloads folder <br>
 Create a new folder called `spark` in the `C:\` root folder<br>
 Copy the contents of `spark-XXXX` folder from the Downloads folder to the `C:\spark` folder<br>     
-Rename file `log4j.properties.template` to `log4j.properties` in `C:\spark\spark-2.4.1-bin-hadoop2.7\conf`<br>
-Change `log4j.rootCategory=Error`<br>
+Rename file `log4j.properties.template` to `log4j.properties` in `C:\spark\spark\conf`<br>
+Change `log4j.rootCategory=Error, console`<br>
 
 <img src="media/spark_4.png">
-
-
 
 
 ### winutils (Hadoop Support)
 Download winutils.exe (64bit) to support Hadoop from the following location:<br> 
 https://sundog-spark.s3.amazonaws.com/winutils.exe<br>
-Copy the winutils.exe file into the c:\spark\spark\bin folder
+Copy the winutils.exe file into the c:\winutils\bin folder<br>
+open windows cmd prompt and follwo below steps to trick windows into thinking hadoop is installed and executable<br>
+`cd c:\winutils\bin`<br>
+`mkdir c:\tmp\hive`<br>
+`winutils.exe chmod 777 c:\tmp/hive`<br>
+
+### Scala
+Download Scala binary msi from the following link https://www.scala-lang.org/download/ and follow installation instructions.
+
+<img src="media/spark_7.png">
+
+### SBT 
+Download and install SBT msi from the following link  https://www.scala-sbt.org/download.html
+
+<img src="media/spark_6.png">
+
+
+
+
+
 
 
  
@@ -2416,11 +2412,11 @@ Right-click your Windows menu, select Control Panel, System and Security, and th
 |---|---|
 |SBT_HOME|	C:\Program Files (x86)\sbt|
 |SCALA_HOME	|C:\Program Files (x86)\scala|
-|SPARK_HOME|	C:\spark\spark-2.4.1-bin-hadoop2.7|
+|SPARK_HOME|	C:\spark\spark|
 |_JAVA_OPTIONS|	-Xmx512M -Xms512M -Dhttps.proxyPort=8080|
-|HADOOP_HOME|	C:\spark\spark-2.4.1-bin-hadoop2.7\ (set this to same path to where winutils.exe is saved, without the \bin path)|
-|JAVA_HOME	|C:\Progra~1\Java\jdk1.8.0_201|
-|Add these PATH env variable, colon separated|	C:\Program Files (x86)\sbt\bin C:\spark\spark\bin C:\Program Files (x86)\scala\bin %JAVA_HOME%\bin|
+|HADOOP_HOME|	C:\spark\winutils\ (set this to same path to where winutils.exe is saved, without the \bin path)|
+|JAVA_HOME	|C:\jdk|
+|Add these PATH env variable, colon separated| %SBT_HOME%\bin %SPARK_HOME%\bin %SCALA_HOME%\bin %JAVA_HOME%\bin|
 
 #### System and user variables explained
 Very similar to how the Registry works on Windows, we have System and User Environment Variables. The system variables are system-wide accepted and do not vary from user to user. Whereas, User Environments are configured differently from user to user. You can add your variables under the user so that other users are not affected by them.<br>
@@ -2488,7 +2484,7 @@ Set necessary environment variables below in .bashrc (NOTE JAVA_HOME should poin
 `export JAVA_HOME= /usr/lib/jvm/java-8-openjdk-amd64`
 `export SPARK_HOME=/usr/local/spark` (needs to be local to give access without sudo)<br>
 `export HADOOP_HOME=~/linux_shared/training/spark_scala/software/hadoop`<br>
-`export HADOOP_CLASSPATH=$HADOOP_CLASSPATH:~/linux_shared/training/spark_scala/software/hadoop-2.7.3/share/hadoop/common/lib`<br>
+`export HADOOP_CLASSPATH=$HADOOP_CLASSPATH:~/linux_shared/training/spark_scala/software/hadoop/share/hadoop/common/lib`<br>
 `export HADOOP_CONF_DIR=~/linux_shared/training/spark_scala/software/hadoop/etc/hadoop`<br>
 `export HADOOP_MAPRED_HOME=~/linux_shared/training/spark_scala/software/hadoop`<br>
 `export HADOOP_COMMON_HOME=~/linux_shared/training/spark_scala/software/hadoop`<br>
