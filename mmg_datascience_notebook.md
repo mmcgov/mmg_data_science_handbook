@@ -44,16 +44,6 @@ https://www.linkedin.com/pulse/all-you-need-clear-crt020-databricks-certified-as
 https://forums.databricks.com/questions/20492/has-anyone-taken-crt020-databricks-certified-assoc.html#answer-container-20719<br>
 https://forums.databricks.com/questions/29588/when-taking-the-2019-crt020-scalaspark-certificati.html<br>
 
-
-```python
-
-```
-
-
-```python
-
-```
-
 # Linux
 
 ## Virtual Box
@@ -1275,7 +1265,7 @@ import numpy as np
 
 ```python
 #set graph themes and pandas view defaults
-jtplot.reset()
+#jtplot.reset()
 pd.options.display.html.table_schema = True
 pd.set_option('display.max_rows', 500)
 pd.set_option('display.max_columns', 500)
@@ -1786,7 +1776,7 @@ interact(plot_new,
 ```
 
 
-    interactive(children=(Dropdown(description='ticker', index=13, options=('EFX', 'TWX', 'HUYA', 'ADBE', 'GTS', '…
+    interactive(children=(Dropdown(description='ticker', index=31, options=('DELL', 'SBUX', 'HUYA', 'ADBE', 'HTLF'…
 
 
 ## Productionisation of code
