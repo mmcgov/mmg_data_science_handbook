@@ -2255,6 +2255,7 @@ Then move this file to  `/usr/local/spark`<br>
 `mv spark-1.3.1-bin-hadoop2.6 /usr/local/spark`<br>
 Finally add below line to .bashrc<br>
 `export PATH=$PATH:/usr/local/spark/bin`<br>
+<<<<<<< HEAD
 
  
 ### Hadoop
@@ -2264,6 +2265,22 @@ Extract and move to desired location as below
 `tar xzvf hadoop-3.2.1.tar.gz`<br>
 `mv hadoop-3.2.1/* ~/linux_shared/training/spark_scala/software/hadoop/`<br>
 
+=======
+Then extract as below and run bash script<br>
+`cd /opt/`<br>
+`sudo tar -xvzf ~/Downloads/ideaIC-2018.3.2.tar.gz`<br>
+`sudo mv idea-IC-183.4886.37 idea`<br>
+`/opt/idea/bin/idea.sh`<br>
+After first open add desktop launcher option.<br>
+ 
+### Hadoop
+Download the binary file from link below (Note use generic hadoop folder name without version number as when updating can simply put new version into same hadoop folder without having to update the PATH variable etc.<br>
+`http://hadoop.apache.org/releases.html`<br>
+Extract and move to desired location as below
+`tar xzvf hadoop-3.2.1.tar.gz`<br>
+`mv hadoop-3.2.1/* ~/linux_shared/training/spark_scala/software/hadoop/`<br>
+
+>>>>>>> baafd7ed05cea281b2af127f428c117dfdb86f81
 Add the Hadoop and Java paths in the bash file (.bashrc).<br>
 Open. bashrc file. Now, add Hadoop and Java Path as shown below.<br>
 `Command:  vim .bashrc`<br>
@@ -2401,9 +2418,15 @@ Right-click your Windows menu, select Control Panel, System and Security, and th
 |---|---|
 |SBT_HOME|	C:\Program Files (x86)\sbt|
 |SCALA_HOME	|C:\Program Files (x86)\scala|
+<<<<<<< HEAD
 |SPARK_HOME|	C:\spark\|
 |_JAVA_OPTIONS|	-Xmx512M -Xms512M -Dhttps.proxyPort=8080|
 |HADOOP_HOME|	C:\winutils\ (set this to same path to where winutils.exe is saved, without the \bin path)|
+=======
+|SPARK_HOME|	C:\spark\spark|
+|_JAVA_OPTIONS|	-Xmx512M -Xms512M -Dhttps.proxyPort=8080|
+|HADOOP_HOME|	C:\spark\winutils\ (set this to same path to where winutils.exe is saved, without the \bin path)|
+>>>>>>> baafd7ed05cea281b2af127f428c117dfdb86f81
 |JAVA_HOME	|C:\jdk|
 |Add these PATH env variable, colon separated| %SBT_HOME%\bin %SPARK_HOME%\bin %SCALA_HOME%\bin %JAVA_HOME%\bin|
 
