@@ -1,6 +1,6 @@
 
 <h1>Table of Contents<span class="tocSkip"></span></h1>
-<div class="toc"><ul class="toc-item"><li><span><a href="#Data-Science-Qualifications" data-toc-modified-id="Data-Science-Qualifications-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Data Science Qualifications</a></span><ul class="toc-item"><li><span><a href="#AWS-Certified-Machine-Learning-Specialty" data-toc-modified-id="AWS-Certified-Machine-Learning-Specialty-1.1"><span class="toc-item-num">1.1&nbsp;&nbsp;</span>AWS Certified Machine Learning Specialty</a></span><ul class="toc-item"><li><span><a href="#Useful-Links" data-toc-modified-id="Useful-Links-1.1.1"><span class="toc-item-num">1.1.1&nbsp;&nbsp;</span>Useful Links</a></span><ul class="toc-item"><li><span><a href="#Official-exam-page-and-AWS-prep-material" data-toc-modified-id="Official-exam-page-and-AWS-prep-material-1.1.1.1"><span class="toc-item-num">1.1.1.1&nbsp;&nbsp;</span>Official exam page and AWS prep material<br></a></span></li><li><span><a href="#Linux-Academy-gives-you-access-to-an-AWS-console-to-participate-in-interacgtive-labs" data-toc-modified-id="Linux-Academy-gives-you-access-to-an-AWS-console-to-participate-in-interacgtive-labs-1.1.1.2"><span class="toc-item-num">1.1.1.2&nbsp;&nbsp;</span>Linux Academy gives you access to an AWS console to participate in interacgtive labs<br></a></span></li><li><span><a href="#A-cloud-guru-has-an-excellent-exam-simulator-to-practice-exam-type-questions" data-toc-modified-id="A-cloud-guru-has-an-excellent-exam-simulator-to-practice-exam-type-questions-1.1.1.3"><span class="toc-item-num">1.1.1.3&nbsp;&nbsp;</span>A cloud guru has an excellent exam simulator to practice exam type questions<br></a></span></li><li><span><a href="#Useful-blog-on-exam-preparation" data-toc-modified-id="Useful-blog-on-exam-preparation-1.1.1.4"><span class="toc-item-num">1.1.1.4&nbsp;&nbsp;</span>Useful blog on exam preparation<br></a></span></li><li><span><a href="#crash-course-from-o'reilly-online-learning-along-with-associated-links-and-material" data-toc-modified-id="crash-course-from-o'reilly-online-learning-along-with-associated-links-and-material-1.1.1.5"><span class="toc-item-num">1.1.1.5&nbsp;&nbsp;</span>crash course from o'reilly online learning along with associated links and material<br></a></span></li></ul></li></ul></li><li><span><a href="#CRT020-Databricks-Certified-Associate-Developer-for-Apache-Spark-2.4-with-Scala-2.11" data-toc-modified-id="CRT020-Databricks-Certified-Associate-Developer-for-Apache-Spark-2.4-with-Scala-2.11-1.2"><span class="toc-item-num">1.2&nbsp;&nbsp;</span>CRT020 Databricks Certified Associate Developer for Apache Spark 2.4 with Scala 2.11</a></span><ul class="toc-item"><li><span><a href="#Useful-Links" data-toc-modified-id="Useful-Links-1.2.1"><span class="toc-item-num">1.2.1&nbsp;&nbsp;</span>Useful Links</a></span><ul class="toc-item"><li><span><a href="#Official-exam-page" data-toc-modified-id="Official-exam-page-1.2.1.1"><span class="toc-item-num">1.2.1.1&nbsp;&nbsp;</span>Official exam page<br></a></span></li><li><span><a href="#Exam-booking-details" data-toc-modified-id="Exam-booking-details-1.2.1.2"><span class="toc-item-num">1.2.1.2&nbsp;&nbsp;</span>Exam booking details<br></a></span></li><li><span><a href="#Excellent-blog-on-linkedin-with-detailed-prep-notes" data-toc-modified-id="Excellent-blog-on-linkedin-with-detailed-prep-notes-1.2.1.3"><span class="toc-item-num">1.2.1.3&nbsp;&nbsp;</span>Excellent blog on linkedin with detailed prep notes<br></a></span></li><li><span><a href="#Useful-FAQ-answers-for-exam" data-toc-modified-id="Useful-FAQ-answers-for-exam-1.2.1.4"><span class="toc-item-num">1.2.1.4&nbsp;&nbsp;</span>Useful FAQ answers for exam</a></span></li></ul></li></ul></li></ul></li><li><span><a href="#Linux" data-toc-modified-id="Linux-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Linux</a></span><ul class="toc-item"><li><span><a href="#Virtual-Box" data-toc-modified-id="Virtual-Box-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Virtual Box</a></span><ul class="toc-item"><li><span><a href="#Using-vboxmanage-to-configure-virtualbox" data-toc-modified-id="Using-vboxmanage-to-configure-virtualbox-2.1.1"><span class="toc-item-num">2.1.1&nbsp;&nbsp;</span>Using vboxmanage to configure virtualbox<br></a></span></li><li><span><a href="#Increase-size-of-VM-partition" data-toc-modified-id="Increase-size-of-VM-partition-2.1.2"><span class="toc-item-num">2.1.2&nbsp;&nbsp;</span>Increase size of VM partition</a></span></li></ul></li><li><span><a href="#Setup-PATH-variable-correctly" data-toc-modified-id="Setup-PATH-variable-correctly-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>Setup PATH variable correctly<br></a></span></li><li><span><a href="#Immediate-activation-of-any-path-updates-without-closing-session" data-toc-modified-id="Immediate-activation-of-any-path-updates-without-closing-session-2.3"><span class="toc-item-num">2.3&nbsp;&nbsp;</span>Immediate activation of any path updates without closing session<br></a></span></li><li><span><a href="#Symbolic-links" data-toc-modified-id="Symbolic-links-2.4"><span class="toc-item-num">2.4&nbsp;&nbsp;</span>Symbolic links</a></span></li><li><span><a href="#Linux-Server" data-toc-modified-id="Linux-Server-2.5"><span class="toc-item-num">2.5&nbsp;&nbsp;</span>Linux Server</a></span></li><li><span><a href="#SSH-Notes" data-toc-modified-id="SSH-Notes-2.6"><span class="toc-item-num">2.6&nbsp;&nbsp;</span>SSH Notes</a></span></li><li><span><a href="#Common-Bugs" data-toc-modified-id="Common-Bugs-2.7"><span class="toc-item-num">2.7&nbsp;&nbsp;</span>Common Bugs</a></span><ul class="toc-item"><li><span><a href="#write-on-sudo-owned-file-when-did’nt-use-sudo-to-open" data-toc-modified-id="write-on-sudo-owned-file-when-did’nt-use-sudo-to-open-2.7.1"><span class="toc-item-num">2.7.1&nbsp;&nbsp;</span>write on sudo owned file when did’nt use sudo to open<br></a></span></li><li><span><a href="#Colour-scheme" data-toc-modified-id="Colour-scheme-2.7.2"><span class="toc-item-num">2.7.2&nbsp;&nbsp;</span>Colour scheme<br></a></span></li><li><span><a href="#Apt-get-stalling-on-waiting-for-headers" data-toc-modified-id="Apt-get-stalling-on-waiting-for-headers-2.7.3"><span class="toc-item-num">2.7.3&nbsp;&nbsp;</span>Apt-get stalling on waiting for headers<br></a></span></li><li><span><a href="#Problems-with-Linux-software-updater" data-toc-modified-id="Problems-with-Linux-software-updater-2.7.4"><span class="toc-item-num">2.7.4&nbsp;&nbsp;</span>Problems with Linux software updater<br></a></span></li></ul></li><li><span><a href="#Docker" data-toc-modified-id="Docker-2.8"><span class="toc-item-num">2.8&nbsp;&nbsp;</span>Docker</a></span><ul class="toc-item"><li><span><a href="#Install-docker" data-toc-modified-id="Install-docker-2.8.1"><span class="toc-item-num">2.8.1&nbsp;&nbsp;</span>Install docker</a></span></li><li><span><a href="#Docker-commands" data-toc-modified-id="Docker-commands-2.8.2"><span class="toc-item-num">2.8.2&nbsp;&nbsp;</span>Docker commands</a></span></li><li><span><a href="#Docker-Compose-commands" data-toc-modified-id="Docker-Compose-commands-2.8.3"><span class="toc-item-num">2.8.3&nbsp;&nbsp;</span>Docker-Compose commands</a></span></li></ul></li></ul></li><li><span><a href="#Python" data-toc-modified-id="Python-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Python</a></span><ul class="toc-item"><li><span><a href="#Useful-links" data-toc-modified-id="Useful-links-3.1"><span class="toc-item-num">3.1&nbsp;&nbsp;</span>Useful links</a></span></li><li><span><a href="#Virtual-Environments" data-toc-modified-id="Virtual-Environments-3.2"><span class="toc-item-num">3.2&nbsp;&nbsp;</span>Virtual Environments</a></span><ul class="toc-item"><li><span><a href="#Install-virtualenv-and-virtualenvwrapper" data-toc-modified-id="Install-virtualenv-and-virtualenvwrapper-3.2.1"><span class="toc-item-num">3.2.1&nbsp;&nbsp;</span>Install virtualenv and virtualenvwrapper<br></a></span></li><li><span><a href="#Wrapper-syntax" data-toc-modified-id="Wrapper-syntax-3.2.2"><span class="toc-item-num">3.2.2&nbsp;&nbsp;</span>Wrapper syntax<br></a></span></li><li><span><a href="#Virtualenv-syntax" data-toc-modified-id="Virtualenv-syntax-3.2.3"><span class="toc-item-num">3.2.3&nbsp;&nbsp;</span>Virtualenv syntax<br></a></span></li><li><span><a href="#Conda-syntax" data-toc-modified-id="Conda-syntax-3.2.4"><span class="toc-item-num">3.2.4&nbsp;&nbsp;</span>Conda syntax</a></span></li><li><span><a href="#Pip-setup" data-toc-modified-id="Pip-setup-3.2.5"><span class="toc-item-num">3.2.5&nbsp;&nbsp;</span>Pip setup<br></a></span></li></ul></li><li><span><a href="#IDE-Tips" data-toc-modified-id="IDE-Tips-3.3"><span class="toc-item-num">3.3&nbsp;&nbsp;</span>IDE Tips</a></span><ul class="toc-item"><li><span><a href="#Vim" data-toc-modified-id="Vim-3.3.1"><span class="toc-item-num">3.3.1&nbsp;&nbsp;</span>Vim</a></span></li><li><span><a href="#Jupyter" data-toc-modified-id="Jupyter-3.3.2"><span class="toc-item-num">3.3.2&nbsp;&nbsp;</span>Jupyter</a></span></li><li><span><a href="#Jupyter-server" data-toc-modified-id="Jupyter-server-3.3.3"><span class="toc-item-num">3.3.3&nbsp;&nbsp;</span>Jupyter server</a></span></li><li><span><a href="#Pycharm" data-toc-modified-id="Pycharm-3.3.4"><span class="toc-item-num">3.3.4&nbsp;&nbsp;</span>Pycharm</a></span></li></ul></li><li><span><a href="#Data-Collection" data-toc-modified-id="Data-Collection-3.4"><span class="toc-item-num">3.4&nbsp;&nbsp;</span>Data Collection</a></span><ul class="toc-item"><li><span><a href="#Web-Scraping/Crawling" data-toc-modified-id="Web-Scraping/Crawling-3.4.1"><span class="toc-item-num">3.4.1&nbsp;&nbsp;</span>Web Scraping/Crawling</a></span><ul class="toc-item"><li><span><a href="#Basic-xpath-syntax" data-toc-modified-id="Basic-xpath-syntax-3.4.1.1"><span class="toc-item-num">3.4.1.1&nbsp;&nbsp;</span>Basic xpath syntax</a></span></li><li><span><a href="#Lxml-Approach-(see-example-scripts)" data-toc-modified-id="Lxml-Approach-(see-example-scripts)-3.4.1.2"><span class="toc-item-num">3.4.1.2&nbsp;&nbsp;</span>Lxml Approach (see example scripts)</a></span></li><li><span><a href="#Scrapy" data-toc-modified-id="Scrapy-3.4.1.3"><span class="toc-item-num">3.4.1.3&nbsp;&nbsp;</span>Scrapy</a></span></li><li><span><a href="#Create-new-project" data-toc-modified-id="Create-new-project-3.4.1.4"><span class="toc-item-num">3.4.1.4&nbsp;&nbsp;</span>Create new project</a></span></li></ul></li></ul></li><li><span><a href="#Data-formatting/Wrangling" data-toc-modified-id="Data-formatting/Wrangling-3.5"><span class="toc-item-num">3.5&nbsp;&nbsp;</span>Data formatting/Wrangling</a></span><ul class="toc-item"><li><span><a href="#Regular-Expressions" data-toc-modified-id="Regular-Expressions-3.5.1"><span class="toc-item-num">3.5.1&nbsp;&nbsp;</span>Regular Expressions</a></span><ul class="toc-item"><li><span><a href="#Useful-Links" data-toc-modified-id="Useful-Links-3.5.1.1"><span class="toc-item-num">3.5.1.1&nbsp;&nbsp;</span>Useful Links</a></span></li></ul></li><li><span><a href="#String-formatting" data-toc-modified-id="String-formatting-3.5.2"><span class="toc-item-num">3.5.2&nbsp;&nbsp;</span>String formatting</a></span></li><li><span><a href="#Pandas-data-formatting" data-toc-modified-id="Pandas-data-formatting-3.5.3"><span class="toc-item-num">3.5.3&nbsp;&nbsp;</span>Pandas data formatting</a></span><ul class="toc-item"><li><span><a href="#prevent-Setting-WithCopyWarning-in-pandas" data-toc-modified-id="prevent-Setting-WithCopyWarning-in-pandas-3.5.3.1"><span class="toc-item-num">3.5.3.1&nbsp;&nbsp;</span>prevent Setting WithCopyWarning in pandas</a></span></li><li><span><a href="#Show-max-rows-and-columns-inline-for-pandas-dataframes" data-toc-modified-id="Show-max-rows-and-columns-inline-for-pandas-dataframes-3.5.3.2"><span class="toc-item-num">3.5.3.2&nbsp;&nbsp;</span>Show max rows and columns inline for pandas dataframes</a></span></li><li><span><a href="#Read-in-series-of-csv-files-and-concatenate-into-one-csv-file" data-toc-modified-id="Read-in-series-of-csv-files-and-concatenate-into-one-csv-file-3.5.3.3"><span class="toc-item-num">3.5.3.3&nbsp;&nbsp;</span>Read in series of csv files and concatenate into one csv file</a></span></li></ul></li></ul></li><li><span><a href="#Visualisations" data-toc-modified-id="Visualisations-3.6"><span class="toc-item-num">3.6&nbsp;&nbsp;</span>Visualisations</a></span><ul class="toc-item"><li><span><a href="#Graph-Database-Packages" data-toc-modified-id="Graph-Database-Packages-3.6.1"><span class="toc-item-num">3.6.1&nbsp;&nbsp;</span>Graph Database Packages</a></span><ul class="toc-item"><li><span><a href="#Gephi-(graph-creator)-and-Yed-(graph-visualiser)" data-toc-modified-id="Gephi-(graph-creator)-and-Yed-(graph-visualiser)-3.6.1.1"><span class="toc-item-num">3.6.1.1&nbsp;&nbsp;</span>Gephi (graph creator) and Yed (graph visualiser)</a></span></li></ul></li><li><span><a href="#Using-ipywidgets-to-give-interactive-graphs" data-toc-modified-id="Using-ipywidgets-to-give-interactive-graphs-3.6.2"><span class="toc-item-num">3.6.2&nbsp;&nbsp;</span>Using ipywidgets to give interactive graphs</a></span></li></ul></li><li><span><a href="#Productionisation-of-code" data-toc-modified-id="Productionisation-of-code-3.7"><span class="toc-item-num">3.7&nbsp;&nbsp;</span>Productionisation of code</a></span><ul class="toc-item"><li><span><a href="#python-pip-package-method-with-GitHub" data-toc-modified-id="python-pip-package-method-with-GitHub-3.7.1"><span class="toc-item-num">3.7.1&nbsp;&nbsp;</span>python pip package method with GitHub</a></span><ul class="toc-item"><li><span><a href="#Create-pip-package" data-toc-modified-id="Create-pip-package-3.7.1.1"><span class="toc-item-num">3.7.1.1&nbsp;&nbsp;</span>Create pip package</a></span></li></ul></li><li><span><a href="#python-pip-package-method-with-Docker,-TeamCity-and-Artifactory" data-toc-modified-id="python-pip-package-method-with-Docker,-TeamCity-and-Artifactory-3.7.2"><span class="toc-item-num">3.7.2&nbsp;&nbsp;</span>python pip package method with Docker, TeamCity and Artifactory</a></span><ul class="toc-item"><li><span><a href="#Useful-links" data-toc-modified-id="Useful-links-3.7.2.1"><span class="toc-item-num">3.7.2.1&nbsp;&nbsp;</span>Useful links<br></a></span></li></ul></li><li><span><a href="#Example-usage-(stock_data_collector)" data-toc-modified-id="Example-usage-(stock_data_collector)-3.7.3"><span class="toc-item-num">3.7.3&nbsp;&nbsp;</span>Example usage (stock_data_collector)</a></span></li><li><span><a href="#Deploy-package-from-Cloudera-to-artifactory" data-toc-modified-id="Deploy-package-from-Cloudera-to-artifactory-3.7.4"><span class="toc-item-num">3.7.4&nbsp;&nbsp;</span>Deploy package from Cloudera to artifactory</a></span></li><li><span><a href="#AWS-Batch-method" data-toc-modified-id="AWS-Batch-method-3.7.5"><span class="toc-item-num">3.7.5&nbsp;&nbsp;</span>AWS Batch method</a></span><ul class="toc-item"><li><span><a href="#Docker-container-of-code" data-toc-modified-id="Docker-container-of-code-3.7.5.1"><span class="toc-item-num">3.7.5.1&nbsp;&nbsp;</span>Docker container of code</a></span></li><li><span><a href="#TeamCity" data-toc-modified-id="TeamCity-3.7.5.2"><span class="toc-item-num">3.7.5.2&nbsp;&nbsp;</span>TeamCity</a></span></li><li><span><a href="#Octopus" data-toc-modified-id="Octopus-3.7.5.3"><span class="toc-item-num">3.7.5.3&nbsp;&nbsp;</span>Octopus</a></span></li><li><span><a href="#AWS-Lambda" data-toc-modified-id="AWS-Lambda-3.7.5.4"><span class="toc-item-num">3.7.5.4&nbsp;&nbsp;</span>AWS Lambda</a></span></li><li><span><a href="#AWS-Batch" data-toc-modified-id="AWS-Batch-3.7.5.5"><span class="toc-item-num">3.7.5.5&nbsp;&nbsp;</span>AWS Batch</a></span></li></ul></li></ul></li><li><span><a href="#Web-Server-(Using-Dash,-Flask,-Gunicorn,-Nginz)" data-toc-modified-id="Web-Server-(Using-Dash,-Flask,-Gunicorn,-Nginz)-3.8"><span class="toc-item-num">3.8&nbsp;&nbsp;</span>Web Server (Using Dash, Flask, Gunicorn, Nginz)</a></span><ul class="toc-item"><li><span><a href="#Useful-Links" data-toc-modified-id="Useful-Links-3.8.1"><span class="toc-item-num">3.8.1&nbsp;&nbsp;</span>Useful Links</a></span></li></ul></li></ul></li><li><span><a href="#Scala-and-Spark" data-toc-modified-id="Scala-and-Spark-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Scala and Spark</a></span><ul class="toc-item"><li><span><a href="#Scalable-data-science" data-toc-modified-id="Scalable-data-science-4.1"><span class="toc-item-num">4.1&nbsp;&nbsp;</span>Scalable data science</a></span></li><li><span><a href="#Useful-links" data-toc-modified-id="Useful-links-4.2"><span class="toc-item-num">4.2&nbsp;&nbsp;</span>Useful links</a></span></li><li><span><a href="#Important-note-on-compatible-verisons" data-toc-modified-id="Important-note-on-compatible-verisons-4.3"><span class="toc-item-num">4.3&nbsp;&nbsp;</span>Important note on compatible verisons</a></span></li><li><span><a href="#Initial-setup-linux" data-toc-modified-id="Initial-setup-linux-4.4"><span class="toc-item-num">4.4&nbsp;&nbsp;</span>Initial setup linux</a></span><ul class="toc-item"><li><span><a href="#Java" data-toc-modified-id="Java-4.4.1"><span class="toc-item-num">4.4.1&nbsp;&nbsp;</span>Java</a></span></li><li><span><a href="#Spark" data-toc-modified-id="Spark-4.4.2"><span class="toc-item-num">4.4.2&nbsp;&nbsp;</span>Spark</a></span></li><li><span><a href="#Hadoop" data-toc-modified-id="Hadoop-4.4.3"><span class="toc-item-num">4.4.3&nbsp;&nbsp;</span>Hadoop</a></span></li><li><span><a href="#Scala" data-toc-modified-id="Scala-4.4.4"><span class="toc-item-num">4.4.4&nbsp;&nbsp;</span>Scala</a></span></li><li><span><a href="#SBT" data-toc-modified-id="SBT-4.4.5"><span class="toc-item-num">4.4.5&nbsp;&nbsp;</span>SBT</a></span></li><li><span><a href="#Check-installations" data-toc-modified-id="Check-installations-4.4.6"><span class="toc-item-num">4.4.6&nbsp;&nbsp;</span>Check installations</a></span></li></ul></li><li><span><a href="#Initial-setup-Windows" data-toc-modified-id="Initial-setup-Windows-4.5"><span class="toc-item-num">4.5&nbsp;&nbsp;</span>Initial setup Windows</a></span><ul class="toc-item"><li><span><a href="#Java" data-toc-modified-id="Java-4.5.1"><span class="toc-item-num">4.5.1&nbsp;&nbsp;</span>Java</a></span></li><li><span><a href="#Spark" data-toc-modified-id="Spark-4.5.2"><span class="toc-item-num">4.5.2&nbsp;&nbsp;</span>Spark</a></span></li><li><span><a href="#winutils-(Hadoop-Support)" data-toc-modified-id="winutils-(Hadoop-Support)-4.5.3"><span class="toc-item-num">4.5.3&nbsp;&nbsp;</span>winutils (Hadoop Support)</a></span></li><li><span><a href="#Scala" data-toc-modified-id="Scala-4.5.4"><span class="toc-item-num">4.5.4&nbsp;&nbsp;</span>Scala</a></span></li><li><span><a href="#SBT" data-toc-modified-id="SBT-4.5.5"><span class="toc-item-num">4.5.5&nbsp;&nbsp;</span>SBT</a></span></li><li><span><a href="#Define-all-the-necessary-path-variables" data-toc-modified-id="Define-all-the-necessary-path-variables-4.5.6"><span class="toc-item-num">4.5.6&nbsp;&nbsp;</span>Define all the necessary path variables</a></span><ul class="toc-item"><li><span><a href="#System-and-user-variables-explained" data-toc-modified-id="System-and-user-variables-explained-4.5.6.1"><span class="toc-item-num">4.5.6.1&nbsp;&nbsp;</span>System and user variables explained</a></span></li></ul></li></ul></li><li><span><a href="#Check-installation-of-Spark" data-toc-modified-id="Check-installation-of-Spark-4.6"><span class="toc-item-num">4.6&nbsp;&nbsp;</span>Check installation of Spark</a></span></li><li><span><a href="#IDE-Setup" data-toc-modified-id="IDE-Setup-4.7"><span class="toc-item-num">4.7&nbsp;&nbsp;</span>IDE Setup</a></span><ul class="toc-item"><li><span><a href="#NOTE" data-toc-modified-id="NOTE-4.7.1"><span class="toc-item-num">4.7.1&nbsp;&nbsp;</span>NOTE</a></span></li><li><span><a href="#intellij-IDEA" data-toc-modified-id="intellij-IDEA-4.7.2"><span class="toc-item-num">4.7.2&nbsp;&nbsp;</span>intellij IDEA</a></span><ul class="toc-item"><li><span><a href="#Windows-install" data-toc-modified-id="Windows-install-4.7.2.1"><span class="toc-item-num">4.7.2.1&nbsp;&nbsp;</span>Windows install</a></span></li><li><span><a href="#Linux-install" data-toc-modified-id="Linux-install-4.7.2.2"><span class="toc-item-num">4.7.2.2&nbsp;&nbsp;</span>Linux install</a></span></li></ul></li><li><span><a href="#Polynote" data-toc-modified-id="Polynote-4.7.3"><span class="toc-item-num">4.7.3&nbsp;&nbsp;</span>Polynote</a></span></li><li><span><a href="#Zeppelin-notebooks" data-toc-modified-id="Zeppelin-notebooks-4.7.4"><span class="toc-item-num">4.7.4&nbsp;&nbsp;</span>Zeppelin notebooks</a></span><ul class="toc-item"><li><span><a href="#NOTE" data-toc-modified-id="NOTE-4.7.4.1"><span class="toc-item-num">4.7.4.1&nbsp;&nbsp;</span>NOTE</a></span></li><li><span><a href="#Setup-for-local-zeppelin-(without-docker)" data-toc-modified-id="Setup-for-local-zeppelin-(without-docker)-4.7.4.2"><span class="toc-item-num">4.7.4.2&nbsp;&nbsp;</span>Setup for local zeppelin (without docker)</a></span></li><li><span><a href="#Convert-between-databricks,-JSON-and-Zeppelin-notebook-files-using-Pinot" data-toc-modified-id="Convert-between-databricks,-JSON-and-Zeppelin-notebook-files-using-Pinot-4.7.4.3"><span class="toc-item-num">4.7.4.3&nbsp;&nbsp;</span>Convert between databricks, JSON and Zeppelin notebook files using Pinot</a></span></li></ul></li></ul></li></ul></li><li><span><a href="#Sagemath" data-toc-modified-id="Sagemath-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Sagemath</a></span></li><li><span><a href="#Financial-Mathematics-and-Quantitative-Research" data-toc-modified-id="Financial-Mathematics-and-Quantitative-Research-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>Financial Mathematics and Quantitative Research</a></span><ul class="toc-item"><li><span><a href="#Research-Papers" data-toc-modified-id="Research-Papers-6.1"><span class="toc-item-num">6.1&nbsp;&nbsp;</span>Research Papers</a></span></li></ul></li><li><span><a href="#Machine-Learning-Algorithms" data-toc-modified-id="Machine-Learning-Algorithms-7"><span class="toc-item-num">7&nbsp;&nbsp;</span>Machine Learning Algorithms</a></span><ul class="toc-item"><li><span><a href="#Supervised-Learning" data-toc-modified-id="Supervised-Learning-7.1"><span class="toc-item-num">7.1&nbsp;&nbsp;</span>Supervised Learning</a></span><ul class="toc-item"><li><span><a href="#Time-series-forcasting" data-toc-modified-id="Time-series-forcasting-7.1.1"><span class="toc-item-num">7.1.1&nbsp;&nbsp;</span>Time series forcasting</a></span></li></ul></li><li><span><a href="#Unsupervised-Learning" data-toc-modified-id="Unsupervised-Learning-7.2"><span class="toc-item-num">7.2&nbsp;&nbsp;</span>Unsupervised Learning</a></span><ul class="toc-item"><li><span><a href="#Latent-Dirichlet-Allocation-(LDA)" data-toc-modified-id="Latent-Dirichlet-Allocation-(LDA)-7.2.1"><span class="toc-item-num">7.2.1&nbsp;&nbsp;</span>Latent Dirichlet Allocation (LDA)</a></span></li></ul></li></ul></li></ul></div>
+<div class="toc"><ul class="toc-item"><li><span><a href="#Data-Science-Qualifications" data-toc-modified-id="Data-Science-Qualifications-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Data Science Qualifications</a></span><ul class="toc-item"><li><span><a href="#AWS-Certified-Machine-Learning-Specialty" data-toc-modified-id="AWS-Certified-Machine-Learning-Specialty-1.1"><span class="toc-item-num">1.1&nbsp;&nbsp;</span>AWS Certified Machine Learning Specialty</a></span><ul class="toc-item"><li><span><a href="#Useful-Links" data-toc-modified-id="Useful-Links-1.1.1"><span class="toc-item-num">1.1.1&nbsp;&nbsp;</span>Useful Links</a></span><ul class="toc-item"><li><span><a href="#Official-exam-page-and-AWS-prep-material" data-toc-modified-id="Official-exam-page-and-AWS-prep-material-1.1.1.1"><span class="toc-item-num">1.1.1.1&nbsp;&nbsp;</span>Official exam page and AWS prep material<br></a></span></li><li><span><a href="#Linux-Academy-gives-you-access-to-an-AWS-console-to-participate-in-interacgtive-labs" data-toc-modified-id="Linux-Academy-gives-you-access-to-an-AWS-console-to-participate-in-interacgtive-labs-1.1.1.2"><span class="toc-item-num">1.1.1.2&nbsp;&nbsp;</span>Linux Academy gives you access to an AWS console to participate in interacgtive labs<br></a></span></li><li><span><a href="#A-cloud-guru-has-an-excellent-exam-simulator-to-practice-exam-type-questions" data-toc-modified-id="A-cloud-guru-has-an-excellent-exam-simulator-to-practice-exam-type-questions-1.1.1.3"><span class="toc-item-num">1.1.1.3&nbsp;&nbsp;</span>A cloud guru has an excellent exam simulator to practice exam type questions<br></a></span></li><li><span><a href="#Useful-blog-on-exam-preparation" data-toc-modified-id="Useful-blog-on-exam-preparation-1.1.1.4"><span class="toc-item-num">1.1.1.4&nbsp;&nbsp;</span>Useful blog on exam preparation<br></a></span></li><li><span><a href="#crash-course-from-o'reilly-online-learning-along-with-associated-links-and-material" data-toc-modified-id="crash-course-from-o'reilly-online-learning-along-with-associated-links-and-material-1.1.1.5"><span class="toc-item-num">1.1.1.5&nbsp;&nbsp;</span>crash course from o'reilly online learning along with associated links and material<br></a></span></li></ul></li></ul></li><li><span><a href="#CRT020-Databricks-Certified-Associate-Developer-for-Apache-Spark-2.4-with-Scala-2.11" data-toc-modified-id="CRT020-Databricks-Certified-Associate-Developer-for-Apache-Spark-2.4-with-Scala-2.11-1.2"><span class="toc-item-num">1.2&nbsp;&nbsp;</span>CRT020 Databricks Certified Associate Developer for Apache Spark 2.4 with Scala 2.11</a></span><ul class="toc-item"><li><span><a href="#Useful-Links" data-toc-modified-id="Useful-Links-1.2.1"><span class="toc-item-num">1.2.1&nbsp;&nbsp;</span>Useful Links</a></span><ul class="toc-item"><li><span><a href="#Official-exam-page" data-toc-modified-id="Official-exam-page-1.2.1.1"><span class="toc-item-num">1.2.1.1&nbsp;&nbsp;</span>Official exam page<br></a></span></li><li><span><a href="#Exam-booking-details" data-toc-modified-id="Exam-booking-details-1.2.1.2"><span class="toc-item-num">1.2.1.2&nbsp;&nbsp;</span>Exam booking details<br></a></span></li><li><span><a href="#Excellent-blog-on-linkedin-with-detailed-prep-notes" data-toc-modified-id="Excellent-blog-on-linkedin-with-detailed-prep-notes-1.2.1.3"><span class="toc-item-num">1.2.1.3&nbsp;&nbsp;</span>Excellent blog on linkedin with detailed prep notes<br></a></span></li><li><span><a href="#Useful-FAQ-answers-for-exam" data-toc-modified-id="Useful-FAQ-answers-for-exam-1.2.1.4"><span class="toc-item-num">1.2.1.4&nbsp;&nbsp;</span>Useful FAQ answers for exam</a></span></li></ul></li></ul></li></ul></li><li><span><a href="#Linux" data-toc-modified-id="Linux-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Linux</a></span><ul class="toc-item"><li><span><a href="#Virtual-Box" data-toc-modified-id="Virtual-Box-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Virtual Box</a></span><ul class="toc-item"><li><span><a href="#Using-vboxmanage-to-configure-virtualbox" data-toc-modified-id="Using-vboxmanage-to-configure-virtualbox-2.1.1"><span class="toc-item-num">2.1.1&nbsp;&nbsp;</span>Using vboxmanage to configure virtualbox<br></a></span></li><li><span><a href="#Increase-size-of-VM-partition" data-toc-modified-id="Increase-size-of-VM-partition-2.1.2"><span class="toc-item-num">2.1.2&nbsp;&nbsp;</span>Increase size of VM partition</a></span></li></ul></li><li><span><a href="#Setup-PATH-variable-correctly" data-toc-modified-id="Setup-PATH-variable-correctly-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>Setup PATH variable correctly<br></a></span></li><li><span><a href="#Immediate-activation-of-any-path-updates-without-closing-session" data-toc-modified-id="Immediate-activation-of-any-path-updates-without-closing-session-2.3"><span class="toc-item-num">2.3&nbsp;&nbsp;</span>Immediate activation of any path updates without closing session<br></a></span></li><li><span><a href="#Symbolic-links" data-toc-modified-id="Symbolic-links-2.4"><span class="toc-item-num">2.4&nbsp;&nbsp;</span>Symbolic links</a></span></li><li><span><a href="#Linux-Server" data-toc-modified-id="Linux-Server-2.5"><span class="toc-item-num">2.5&nbsp;&nbsp;</span>Linux Server</a></span></li><li><span><a href="#SSH-Notes" data-toc-modified-id="SSH-Notes-2.6"><span class="toc-item-num">2.6&nbsp;&nbsp;</span>SSH Notes</a></span></li><li><span><a href="#Common-Bugs" data-toc-modified-id="Common-Bugs-2.7"><span class="toc-item-num">2.7&nbsp;&nbsp;</span>Common Bugs</a></span><ul class="toc-item"><li><span><a href="#write-on-sudo-owned-file-when-did’nt-use-sudo-to-open" data-toc-modified-id="write-on-sudo-owned-file-when-did’nt-use-sudo-to-open-2.7.1"><span class="toc-item-num">2.7.1&nbsp;&nbsp;</span>write on sudo owned file when did’nt use sudo to open<br></a></span></li><li><span><a href="#Colour-scheme" data-toc-modified-id="Colour-scheme-2.7.2"><span class="toc-item-num">2.7.2&nbsp;&nbsp;</span>Colour scheme<br></a></span></li><li><span><a href="#Apt-get-stalling-on-waiting-for-headers" data-toc-modified-id="Apt-get-stalling-on-waiting-for-headers-2.7.3"><span class="toc-item-num">2.7.3&nbsp;&nbsp;</span>Apt-get stalling on waiting for headers<br></a></span></li><li><span><a href="#Problems-with-Linux-software-updater" data-toc-modified-id="Problems-with-Linux-software-updater-2.7.4"><span class="toc-item-num">2.7.4&nbsp;&nbsp;</span>Problems with Linux software updater<br></a></span></li></ul></li><li><span><a href="#Docker" data-toc-modified-id="Docker-2.8"><span class="toc-item-num">2.8&nbsp;&nbsp;</span>Docker</a></span><ul class="toc-item"><li><span><a href="#Install-docker" data-toc-modified-id="Install-docker-2.8.1"><span class="toc-item-num">2.8.1&nbsp;&nbsp;</span>Install docker</a></span></li><li><span><a href="#Docker-commands" data-toc-modified-id="Docker-commands-2.8.2"><span class="toc-item-num">2.8.2&nbsp;&nbsp;</span>Docker commands</a></span></li><li><span><a href="#Docker-Compose-commands" data-toc-modified-id="Docker-Compose-commands-2.8.3"><span class="toc-item-num">2.8.3&nbsp;&nbsp;</span>Docker-Compose commands</a></span></li></ul></li></ul></li><li><span><a href="#Python" data-toc-modified-id="Python-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Python</a></span><ul class="toc-item"><li><span><a href="#Useful-links" data-toc-modified-id="Useful-links-3.1"><span class="toc-item-num">3.1&nbsp;&nbsp;</span>Useful links</a></span></li><li><span><a href="#Virtual-Environments" data-toc-modified-id="Virtual-Environments-3.2"><span class="toc-item-num">3.2&nbsp;&nbsp;</span>Virtual Environments</a></span><ul class="toc-item"><li><span><a href="#Install-virtualenv-and-virtualenvwrapper" data-toc-modified-id="Install-virtualenv-and-virtualenvwrapper-3.2.1"><span class="toc-item-num">3.2.1&nbsp;&nbsp;</span>Install virtualenv and virtualenvwrapper<br></a></span></li><li><span><a href="#Wrapper-syntax" data-toc-modified-id="Wrapper-syntax-3.2.2"><span class="toc-item-num">3.2.2&nbsp;&nbsp;</span>Wrapper syntax<br></a></span></li><li><span><a href="#Virtualenv-syntax" data-toc-modified-id="Virtualenv-syntax-3.2.3"><span class="toc-item-num">3.2.3&nbsp;&nbsp;</span>Virtualenv syntax<br></a></span></li><li><span><a href="#Conda-syntax" data-toc-modified-id="Conda-syntax-3.2.4"><span class="toc-item-num">3.2.4&nbsp;&nbsp;</span>Conda syntax</a></span></li><li><span><a href="#Pip-setup" data-toc-modified-id="Pip-setup-3.2.5"><span class="toc-item-num">3.2.5&nbsp;&nbsp;</span>Pip setup<br></a></span></li></ul></li><li><span><a href="#IDE-Tips" data-toc-modified-id="IDE-Tips-3.3"><span class="toc-item-num">3.3&nbsp;&nbsp;</span>IDE Tips</a></span><ul class="toc-item"><li><span><a href="#Vim" data-toc-modified-id="Vim-3.3.1"><span class="toc-item-num">3.3.1&nbsp;&nbsp;</span>Vim</a></span></li><li><span><a href="#Jupyter" data-toc-modified-id="Jupyter-3.3.2"><span class="toc-item-num">3.3.2&nbsp;&nbsp;</span>Jupyter</a></span></li><li><span><a href="#Jupyter-server" data-toc-modified-id="Jupyter-server-3.3.3"><span class="toc-item-num">3.3.3&nbsp;&nbsp;</span>Jupyter server</a></span></li><li><span><a href="#Pycharm" data-toc-modified-id="Pycharm-3.3.4"><span class="toc-item-num">3.3.4&nbsp;&nbsp;</span>Pycharm</a></span></li></ul></li><li><span><a href="#Data-Collection" data-toc-modified-id="Data-Collection-3.4"><span class="toc-item-num">3.4&nbsp;&nbsp;</span>Data Collection</a></span><ul class="toc-item"><li><span><a href="#Web-Scraping/Crawling" data-toc-modified-id="Web-Scraping/Crawling-3.4.1"><span class="toc-item-num">3.4.1&nbsp;&nbsp;</span>Web Scraping/Crawling</a></span><ul class="toc-item"><li><span><a href="#Basic-xpath-syntax" data-toc-modified-id="Basic-xpath-syntax-3.4.1.1"><span class="toc-item-num">3.4.1.1&nbsp;&nbsp;</span>Basic xpath syntax</a></span></li><li><span><a href="#Lxml-Approach-(see-example-scripts)" data-toc-modified-id="Lxml-Approach-(see-example-scripts)-3.4.1.2"><span class="toc-item-num">3.4.1.2&nbsp;&nbsp;</span>Lxml Approach (see example scripts)</a></span></li><li><span><a href="#Scrapy" data-toc-modified-id="Scrapy-3.4.1.3"><span class="toc-item-num">3.4.1.3&nbsp;&nbsp;</span>Scrapy</a></span></li><li><span><a href="#Create-new-project" data-toc-modified-id="Create-new-project-3.4.1.4"><span class="toc-item-num">3.4.1.4&nbsp;&nbsp;</span>Create new project</a></span></li></ul></li></ul></li><li><span><a href="#Data-formatting/Wrangling" data-toc-modified-id="Data-formatting/Wrangling-3.5"><span class="toc-item-num">3.5&nbsp;&nbsp;</span>Data formatting/Wrangling</a></span><ul class="toc-item"><li><span><a href="#Regular-Expressions" data-toc-modified-id="Regular-Expressions-3.5.1"><span class="toc-item-num">3.5.1&nbsp;&nbsp;</span>Regular Expressions</a></span><ul class="toc-item"><li><span><a href="#Useful-Links" data-toc-modified-id="Useful-Links-3.5.1.1"><span class="toc-item-num">3.5.1.1&nbsp;&nbsp;</span>Useful Links</a></span></li></ul></li><li><span><a href="#String-formatting" data-toc-modified-id="String-formatting-3.5.2"><span class="toc-item-num">3.5.2&nbsp;&nbsp;</span>String formatting</a></span></li><li><span><a href="#Pandas-data-formatting" data-toc-modified-id="Pandas-data-formatting-3.5.3"><span class="toc-item-num">3.5.3&nbsp;&nbsp;</span>Pandas data formatting</a></span><ul class="toc-item"><li><span><a href="#prevent-Setting-WithCopyWarning-in-pandas" data-toc-modified-id="prevent-Setting-WithCopyWarning-in-pandas-3.5.3.1"><span class="toc-item-num">3.5.3.1&nbsp;&nbsp;</span>prevent Setting WithCopyWarning in pandas</a></span></li><li><span><a href="#Show-max-rows-and-columns-inline-for-pandas-dataframes" data-toc-modified-id="Show-max-rows-and-columns-inline-for-pandas-dataframes-3.5.3.2"><span class="toc-item-num">3.5.3.2&nbsp;&nbsp;</span>Show max rows and columns inline for pandas dataframes</a></span></li><li><span><a href="#Read-in-series-of-csv-files-and-concatenate-into-one-csv-file" data-toc-modified-id="Read-in-series-of-csv-files-and-concatenate-into-one-csv-file-3.5.3.3"><span class="toc-item-num">3.5.3.3&nbsp;&nbsp;</span>Read in series of csv files and concatenate into one csv file</a></span></li></ul></li></ul></li><li><span><a href="#Visualisations" data-toc-modified-id="Visualisations-3.6"><span class="toc-item-num">3.6&nbsp;&nbsp;</span>Visualisations</a></span><ul class="toc-item"><li><span><a href="#Graph-Database-Packages" data-toc-modified-id="Graph-Database-Packages-3.6.1"><span class="toc-item-num">3.6.1&nbsp;&nbsp;</span>Graph Database Packages</a></span><ul class="toc-item"><li><span><a href="#Gephi-(graph-creator)-and-Yed-(graph-visualiser)" data-toc-modified-id="Gephi-(graph-creator)-and-Yed-(graph-visualiser)-3.6.1.1"><span class="toc-item-num">3.6.1.1&nbsp;&nbsp;</span>Gephi (graph creator) and Yed (graph visualiser)</a></span></li></ul></li><li><span><a href="#Using-ipywidgets-to-give-interactive-graphs" data-toc-modified-id="Using-ipywidgets-to-give-interactive-graphs-3.6.2"><span class="toc-item-num">3.6.2&nbsp;&nbsp;</span>Using ipywidgets to give interactive graphs</a></span></li></ul></li><li><span><a href="#Productionisation-of-code" data-toc-modified-id="Productionisation-of-code-3.7"><span class="toc-item-num">3.7&nbsp;&nbsp;</span>Productionisation of code</a></span><ul class="toc-item"><li><span><a href="#python-pip-package-method-with-GitHub" data-toc-modified-id="python-pip-package-method-with-GitHub-3.7.1"><span class="toc-item-num">3.7.1&nbsp;&nbsp;</span>python pip package method with GitHub</a></span><ul class="toc-item"><li><span><a href="#Create-pip-package" data-toc-modified-id="Create-pip-package-3.7.1.1"><span class="toc-item-num">3.7.1.1&nbsp;&nbsp;</span>Create pip package</a></span></li></ul></li><li><span><a href="#python-pip-package-method-with-Docker,-TeamCity-and-Artifactory" data-toc-modified-id="python-pip-package-method-with-Docker,-TeamCity-and-Artifactory-3.7.2"><span class="toc-item-num">3.7.2&nbsp;&nbsp;</span>python pip package method with Docker, TeamCity and Artifactory</a></span><ul class="toc-item"><li><span><a href="#Useful-links" data-toc-modified-id="Useful-links-3.7.2.1"><span class="toc-item-num">3.7.2.1&nbsp;&nbsp;</span>Useful links<br></a></span></li></ul></li><li><span><a href="#Example-usage-(stock_data_collector)" data-toc-modified-id="Example-usage-(stock_data_collector)-3.7.3"><span class="toc-item-num">3.7.3&nbsp;&nbsp;</span>Example usage (stock_data_collector)</a></span></li><li><span><a href="#Deploy-package-from-Cloudera-to-artifactory" data-toc-modified-id="Deploy-package-from-Cloudera-to-artifactory-3.7.4"><span class="toc-item-num">3.7.4&nbsp;&nbsp;</span>Deploy package from Cloudera to artifactory</a></span></li><li><span><a href="#AWS-Batch-method" data-toc-modified-id="AWS-Batch-method-3.7.5"><span class="toc-item-num">3.7.5&nbsp;&nbsp;</span>AWS Batch method</a></span><ul class="toc-item"><li><span><a href="#Docker-container-of-code" data-toc-modified-id="Docker-container-of-code-3.7.5.1"><span class="toc-item-num">3.7.5.1&nbsp;&nbsp;</span>Docker container of code</a></span></li><li><span><a href="#TeamCity" data-toc-modified-id="TeamCity-3.7.5.2"><span class="toc-item-num">3.7.5.2&nbsp;&nbsp;</span>TeamCity</a></span></li><li><span><a href="#Octopus" data-toc-modified-id="Octopus-3.7.5.3"><span class="toc-item-num">3.7.5.3&nbsp;&nbsp;</span>Octopus</a></span></li><li><span><a href="#AWS-Lambda" data-toc-modified-id="AWS-Lambda-3.7.5.4"><span class="toc-item-num">3.7.5.4&nbsp;&nbsp;</span>AWS Lambda</a></span></li><li><span><a href="#AWS-Batch" data-toc-modified-id="AWS-Batch-3.7.5.5"><span class="toc-item-num">3.7.5.5&nbsp;&nbsp;</span>AWS Batch</a></span></li></ul></li></ul></li><li><span><a href="#Communications-packages" data-toc-modified-id="Communications-packages-3.8"><span class="toc-item-num">3.8&nbsp;&nbsp;</span>Communications packages</a></span><ul class="toc-item"><li><span><a href="#Using-ZMQ-pub/sub-model-for-message-transfer" data-toc-modified-id="Using-ZMQ-pub/sub-model-for-message-transfer-3.8.1"><span class="toc-item-num">3.8.1&nbsp;&nbsp;</span>Using ZMQ pub/sub model for message transfer</a></span><ul class="toc-item"><li><span><a href="#Useful-links" data-toc-modified-id="Useful-links-3.8.1.1"><span class="toc-item-num">3.8.1.1&nbsp;&nbsp;</span>Useful links</a></span></li><li><span><a href="#Simple-pub/sub-example-using-sockets" data-toc-modified-id="Simple-pub/sub-example-using-sockets-3.8.1.2"><span class="toc-item-num">3.8.1.2&nbsp;&nbsp;</span>Simple pub/sub example using sockets</a></span></li></ul></li><li><span><a href="#Automatic-email-updates-in-python-using-smtlib" data-toc-modified-id="Automatic-email-updates-in-python-using-smtlib-3.8.2"><span class="toc-item-num">3.8.2&nbsp;&nbsp;</span>Automatic email updates in python using smtlib</a></span><ul class="toc-item"><li><span><a href="#Useful-Links" data-toc-modified-id="Useful-Links-3.8.2.1"><span class="toc-item-num">3.8.2.1&nbsp;&nbsp;</span>Useful Links</a></span></li><li><span><a href="#Import-necessaary-libraries-including-smtlib" data-toc-modified-id="Import-necessaary-libraries-including-smtlib-3.8.2.2"><span class="toc-item-num">3.8.2.2&nbsp;&nbsp;</span>Import necessaary libraries including smtlib</a></span></li><li><span><a href="#Create-the-MIMEMultipart-message-object-and-load-it-with-appropriate-headers-for-From,-To,-and-Subject-fields" data-toc-modified-id="Create-the-MIMEMultipart-message-object-and-load-it-with-appropriate-headers-for-From,-To,-and-Subject-fields-3.8.2.3"><span class="toc-item-num">3.8.2.3&nbsp;&nbsp;</span>Create the MIMEMultipart message object and load it with appropriate headers for From, To, and Subject fields</a></span></li><li><span><a href="#Set-up-the-SMTP-server-and-log-into-your-account" data-toc-modified-id="Set-up-the-SMTP-server-and-log-into-your-account-3.8.2.4"><span class="toc-item-num">3.8.2.4&nbsp;&nbsp;</span>Set up the SMTP server and log into your account</a></span></li><li><span><a href="#Send-the-message-using-the-SMTP-server-object" data-toc-modified-id="Send-the-message-using-the-SMTP-server-object-3.8.2.5"><span class="toc-item-num">3.8.2.5&nbsp;&nbsp;</span>Send the message using the SMTP server object</a></span></li></ul></li></ul></li><li><span><a href="#Web-Server-(Using-Dash,-Flask,-Gunicorn,-Nginz)" data-toc-modified-id="Web-Server-(Using-Dash,-Flask,-Gunicorn,-Nginz)-3.9"><span class="toc-item-num">3.9&nbsp;&nbsp;</span>Web Server (Using Dash, Flask, Gunicorn, Nginz)</a></span><ul class="toc-item"><li><span><a href="#Useful-Links-to-be-checked-and-moved-where-necessary" data-toc-modified-id="Useful-Links-to-be-checked-and-moved-where-necessary-3.9.1"><span class="toc-item-num">3.9.1&nbsp;&nbsp;</span>Useful Links to be checked and moved where necessary</a></span></li></ul></li><li><span><a href="#Web-Server-(Using-Dash,-Flask,-Gunicorn,-Nginz)" data-toc-modified-id="Web-Server-(Using-Dash,-Flask,-Gunicorn,-Nginz)-3.10"><span class="toc-item-num">3.10&nbsp;&nbsp;</span>Web Server (Using Dash, Flask, Gunicorn, Nginz)</a></span><ul class="toc-item"><li><span><a href="#Useful-Links" data-toc-modified-id="Useful-Links-3.10.1"><span class="toc-item-num">3.10.1&nbsp;&nbsp;</span>Useful Links</a></span></li><li><span><a href="#Overview" data-toc-modified-id="Overview-3.10.2"><span class="toc-item-num">3.10.2&nbsp;&nbsp;</span>Overview</a></span><ul class="toc-item"><li><span><a href="#python-application-(like-Dash/Flask)" data-toc-modified-id="python-application-(like-Dash/Flask)-3.10.2.1"><span class="toc-item-num">3.10.2.1&nbsp;&nbsp;</span>python application (like Dash/Flask)</a></span></li><li><span><a href="#A-WSGI-application-server-(like-Gunicorn)" data-toc-modified-id="A-WSGI-application-server-(like-Gunicorn)-3.10.2.2"><span class="toc-item-num">3.10.2.2&nbsp;&nbsp;</span>A WSGI application server (like Gunicorn)</a></span></li><li><span><a href="#A-web-server-(like-nginx)" data-toc-modified-id="A-web-server-(like-nginx)-3.10.2.3"><span class="toc-item-num">3.10.2.3&nbsp;&nbsp;</span>A web server (like nginx)</a></span></li></ul></li><li><span><a href="#Step-by-step-guide-to-building-a-production-ready-web-server" data-toc-modified-id="Step-by-step-guide-to-building-a-production-ready-web-server-3.10.3"><span class="toc-item-num">3.10.3&nbsp;&nbsp;</span>Step by step guide to building a production ready web server</a></span><ul class="toc-item"><li><span><a href="#Prerequisites" data-toc-modified-id="Prerequisites-3.10.3.1"><span class="toc-item-num">3.10.3.1&nbsp;&nbsp;</span>Prerequisites</a></span></li><li><span><a href="#Installing-the-Components-from-the-Ubuntu-Repositories" data-toc-modified-id="Installing-the-Components-from-the-Ubuntu-Repositories-3.10.3.2"><span class="toc-item-num">3.10.3.2&nbsp;&nbsp;</span>Installing the Components from the Ubuntu Repositories</a></span></li><li><span><a href="#Creating-a-Python-Virtual-Environment" data-toc-modified-id="Creating-a-Python-Virtual-Environment-3.10.3.3"><span class="toc-item-num">3.10.3.3&nbsp;&nbsp;</span>Creating a Python Virtual Environment</a></span></li><li><span><a href="#Setting-Up-a-Flask-Application" data-toc-modified-id="Setting-Up-a-Flask-Application-3.10.3.4"><span class="toc-item-num">3.10.3.4&nbsp;&nbsp;</span>Setting Up a Flask Application</a></span></li><li><span><a href="#Creating-a-Sample-App" data-toc-modified-id="Creating-a-Sample-App-3.10.3.5"><span class="toc-item-num">3.10.3.5&nbsp;&nbsp;</span>Creating a Sample App</a></span></li><li><span><a href="#Setup-WSGI-Endpoint" data-toc-modified-id="Setup-WSGI-Endpoint-3.10.3.6"><span class="toc-item-num">3.10.3.6&nbsp;&nbsp;</span>Setup WSGI Endpoint</a></span></li><li><span><a href="#Configuring-Gunicorn" data-toc-modified-id="Configuring-Gunicorn-3.10.3.7"><span class="toc-item-num">3.10.3.7&nbsp;&nbsp;</span>Configuring Gunicorn</a></span></li></ul></li><li><span><a href="#Configuring-Nginx-to-proxy-requests" data-toc-modified-id="Configuring-Nginx-to-proxy-requests-3.10.4"><span class="toc-item-num">3.10.4&nbsp;&nbsp;</span>Configuring Nginx to proxy requests</a></span><ul class="toc-item"><li><span><a href="#Securing-the-Application-with-SSL-encryption-from-Lets-Encrypt" data-toc-modified-id="Securing-the-Application-with-SSL-encryption-from-Lets-Encrypt-3.10.4.1"><span class="toc-item-num">3.10.4.1&nbsp;&nbsp;</span>Securing the Application with SSL encryption from Lets Encrypt</a></span></li><li><span><a href="#Log-out-button-link" data-toc-modified-id="Log-out-button-link-3.10.4.2"><span class="toc-item-num">3.10.4.2&nbsp;&nbsp;</span>Log out button link</a></span></li></ul></li></ul></li></ul></li><li><span><a href="#Scala-and-Spark" data-toc-modified-id="Scala-and-Spark-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Scala and Spark</a></span><ul class="toc-item"><li><span><a href="#Scalable-data-science" data-toc-modified-id="Scalable-data-science-4.1"><span class="toc-item-num">4.1&nbsp;&nbsp;</span>Scalable data science</a></span></li><li><span><a href="#Useful-links" data-toc-modified-id="Useful-links-4.2"><span class="toc-item-num">4.2&nbsp;&nbsp;</span>Useful links</a></span></li><li><span><a href="#Important-note-on-compatible-verisons" data-toc-modified-id="Important-note-on-compatible-verisons-4.3"><span class="toc-item-num">4.3&nbsp;&nbsp;</span>Important note on compatible verisons</a></span></li><li><span><a href="#Initial-setup-linux" data-toc-modified-id="Initial-setup-linux-4.4"><span class="toc-item-num">4.4&nbsp;&nbsp;</span>Initial setup linux</a></span><ul class="toc-item"><li><span><a href="#Java" data-toc-modified-id="Java-4.4.1"><span class="toc-item-num">4.4.1&nbsp;&nbsp;</span>Java</a></span></li><li><span><a href="#Spark" data-toc-modified-id="Spark-4.4.2"><span class="toc-item-num">4.4.2&nbsp;&nbsp;</span>Spark</a></span></li><li><span><a href="#Hadoop" data-toc-modified-id="Hadoop-4.4.3"><span class="toc-item-num">4.4.3&nbsp;&nbsp;</span>Hadoop</a></span></li><li><span><a href="#Scala" data-toc-modified-id="Scala-4.4.4"><span class="toc-item-num">4.4.4&nbsp;&nbsp;</span>Scala</a></span></li><li><span><a href="#SBT" data-toc-modified-id="SBT-4.4.5"><span class="toc-item-num">4.4.5&nbsp;&nbsp;</span>SBT</a></span></li><li><span><a href="#Check-installations" data-toc-modified-id="Check-installations-4.4.6"><span class="toc-item-num">4.4.6&nbsp;&nbsp;</span>Check installations</a></span></li></ul></li><li><span><a href="#Initial-setup-Windows" data-toc-modified-id="Initial-setup-Windows-4.5"><span class="toc-item-num">4.5&nbsp;&nbsp;</span>Initial setup Windows</a></span><ul class="toc-item"><li><span><a href="#Java" data-toc-modified-id="Java-4.5.1"><span class="toc-item-num">4.5.1&nbsp;&nbsp;</span>Java</a></span></li><li><span><a href="#Spark" data-toc-modified-id="Spark-4.5.2"><span class="toc-item-num">4.5.2&nbsp;&nbsp;</span>Spark</a></span></li><li><span><a href="#winutils-(Hadoop-Support)" data-toc-modified-id="winutils-(Hadoop-Support)-4.5.3"><span class="toc-item-num">4.5.3&nbsp;&nbsp;</span>winutils (Hadoop Support)</a></span></li><li><span><a href="#Scala" data-toc-modified-id="Scala-4.5.4"><span class="toc-item-num">4.5.4&nbsp;&nbsp;</span>Scala</a></span></li><li><span><a href="#SBT" data-toc-modified-id="SBT-4.5.5"><span class="toc-item-num">4.5.5&nbsp;&nbsp;</span>SBT</a></span></li><li><span><a href="#Define-all-the-necessary-path-variables" data-toc-modified-id="Define-all-the-necessary-path-variables-4.5.6"><span class="toc-item-num">4.5.6&nbsp;&nbsp;</span>Define all the necessary path variables</a></span><ul class="toc-item"><li><span><a href="#System-and-user-variables-explained" data-toc-modified-id="System-and-user-variables-explained-4.5.6.1"><span class="toc-item-num">4.5.6.1&nbsp;&nbsp;</span>System and user variables explained</a></span></li></ul></li></ul></li><li><span><a href="#Check-installation-of-Spark" data-toc-modified-id="Check-installation-of-Spark-4.6"><span class="toc-item-num">4.6&nbsp;&nbsp;</span>Check installation of Spark</a></span></li><li><span><a href="#IDE-Setup" data-toc-modified-id="IDE-Setup-4.7"><span class="toc-item-num">4.7&nbsp;&nbsp;</span>IDE Setup</a></span><ul class="toc-item"><li><span><a href="#intellij-IDEA" data-toc-modified-id="intellij-IDEA-4.7.1"><span class="toc-item-num">4.7.1&nbsp;&nbsp;</span>intellij IDEA</a></span><ul class="toc-item"><li><span><a href="#Windows-install" data-toc-modified-id="Windows-install-4.7.1.1"><span class="toc-item-num">4.7.1.1&nbsp;&nbsp;</span>Windows install</a></span></li><li><span><a href="#Linux-install" data-toc-modified-id="Linux-install-4.7.1.2"><span class="toc-item-num">4.7.1.2&nbsp;&nbsp;</span>Linux install</a></span></li></ul></li><li><span><a href="#Polynote" data-toc-modified-id="Polynote-4.7.2"><span class="toc-item-num">4.7.2&nbsp;&nbsp;</span>Polynote</a></span></li><li><span><a href="#Zeppelin-notebooks" data-toc-modified-id="Zeppelin-notebooks-4.7.3"><span class="toc-item-num">4.7.3&nbsp;&nbsp;</span>Zeppelin notebooks</a></span><ul class="toc-item"><li><span><a href="#Setup-for-local-zeppelin-(without-docker)" data-toc-modified-id="Setup-for-local-zeppelin-(without-docker)-4.7.3.1"><span class="toc-item-num">4.7.3.1&nbsp;&nbsp;</span>Setup for local zeppelin (without docker)</a></span></li><li><span><a href="#Convert-between-databricks,-JSON-and-Zeppelin-notebook-files-using-Pinot" data-toc-modified-id="Convert-between-databricks,-JSON-and-Zeppelin-notebook-files-using-Pinot-4.7.3.2"><span class="toc-item-num">4.7.3.2&nbsp;&nbsp;</span>Convert between databricks, JSON and Zeppelin notebook files using Pinot</a></span></li></ul></li></ul></li></ul></li><li><span><a href="#Sagemath" data-toc-modified-id="Sagemath-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Sagemath</a></span></li></ul></div>
 
 # Data Science Qualifications
 
@@ -170,10 +170,10 @@ __find job on certain port__<br>
 
 __SCP copying__<br>
 copy files from local to remote<br>
-`pscp -r /home/martin/miniconda3/envs/mmgpyalgocert/py_algos/cert_program/ root@178.62.22.21:`
+`pscp -r /home/martin/miniconda3/envs/mmgpyalgocert/py_algos/cert_program/ root@IP_ADDRESS:`
 
 copy files from remote to local<br>
-`pscp root@178.62.22.21:/root/cert_program/TEST.ipynb/home/martin/miniconda3/envs/mmgpyalgocert/py_algos/cert_program/:`
+`pscp root@IP_ADDRESS:/root/cert_program/TEST.ipynb/home/martin/miniconda3/envs/mmgpyalgocert/py_algos/cert_program/:`
 
 
 __Adding Additional Users__<br>
@@ -269,7 +269,8 @@ For more help/details on chmod<br>
 
 ## SSH Notes
 
-Passphrase = ***<br>
+__useful links__<br>
+https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-18-04<br>
 
 __log onto remote server__<br>
 `ssh root@ip_address`
@@ -395,7 +396,7 @@ In the case of virtualenv wrapper you also need to add the following lines to th
 `source /usr/local/bin/virtualenvwrapper.sh`<br>
 
 __NOTE__<br>
-If having difficutlies with symbolic links on shared folder of VM for example then use flag --always-copy to vreate a virtualenv without symlinks where all the executables are copied into the new env.<br>
+If having difficulties with symbolic links on shared folder of VM for example then use flag --always-copy to vreate a virtualenv without symlinks where all the executables are copied into the new env.<br>
 
 ### Wrapper syntax<br>
 https://howchoo.com/g/nwewzjmzmjc/a-guide-to-python-virtual-environments-with-virtualenvwrapper
@@ -482,7 +483,6 @@ sudo apt install update<br>
 sudo apt install python3-pip<br>
 
 __Pip install options__<br>
-`pip install --proxy https://Username:Password@PROXY:8080/  cleanco`
 `pip install cleanco`
 
 __Check if all pip packages up to date__<br>
@@ -493,13 +493,6 @@ __Websocket - Package conflicts__
 Must have below versions for websocket and websocket-client
 `websocket==0.2.1`
 `websocket-client==0.44.0`
-
-
-
-
-
-
-
 
 ## IDE Tips
 
@@ -845,7 +838,8 @@ Then simply run jupyter notebook& (in background and close terminal)
 
 You should then be able to access it by the url:
 
-https://IP_ADDRESS:PORT_NUMBER(Default 8888)    
+https://IP_ADDRESS:PORT_NUMBER<br>
+(Default 8888)    <br>
 (changing your ip address and port as necessary)
 
 
@@ -2057,10 +2051,10 @@ Click commands are decorators which enable commands to be passed via the command
 `Python main.py batch run_main`<br>
 
 The process this line starts is as follows:<br>
-•	It first runs the main.py file in the home directory of the docker where the click commands are stored. 
-•	It then goes into app/commands and runs run_main from the code_commands.py script
-•	The run_main function then runs the main function inside the Code folder
-•	This final main function runs the project code.
+•	It first runs the main.py file in the home directory of the docker where the click commands are stored.<br> 
+•	It then goes into app/commands and runs run_main from the code_commands.py script<br>
+•	The run_main function then runs the main function inside the Code folder<br>
+•	This final main function runs the project code.<br>
 
 
 ##### App/Commands
@@ -2145,9 +2139,129 @@ If you are debugging use logging.info inside your code to print out variables et
         `logging.info('PRINTING HTTPS PROXY' + str(os.environ['https_proxy']))`<br>
         `logging.info('PRINTING NO PROXY' + str(os.environ['no_proxy']))`<br>
 
+## Communications packages
+
+### Using ZMQ pub/sub model for message transfer
+#### Useful links
+https://learning-0mq-with-pyzmq.readthedocs.io/en/latest/pyzmq/patterns/pubsub.html<br>
+
+#### Simple pub/sub example using sockets
+
+To setup broadcasting port<br>
+`context = zmq.Context()`<br>
+`socket = context.socket(zmq.PUB)`<br>
+`socket.connect('tcp://127.0.0.1:1111')`<br>
+
+To send message from source<br>
+`data = raw_data.to_json()`<br>
+`socket.send_string(data)`<br> 
+
+To start listening to selected port<br>
+`context = zmq.Context()`<br>
+`socket = context.socket(zmq.SUB)`<br>
+`socket.bind('tcp://127.0.0.1:1111')`<br>
+`socket.setsockopt_string(zmq.SUBSCRIBE, '')`<br>
+
+To convert incoming message to a dataframe for manipulstion in python<br>
+ `msg = socket.recv_string()`<br>
+ `msg = json.loads(msg)`<br>
+ `msg = pd.DataFrame.from_dict(msg)`<br>
+
+### Automatic email updates in python using smtlib
+#### Useful Links
+https://nitratine.net/blog/post/how-to-send-an-email-with-python/#html-in-emails<br>
+https://www.freecodecamp.org/news/send-emails-using-code-4fcea9df63f/<br>
+https://linuxhint.com/sending-email-python/<br>
+
+#### Import necessaary libraries including smtlib
+`import smtlib`<br>
+`from email.mine.multipart import MIMEMultipart`<br>
+`from email.mine.text import MIMEText`<br>
+`from email.mine.base import MIMEBase`<br>
+<br>
+#### Create the MIMEMultipart message object and load it with appropriate headers for From, To, and Subject fields
+Multipurpose Internet Mail Extensions (MIME) is an Internet standard that is used to support the transfer of single or multiple text and non-text attachments. Non-text attachments can include graphics, audio, and video files. You can send multiple attachments in a single ebMS message by using the MIME implementation in B2B Advanced Communications.<br>
+This is essentially the part where you insert any attachments you need as well as the body of the email itself.<br>
+<br>
+#### Set up the SMTP server and log into your account
+To send the email, you need to make use of SMTP (Simple Mail Transfer Protocol). As mentioned earlier, Python provides libraries to handle this task.<br>
+<br>
+#### Send the message using the SMTP server object
+Finally combine the message content with the SMTP Server to send the email.<br>
+<br>
+Below is a template function where:<br>
+1) Some text is attached as html to the body of the email<br>
+2) A CSV is aadded as an attachment<br>
+3) A PNG file is added as an attachment<br>
+<br>
+Example usage of the function is `email_update(f'file_1.csv', 'pic_1.png',   text/table as email body)`<br>
+
+
+```python
+def email_update(attachment, attachment_2, content):
+    #Setup the MIME with the message content
+    message = MIMEMultipart()
+        
+    #To, From and Subject fields
+    sender_address = 'source_email_address'
+    sender_pass = 'your_account_password'
+    receiver_address = 'destination_email_address'
+    message['From'] = sender_address
+    message['To'] = receiver_address
+    message['Subject'] = 'Email_subject'
+    
+    #The body and the attachments for the mail
+
+    #Part 1: Attach text in body of email which in this case ends up being the tail of a pandas dataframe
+    mail_content ="""\
+    <html>
+      <head></head>
+      <body>
+        {0}
+      </body>
+    </html>
+    """.format(content.to_html())
+    message.attach(MIMEText(mail_content, 'html'))
+    
+    #Part 2 Attach CSV file
+    attach_file_name = attachment
+    # Open the file in binary mode
+    attach_file = open('csv file to attach.csv', 'rb') 
+    payload = MIMEBase('application', 'csv', Name='file name in email(can be different to original file name in previous line).png')
+    payload.set_payload((attach_file).read())
+    #encode the attachment
+    encoders.encode_base64(payload) 
+    #add payload header with filename
+    payload.add_header('Content-Decomposition', 'attachment', filename=attach_file_name)
+    message.attach(payload)
+
+    #Part 3 Attach png file
+    attach_file_name_2 = attachment_2
+    attach_file = open('png file to attach.png', 'rb') # Open the file as binary mode
+    payload = MIMEBase('application', 'png', Name='file name in email(can be different to original file name in previous line).png')
+    payload.set_payload((attach_file).read())
+    #encode the attachment
+    encoders.encode_base64(payload) 
+    #add payload header with filename
+    payload.add_header('Content-Decomposition', 'attachment_2', filename=attach_file_name_2)
+    message.attach(payload)
+    
+    #Create SMTP session for sending the mail
+    #use gmail with port
+    session = smtplib.SMTP('smtp.gmail.com', 587) 
+    #enable security
+    session.starttls() 
+    #login with mail_id and password
+    session.login(sender_address, sender_pass) 
+    text = message.as_string()
+    session.sendmail(sender_address, receiver_address, text)
+    session.quit()
+
+```
+
 ## Web Server (Using Dash, Flask, Gunicorn, Nginz)
 
-### Useful Links
+### Useful Links to be checked and moved where necessary
 
 https://pythonprogramming.net/deploy-vps-dash-data-visualization/<br>
 https://community.plot.ly/t/hosting-multiple-dash-apps-with-uwsgi-nginx/6758<br>
@@ -2176,29 +2290,361 @@ https://docs.google.com/document/d/1DjWL2DxLiRaBrlD3ELyQlCBRu7UQuuWfgjv9LncNp_M/
 
 
 
+## Web Server (Using Dash, Flask, Gunicorn, Nginz)
+
+### Useful Links
+https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-18-04
+
+### Overview
+A python web application consists of the following three main components listed below (__Dash/Flask app, WSGI application server, web server__). <br>
+It is important to note that while lightweight and easy to use, Flask’s built-in server is not suitable for production as it doesn’t scale well and by default serves only one request at a time, hence the need for a application server and web server as shown below. This is the reason why when you launch a Flask/Dash app without the parts below you get the following warning<br>
+
+`Serving Flask app "hello_flask" (lazy loading)`<br>
+`* Environment: production`<br>
+`  WARNING: Do not use the development server in a production environment.`<br>
+`  Use a production WSGI server instead.`<br>
+
+#### python application (like Dash/Flask)
+This will be a python script such as the one listed later as an example in this section. This file contains the code to read in the data and to display it as a dashboard etc. It will be responsible for login authorisation as well as links between graphs and website navigation etc.
+<br>
+<br>
+<br>
+
+#### A WSGI application server (like Gunicorn)
+Gunicorn translates requests which it gets from Nginx into a format which your web application can handle, and makes sure that your code is executed when needed.<br>
+Once Nginx decides, that a particular request should be passed on to Gunicorn (due to the rules you configured it with), it’s Gunicorn’s time to shine.<br>
+Gunicorn is really great at what it does! It’s highly optimized and has a lot of convenient features. Mostly, its jobs consist of:<br>
+Running a pool of worker processes/threads (executing your code!)<br>
+Translates requests coming in from Nginx to be WSGI compatible<br>
+Translate the WSGI responses of your app into proper http responses<br>
+Actually calls your Python code when a request comes in<br>
+Gunicorn can talk to many different web servers<br>
+What Gunicorn can’t do for you:<br>
+Not prepared to be front-facing: easy to DOS and overwhelm<br>
+Can’t terminate SSL (no https handling)<br>
+Do the job of a webserver like Nginx, they are better at it<br>
+<br>
+<br>
+<br>
+
+#### A web server (like nginx)
+Nginx is where requests from the internet arrive first. It can handle them very quickly, and is usually configured to only let those requests through, which really need to arrive at your web application.<br>
+Nginx is a web server and reverse proxy. It’s highly optimized for all the things a web server needs to do. Here are a few things it’s great at:<br>
+Take care of domain name routing (decides where requests should go, or if an error response is in order)<br>
+Serve static files<br>
+Handle lots of requests coming in at once<br>
+Handle slow clients<br>
+Forwards requests which need to be dynamic to Gunicorn<br>
+Terminate SSL (https happens here)<br>
+Save computing resources (CPU and memory) compared to your Python code<br>
+And a lot more, if you configure it to do so (load balancing, caching, …)<br>
+Things Nginx can’t do for you:<br>
+Running Python web applications for you<br>
+Translate requests to WSGI<br>
+<br>
+<br>
+<br>
+
+### Step by step guide to building a production ready web server
+####  Prerequisites
+Before starting this guide, you should have the following<br>
+A server with Ubuntu 18.04 or higher installed and a non-root user with sudo privileges. I have previously used Digital Ocean and their setup guide is very good.<br>
+Nginx installed, following Steps 1 and 2 of How To Install Nginx on Ubuntu 18.04.<br>
+A domain name configured to point to your server. You can purchase one on Namecheap or get one for free on Freenom. You can learn how to point domains to DigitalOcean by following the relevant documentation on domains and DNS. Be sure to create the following DNS records:<br>
+<br>
+An A record with your_domain pointing to your server’s public IP address.<br>
+An A record with www.your_domain pointing to your server’s public IP address.<br>
+Familiarity with the WSGI specification, which the Gunicorn server will use to communicate with your Flask application. This discussion covers WSGI in more detail.<br>
+
+#### Installing the Components from the Ubuntu Repositories
+`sudo apt update`<br>
+`sudo apt install python3-pip python3-dev build-essential libssl-dev libffi-dev python3-setuptools`<br>
+
+#### Creating a Python Virtual Environment
+The next few steps until instructed otherwise should be completed in the virtualenv we are about to create.(See section on virtual environments)<br>
+`mkvirtualenv -p /usr/bin/python3.6 web_env`<br>
+
+#### Setting Up a Flask Application
+First, let’s install wheel with the local instance of pip to ensure that our packages will install even if they are missing wheel archives:<br>
+`pip install wheel`<br>
+`pip install gunicorn flask`<br>
+
+#### Creating a Sample App
+Now that you have Flask available, you can create a simple application. Flask is a microframework. It does not include many of the tools that more full-featured frameworks might, and exists mainly as a module that you can import into your projects to assist you in initializing a web application.<br>
+
+Please see below for example script which would sit inside gemini_app.py script. The script below takes live streaming trade data <br>
+
+
 ```python
+#Import required packages
+import dash
+import dash_core_components as dcc
+import dash_html_components as html
+from dash.dependencies import Input, Output
+import dash_auth
+from flask import Flask
+import pandas as pd
+import datetime
+
+try:
+    algo_data = pd.HDFStore('file_path/summary_trade_data.h5','r')
+    algo_df = algo_data['summary_trade_data']
+    algo_data.close()
+except:
+    pass
+
+
+un_pw = [['user_1', 'password_1'], 
+         ['user_2', 'password_2'], 
+         ['user_3', 'password_3']]
+
+# USing Dash app as allows more functionality
+app = dash.Dash(__name__)
+auth = dash_auth.BasicAuth(app, un_pw)
+
+intro = ''' We are an algroithmic trading firm focused on cryptocurrency markets. We combine advanced statistical techniques with machine learning and artificial intelligence to find patterns in structured and unstructured data. We use the insights derived from these advanced techniques to generate alpha driven returns by predicting price movements in a variety of cryptocurrency markets.''' 
+
+app.layout = html.Div(children=[
+html.H1(children='MBT Capital Ltd'),
+html.H1(id='live-update-text'),
+dcc.Markdown(children=intro),
+
+dcc.Graph(id='algo_pnl',style={'width':800}),
+
+dcc.Interval(id='interval-component',
+            interval=3600000, # 2000 milliseconds = 2 seconds
+            n_intervals=0)
+])
+
+@app.callback(Output('algo_pnl', 'figure'),
+                      [Input('interval-component', 'n_intervals')])
+def update_layout(n):
+    algo_data = pd.HDFStore('/root/algo_library/algo_version_1/results/summary_trade_data.h5','r')
+    algo_df = algo_data['summary_trade_data']
+    algo_data.close()
+    figure={
+     'data': [
+             {'x':algo_df.index, 'y': algo_df['strat_ret'], 'type': 'line', 'name': 'Strategy net return'},
+             {'x': algo_df.index, 'y': algo_df['gross_ret'], 'type': 'line', 'name': 'Strategy gross return'},
+             {'x': algo_df.index, 'y': algo_df['coin_ret'], 'type': 'line', 'name': 'Coin return'}
+             ],
+             'layout': {
+             'title': 'Algorithm Performance'
+             }
+             }
+    return figure
+
+@app.callback(Output('live-update-text', 'children'),
+                      [Input('interval-component', 'n_intervals')])
+def update_layout_2(n):
+    now = datetime.datetime.now()
+    now = now.ctime()
+    return f'last update time: {now}'
+
+server = app.server
+if __name__ == '__main__':
+# 80 is the default port so this will be what appears if the url is typed with no port
+    app.run_server(debug=True, host='0.0.0.0', port='80')
+
 
 ```
 
+#### Setup WSGI Endpoint
+The above code would only launch a dev server. To properly run a website you should use a production server which can scal as previously discussed. In order to do this we nneed to now create our WSGI application server (Gunicorn) and then our web server (Nginx).<br>
 
-```python
+We now need to create an entrypoint for our application, this will tell our Gunicorn server how to interact with the application.
+In same folder as you created your flash/dash app file create a wsgi.py and insert the following code.<br>
 
-```
+`from flask_app import server as app`<br>
+<br>
+`if __name__ == "__main__":`<br>
+ `       app.run()`<br>
+
+#### Configuring Gunicorn
+https://vsupalov.com/what-is-gunicorn/<br>
+https://www.fullstackpython.com/green-unicorn-gunicorn.html<br>
+Your application is now written with an entry point established. We can now move on to configuring Gunicorn.<br>
+Before moving on, we should check that Gunicorn can serve the application correctly.<br>
+We can do this by simply passing it the name of our entry point. This is constructed as the name of the module (minus the .py extension), plus the name of the callable within the application. In our case, this is wsgi:app.<br>
+We’ll also specify the interface and port to bind to so that the application will be started on a publicly available interface:<br>
+`cd /dash_flask_app`<br>
+`gunicorn --bind 0.0.0.0:80 wsgi:app`<br>
+
+If you now visis your servers IP address you should see your app running.<br>
+__You cna now leave the virtualenv__<br>
+Next create the systemd service unit file which will mean ubuntu will automatically startGunicorn and the Flask app on boot. Call it gemini_app.service
+
+The sections below perform the following actions<br>
+__Unit section__ is used to specify metadata and dependencies. Let’s put a description of our service here and tell the init system to only start this after the networking target has been reached.<br>
+
+__The Service section__. This will specify the user and group that we want the process to run under. Let’s give our regular user account ownership of the process since it owns all of the relevant files. Let’s also give group ownership to the www-data group so that Nginx can communicate easily with the Gunicorn processes. Remember to replace the username here with your username.<br>
+Next, let’s map out the working directory and set the PATH environmental variable so that the init system knows that the executables for the process are located within our virtual environment. Let’s also specify the command to start the service. This command will do the following.<br>
+Start 3 worker processes (though you should adjust this as necessary)<br>
+Create and bind to a Unix socket file, myproject.sock, within our project directory. We’ll set an umask value of 007 so that the socket file is created giving access to the owner and group, while restricting other access<br>
+Specify the WSGI entry point file name, along with the Python callable within that file (wsgi:app)<br>
+Systemd requires that we give the full path to the Gunicorn executable, which is installed within our virtual environment.
+Remember to replace the username and project paths with your own information<br>
+
+__Install section__ will tell systemd what to link this service to if we enable it to start at boot. We want this service to start when the regular multi-user system is up and running.<br>
 
 
-```python
+`[Unit]`<br>
+`Description=Gunicorn instance to serve myproject`<br>
+`After=network.target`<br>
+<br>
+`[Service]`<br>
+`User=sammy`<br>
+`Group=www-data`<br>
+`WorkingDirectory=/root/apps/my_project`<br>
+`Environment="PATH=/root/.virtualenvs/web_env/bin"`<br>
+`ExecStart=/root/.virtualenvs/web_env/bin/gunicorn --workers 3 --bind unix:myproject.sock -m 007 wsgi:app`<br>
+<br>
+`[Install]`<br>
+`WantedBy=multi-user.target`<br>
 
-```
+We can now start the Gunicorn service we created and enable it so that it starts at boot<br>
+
+`sudo systemctl start my_project`<br>
+`sudo systemctl enable my_project`<br>
+
+Let’s check the status<br>
+
+`sudo systemctl status myproject`<br>
+You should see output like this<br>
+
+`myproject.service - Gunicorn instance to serve myproject`<br>
+ `  Loaded: loaded (/etc/systemd/system/myproject.service; enabled; vendor preset: enabled)`<br>
+  ` Active: active (running) since Fri 2018-07-13 14:28:39 UTC; 46s ago`<br>
+` Main PID: 28232 (gunicorn)`<br>
+ `   Tasks: 4 (limit: 1153)`<br>
+  ` CGroup: /system.slice/myproject.service`<br>
+   `        ├─28232 /home/sammy/myproject/myprojectenv/bin/python3.6 /home/sammy/myproject/myprojectenv/bin/gunicorn --workers 3 --bind `unix:myproject.sock -m 007`<br>
+ `          ├─28250 /home/sammy/myproject/myprojectenv/bin/python3.6 /home/sammy/myproject/myprojectenv/bin/gunicorn --workers 3 --bind `unix:myproject.sock -m 007`<br>
+ `          ├─28251 /home/sammy/myproject/myprojectenv/bin/python3.6 /home/sammy/myproject/myprojectenv/bin/gunicorn --workers 3 --bind `unix:myproject.sock -m 007`<br>
+ `          └─28252 /home/sammy/myproject/myprojectenv/bin/python3.6 /home/sammy/myproject/myprojectenv/bin/gunicorn --workers 3 --bind `unix:myproject.sock -m 007`<br>
+
+If you see any errors, be sure to resolve them before continuing with the tutorial.
+
+### Configuring Nginx to proxy requests
+
+Our Gunicorn application server should now be up and running, waiting for requests on the socket file in the project directory. Let’s now configure Nginx to pass web requests to that socket by making some small additions to its configuration file.
+Begin by creating a new server block configuration file in Nginx’s sites-available directory.<br>
+
+`vim /etc/nginx/sites-available/myproject`<br>
+
+Open up a server block and tell Nginx to listen on the default port 80. Let’s also tell it to use this block for requests for our server’s domain name<br>
+
+`/etc/nginx/sites-available/myproject`<br>
+`server {`<br>
+`    listen 80;`<br>
+`    server_name your_domain www.your_domain;`<br>
+`}`<br>
+Next, let’s add a location block that matches every request. Within this block, we’ll include the proxy_params file that specifies some general proxying parameters that need to be set. We’ll then pass the requests to the socket we defined using the proxy_pass directive<br>
+
+`/etc/nginx/sites-available/myproject`<br>
+`server {`<br>
+`    listen 80;`<br>
+`    server_name your_domain www.your_domain;`<br>
+
+ `   location / {`<br>
+ `       include proxy_params;`<br>
+ `       proxy_pass http://unix:/home/sammy/myproject/myproject.sock;`<br>
+ `   }`<br>
+`}`<br>
+Save and close the file when you’re finished.<br>
+
+To enable the Nginx server block configuration you’ve just created, link the file to the sites-enabled directory<br>
+
+`sudo ln -s /etc/nginx/sites-available/myproject /etc/nginx/sites-enabled`<br>
+With the file in that directory, you can test for syntax errors<br>
+
+`sudo nginx -t`<br>
+If this returns without indicating any issues, restart the Nginx process to read the new configuration:<br>
+
+`sudo systemctl restart nginx`<br>
+Finally, let’s adjust the firewall again. We no longer need access through port 5000, so we can remove that rule. We can then allow full access to the Nginx server<br>
+
+`sudo ufw delete allow 5000`<br>
+`sudo ufw allow 'Nginx Full'`<br>
+You should now be able to navigate to your server’s domain name in your web browser<br>
+
+http://your_domain <br>
+You should see your application’s output<br>
+If you encounter any errors, trying checking the following<br>
+
+`sudo less /var/log/nginx/error.log: checks the Nginx error logs`.<br>
+`sudo less /var/log/nginx/access.log: checks the Nginx access logs.`<br>
+`sudo journalctl -u nginx: checks the Nginx process logs.`<br>
+`sudo journalctl -u myproject: checks your Flask app’s Gunicorn logs.`<br>
+
+#### Securing the Application with SSL encryption from Lets Encrypt
+To ensure that traffic to your server remains secure, let’s get an SSL certificate for your domain. There are multiple ways to do this, including getting a free certificate from Let’s Encrypt, generating a self-signed certificate, or buying one from another provider and configuring Nginx to use it by following Steps 2 through 6 of  How to Create a Self-signed SSL Certificate for Nginx in Ubuntu 18.04. We will go with option one for the sake of expediency.<br>
+
+First, add the Certbot Ubuntu repository<br>
+
+`sudo add-apt-repository ppa:certbot/certbot`<br>
+You’ll need to press ENTER to accept.<br>
+
+Install Certbot’s Nginx package with apt<br>
+
+`sudo apt install python-certbot-nginx`<br>
+Certbot provides a variety of ways to obtain SSL certificates through plugins. The Nginx plugin will take care of reconfiguring Nginx and reloading the config whenever necessary. To use this plugin, type the following<br>
+
+`sudo certbot --nginx -d your_domain -d www.your_domain`<br>
+This runs certbot with the --nginx plugin, using -d to specify the names we’d like the certificate to be valid for.
+
+If this is your first time running certbot, you will be prompted to enter an email address and agree to the terms of service. After doing so, certbot will communicate with the Let’s Encrypt server, then run a challenge to verify that you control the domain you’re requesting a certificate for.<br>
+
+If that’s successful, certbot will ask how you’d like to configure your HTTPS settings<br>
 
 
-```python
+`Please choose whether or not to redirect HTTP traffic to HTTPS, removing HTTP access.
 
-```
+`1: No redirect - Make no further changes to the webserver configuration.`<br>
+`2: Redirect - Make all requests redirect to secure HTTPS access. Choose this for new sites, or if you're confident your site works on HTTPS. You can undo this change by editing your web server's configuration.`<br>
+Select the appropriate number [1-2] then [enter] (press 'c' to cancel):`<br>
 
+Select your choice then hit ENTER. The configuration will be updated, and Nginx will reload to pick up the new settings. certbot will wrap up with a message telling you the process was successful and where your certificates are stored<br>
 
-```python
+`IMPORTANT NOTES:`<br>
+` - Congratulations! Your certificate and chain have been saved at:`<br>
+`   /etc/letsencrypt/live/your_domain/fullchain.pem`<br>
+`   Your key file has been saved at:`<br>
+`   /etc/letsencrypt/live/your_domain/privkey.pem`<br>
+`   Your cert will expire on 2018-07-23. To obtain a new or tweaked`<br>
+`   version of this certificate in the future, simply run certbot again`<br>
+`   with the "certonly" option. To non-interactively renew *all* of`<br>
+ `  your certificates, run "certbot renew"`<br>
+ `- Your account credentials have been saved in your Certbot`<br>
+ `  configuration directory at /etc/letsencrypt. You should make a`<br>
+ `  secure backup of this folder now. This configuration directory will`<br>
+ `  also contain certificates and private keys obtained by Certbot so`<br>
+ `  making regular backups of this folder is ideal.`<br>
+ `- If you like Certbot, please consider supporting our work by`<br>
 
-```
+ `  Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate`<br>
+ `  Donating to EFF:                    https://eff.org/donate-le`<br>
+
+If you followed the Nginx installation instructions in the prerequisites, you will no longer need the redundant HTTP profile allowance:
+
+`sudo ufw delete allow 'Nginx HTTP'`<br>
+To verify the configuration, navigate once again to your domain, using https://:<br>
+
+`https://your_domain`<br>
+You should see your application output once again, along with your browser’s security indicator, which should indicate that the site is secured.<br>
+
+From now on to turn the web server off.<br>
+`sudo systemctl stop nginx`<br>
+`sudo systemctl stop my_project`<br>
+
+From now on to turn the web server on.<br>
+`sudo systemctl start nginx`<br>
+`sudo systemctl enable nginx`<br>
+`sudo systemctl start my_project`<br>
+`sudo systemctl enable my_project`<br>
+
+#### Log out button link
+`https://dash.plot.ly/dash-core-components/logoutbutton`
 
 # Scala and Spark
 
@@ -2267,14 +2713,14 @@ Add the Hadoop and Java paths in the bash file (.bashrc).<br>
 Open. bashrc file. Now, add Hadoop and Java Path as shown below.<br>
 <br>
 
-`export HADOOP_HOME=~/linux_shared/training/spark_scala/software/hadoop-2.7.3`<br>
-`export HADOOP_CLASSPATH=$HADOOP_CLASSPATH:~/linux_shared/training/spark_scala/software/hadoop-2.7.3/share/hadoop/common/lib`<br>
-`export HADOOP_CONF_DIR=~/linux_shared/training/spark_scala/software/hadoop-2.7.3/etc/hadoop`<br>
-`export HADOOP_MAPRED_HOME=~/linux_shared/training/spark_scala/software/hadoop-2.7.3`<br>
-`export HADOOP_COMMON_HOME=~/linux_shared/training/spark_scala/software/hadoop-2.7.3`<br>
-`export HADOOP_HDFS_HOME=~/linux_shared/training/spark_scala/software/hadoop-2.7.3`<br>
-`export YARN_HOME=~/linux_shared/training/spark_scala/software/hadoop-2.7.3`<br>
-`export PATH=$PATH:~/linux_shared/training/spark_scala/software/hadoop-2.7.3/bin`<br>
+`export HADOOP_HOME=~/linux_shared/training/spark_scala/software/hadoop`<br>
+`export HADOOP_CLASSPATH=$HADOOP_CLASSPATH:~/linux_shared/training/spark_scala/software/hadoop/share/hadoop/common/lib`<br>
+`export HADOOP_CONF_DIR=~/linux_shared/training/spark_scala/software/hadoop/etc/hadoop`<br>
+`export HADOOP_MAPRED_HOME=~/linux_shared/training/spark_scala/software/hadoop`<br>
+`export HADOOP_COMMON_HOME=~/linux_shared/training/spark_scala/software/hadoop`<br>
+`export HADOOP_HDFS_HOME=~/linux_shared/training/spark_scala/software/hadoop`<br>
+`export YARN_HOME=~/linux_shared/training/spark_scala/software/hadoop`<br>
+`export PATH=$PATH:~/linux_shared/training/spark_scala/software/hadoop/bin`<br>
 
 ### Scala
 https://www.scala-lang.org/download/
@@ -2430,7 +2876,7 @@ Just for your information since we are discussing the topic in depth. System Var
 
 ## IDE Setup 
 
-### NOTE
+__NOTE__
 Below notes assume spark, scala, sbt and Java already installed.
 
 ### intellij IDEA
@@ -2477,7 +2923,7 @@ to open polynote simple run polynote.py<br>
 
 ### Zeppelin notebooks
 
-#### NOTE
+__NOTE__<br>
 Only currently compatible with spark 2.4.4. If want to keep spark 3.0 as well then extract spark 2.4.4 into /usr/bin/spark and set this as SPARK_HOME in zeppelin-env.sh. Spark 3.0 will still be in /usr/local/spark/ and will be used for spark-shell etc as this is the path set in .bashrc.
 
 #### Setup for local zeppelin (without docker)
@@ -2712,34 +3158,3 @@ https://www.youtube.com/watch?v=A59flmBEVzk<br>
 `sudo apt-get install sagemath`
 
 
-
-# Financial Mathematics and Quantitative Research
-
-## Research Papers
-https://arxiv.org/pdf/1606.07381.pdf
-https://poseidon01.ssrn.com/delivery.php?ID=867004085082103121107102111066067126125005064079075023078068067018008086011097121104118012027123051028125125125085093105021084053002058023017121122116103003029101067085066084118095126093026127112065014010076085084025002124093100087004079102113066007&EXT=pdf<br>
-
-
-# Machine Learning Algorithms
-
-
-https://cfda.csie.org/RiskFinder/<br>
-https://www.aclweb.org/anthology/N18-5017/<br>
-https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-science-pdf-f22dc900d2d7<br>
-https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html<br>
-https://gluebenchmark.com/<br>
-https://www.cs.cmu.edu/~bishan/papers/joint_event_naacl16.pdf<br>
-
-
-
-## Supervised Learning
-
-### Time series forcasting
-
-https://machinelearningmastery.com/multivariate-time-series-forecasting-lstms-keras/
-
-
-## Unsupervised Learning
-
-### Latent Dirichlet Allocation (LDA)
-https://towardsdatascience.com/light-on-math-machine-learning-intuitive-guide-to-latent-dirichlet-allocation-437c81220158
