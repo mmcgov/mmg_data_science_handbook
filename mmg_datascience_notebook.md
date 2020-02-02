@@ -2307,8 +2307,7 @@ It is important to note that while lightweight and easy to use, Flask’s built-
 #### python application (like Dash/Flask)
 This will be a python script such as the one listed later as an example in this section. This file contains the code to read in the data and to display it as a dashboard etc. It will be responsible for login authorisation as well as links between graphs and website navigation etc.
 <br>
-<br>
-<br>
+
 
 #### A WSGI application server (like Gunicorn)
 Gunicorn translates requests which it gets from Nginx into a format which your web application can handle, and makes sure that your code is executed when needed.<br>
@@ -2470,9 +2469,11 @@ We’ll also specify the interface and port to bind to so that the application w
 `cd /dash_flask_app`<br>
 `gunicorn --bind 0.0.0.0:80 wsgi:app`<br>
 
-If you now visis your servers IP address you should see your app running.<br>
-__You cna now leave the virtualenv__<br>
-Next create the systemd service unit file which will mean ubuntu will automatically startGunicorn and the Flask app on boot. Call it gemini_app.service
+If you now visit your servers IP address you should see your app running.__You can now leave the virtualenv__<br>
+
+Next create the systemd service unit file which will mean ubuntu will automatically start Gunicorn and the Flask app on boot. Call it gemini_app.service<br>
+
+`sudo nano /etc/systemd/system/myproject.service`<br>
 
 The sections below perform the following actions<br>
 __Unit section__ is used to specify metadata and dependencies. Let’s put a description of our service here and tell the init system to only start this after the networking target has been reached.<br>
