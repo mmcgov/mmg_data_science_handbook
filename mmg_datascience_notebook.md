@@ -799,7 +799,9 @@ and set the default figure size<br>
 reset default matplotlib rcParams<br>
 `jtplot.reset()`
 
-
+Add table of contents and other add-ons<br>
+https://github.com/ipython-contrib/jupyter_contrib_nbextensions <br>
+`pip install jupyter_contrib_nbextensions`<br>
 
 ### Jupyter server
 
