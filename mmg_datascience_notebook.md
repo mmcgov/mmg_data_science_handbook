@@ -84,12 +84,12 @@ __Change home directory to shared folder__
 Add below line to .bashrc file
 `cd /home/martin/shared_folder`
 
-__Allow drag and drop__
+__Allow drag and drop__<br>
 At top left of VM window Go to Devices then Drag and Drop then select Bidirectional
 
-__Install dpkg and associated packages__
-`sudo apt-get install dpkg`
-`sudo apt-get install virtualbox-guest-gkms virtualbox-guest-utils virtualbox-guest-x11`
+__Install dpkg and associated packages__<br>
+`sudo apt-get install dpkg`<br>
+`sudo apt-get install virtualbox-guest-gkms virtualbox-guest-utils virtualbox-guest-x11`<br>
 
 ### Using vboxmanage to configure virtualbox<br>
 
@@ -143,7 +143,7 @@ Make sure to connect correct new .vdi file afterwards to your VM as below.
 <img src="media/vbox_10.png">
 
 ## Setup PATH variable correctly<br>
-__PATH__: A list of directories that the system will check when looking for commands. When a user types in a command, the system will check directories in this order for the executable.<br>
+__PATH__: A list of directories that the system will check when looking for binary files and executables for packages. When a user types in a command, the system will check directories in this order for the executable.<br>
 https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-a-linux-vps<br>
 
 Vim environment file in etc folder and check if contents same as below<br>
@@ -1089,18 +1089,15 @@ Dynamic example where using aligning strings of variable length using the max le
 
 
 ```python
-names = 'Julian Bob PyBites Dante Martin Rodolfo'.split()
-countries = 'Australia Spain Global Argentina USA Mexico'.split()
+names = 'Martin Niamh Paul'.split()
+countries = 'Australia Ireland France'.split()
 
 
 def enumerate_names_countries():
     """Outputs:
-       1. Julian     Australia
-       2. Bob        Spain
-       3. PyBites    Global
-       4. Dante      Argentina
-       5. Martin     USA
-       6. Rodolfo    Mexico"""
+       1. Martin     Australia
+       2. Niamh      Ireland
+       3. Paul       France"""
     j=0
     res=list()
     max_len = len(max(names, key=len))
@@ -1766,7 +1763,6 @@ interact(plot_new,
 ### python pip package method with GitHub
 
 #### Create pip package
-(See example alphavantage python package repo)
 
 Follow instructions at https://medium.com/@thucnc/how-to-publish-your-own-python-package-to-pypi-4318868210f9<br>
 Also useful<br>
