@@ -206,8 +206,8 @@ Next open up a powershell terminal and Type in<br>
 
 Acccept defaults and dont bother with passphrase etc<br>
 
-Now this method does not write protect the privatw key and so you will get error below if try to SSH. They key will be ignored and the SSH key connection will not work.<br>
-<img src="media/openssh_2.png">
+Now this method does not write protect the private key and so you will get error below if try to SSH. They key will be ignored and the SSH key connection will not work.<br>
+<img src="media/openssh_3.png">
 
 Follow instructions below to change file rights to get past the warning by making key more secure<br>
 https://superuser.com/questions/1296024/windows-ssh-permissions-for-private-key-are-too-open<br>
@@ -229,7 +229,7 @@ Now you can check connection by opening powershell in admin mode and typing:<br>
 Click yes to trust host and it should connect with no password required.<br>
 
 Now simply add a line to the VSCode config file from earlier to point to the public key using `IdentifyFile` as below.<br>
-<img src="media/vscode_6.png">
+<img src="media/vscode_7.png">
 
 You should now be able to follow the same instructions as for VSCode with username/password from earleir but now should not need to enter password.
 
@@ -371,7 +371,7 @@ http://derekmolloy.ie/resize-a-virtualbox-disk/#prettyPhoto
 
 Make sure to connect correct new .vdi file afterwards to your VM as below.
 
-<img src="media/vbox_10.png">
+<img src="media/vbox_12.png">
 
 ## Setup PATH variable correctly<br>
 __PATH__: A list of directories that the system will check when looking for binary files and executables for packages. When a user types in a command, the system will check directories in this order for the executable.<br>
