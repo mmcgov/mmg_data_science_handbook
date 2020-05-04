@@ -378,6 +378,8 @@ Make sure to connect correct new .vdi file afterwards to your VM as below.
 
 
 
+### Tips on how to speed up performance of VM Setup
+https://superuser.com/questions/809396/virtualbox-consuming-100-cpu-even-when-the-guest-is-idle
 
 
 ## Setup PATH variable correctly<br>
