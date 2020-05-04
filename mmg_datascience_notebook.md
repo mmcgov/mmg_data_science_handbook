@@ -1,4 +1,3 @@
-
 <h1>Table of Contents<span class="tocSkip"></span></h1>
 <div class="toc"><ul class="toc-item"><li><span><a href="#Data-Science-Qualifications" data-toc-modified-id="Data-Science-Qualifications-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Data Science Qualifications</a></span><ul class="toc-item"><li><span><a href="#AWS-Certified-Machine-Learning-Specialty" data-toc-modified-id="AWS-Certified-Machine-Learning-Specialty-1.1"><span class="toc-item-num">1.1&nbsp;&nbsp;</span>AWS Certified Machine Learning Specialty</a></span><ul class="toc-item"><li><span><a href="#Useful-Links" data-toc-modified-id="Useful-Links-1.1.1"><span class="toc-item-num">1.1.1&nbsp;&nbsp;</span>Useful Links</a></span><ul class="toc-item"><li><span><a href="#Official-exam-page-and-AWS-prep-material" data-toc-modified-id="Official-exam-page-and-AWS-prep-material-1.1.1.1"><span class="toc-item-num">1.1.1.1&nbsp;&nbsp;</span>Official exam page and AWS prep material<br></a></span></li><li><span><a href="#Linux-Academy-gives-you-access-to-an-AWS-console-to-participate-in-interacgtive-labs" data-toc-modified-id="Linux-Academy-gives-you-access-to-an-AWS-console-to-participate-in-interacgtive-labs-1.1.1.2"><span class="toc-item-num">1.1.1.2&nbsp;&nbsp;</span>Linux Academy gives you access to an AWS console to participate in interacgtive labs<br></a></span></li><li><span><a href="#A-cloud-guru-has-an-excellent-exam-simulator-to-practice-exam-type-questions" data-toc-modified-id="A-cloud-guru-has-an-excellent-exam-simulator-to-practice-exam-type-questions-1.1.1.3"><span class="toc-item-num">1.1.1.3&nbsp;&nbsp;</span>A cloud guru has an excellent exam simulator to practice exam type questions<br></a></span></li><li><span><a href="#Useful-blog-on-exam-preparation" data-toc-modified-id="Useful-blog-on-exam-preparation-1.1.1.4"><span class="toc-item-num">1.1.1.4&nbsp;&nbsp;</span>Useful blog on exam preparation<br></a></span></li><li><span><a href="#crash-course-from-o'reilly-online-learning-along-with-associated-links-and-material" data-toc-modified-id="crash-course-from-o'reilly-online-learning-along-with-associated-links-and-material-1.1.1.5"><span class="toc-item-num">1.1.1.5&nbsp;&nbsp;</span>crash course from o'reilly online learning along with associated links and material<br></a></span></li></ul></li></ul></li><li><span><a href="#CRT020-Databricks-Certified-Associate-Developer-for-Apache-Spark-2.4-with-Scala-2.11" data-toc-modified-id="CRT020-Databricks-Certified-Associate-Developer-for-Apache-Spark-2.4-with-Scala-2.11-1.2"><span class="toc-item-num">1.2&nbsp;&nbsp;</span>CRT020 Databricks Certified Associate Developer for Apache Spark 2.4 with Scala 2.11</a></span><ul class="toc-item"><li><span><a href="#Useful-Links" data-toc-modified-id="Useful-Links-1.2.1"><span class="toc-item-num">1.2.1&nbsp;&nbsp;</span>Useful Links</a></span><ul class="toc-item"><li><span><a href="#Official-exam-page" data-toc-modified-id="Official-exam-page-1.2.1.1"><span class="toc-item-num">1.2.1.1&nbsp;&nbsp;</span>Official exam page<br></a></span></li><li><span><a href="#Exam-booking-details" data-toc-modified-id="Exam-booking-details-1.2.1.2"><span class="toc-item-num">1.2.1.2&nbsp;&nbsp;</span>Exam booking details<br></a></span></li><li><span><a href="#Study-guide" data-toc-modified-id="Study-guide-1.2.1.3"><span class="toc-item-num">1.2.1.3&nbsp;&nbsp;</span>Study guide<br></a></span></li><li><span><a href="#Blog-on-linkedin-with-detailed-prep-notes" data-toc-modified-id="Blog-on-linkedin-with-detailed-prep-notes-1.2.1.4"><span class="toc-item-num">1.2.1.4&nbsp;&nbsp;</span>Blog on linkedin with detailed prep notes<br></a></span></li><li><span><a href="#Useful-FAQ-answers-for-exam" data-toc-modified-id="Useful-FAQ-answers-for-exam-1.2.1.5"><span class="toc-item-num">1.2.1.5&nbsp;&nbsp;</span>Useful FAQ answers for exam</a></span></li></ul></li></ul></li></ul></li><li><span><a href="#Linux" data-toc-modified-id="Linux-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Linux</a></span><ul class="toc-item"><li><span><a href="#Upgrading" data-toc-modified-id="Upgrading-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Upgrading</a></span></li><li><span><a href="#Virtual-Box" data-toc-modified-id="Virtual-Box-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>Virtual Box</a></span><ul class="toc-item"><li><span><a href="#Using-vboxmanage-to-configure-virtualbox" data-toc-modified-id="Using-vboxmanage-to-configure-virtualbox-2.2.1"><span class="toc-item-num">2.2.1&nbsp;&nbsp;</span>Using vboxmanage to configure virtualbox<br></a></span></li><li><span><a href="#Increase-size-of-VM-partition" data-toc-modified-id="Increase-size-of-VM-partition-2.2.2"><span class="toc-item-num">2.2.2&nbsp;&nbsp;</span>Increase size of VM partition</a></span></li></ul></li><li><span><a href="#Setup-PATH-variable-correctly" data-toc-modified-id="Setup-PATH-variable-correctly-2.3"><span class="toc-item-num">2.3&nbsp;&nbsp;</span>Setup PATH variable correctly<br></a></span></li><li><span><a href="#Immediate-activation-of-any-path-updates-without-closing-session" data-toc-modified-id="Immediate-activation-of-any-path-updates-without-closing-session-2.4"><span class="toc-item-num">2.4&nbsp;&nbsp;</span>Immediate activation of any path updates without closing session<br></a></span></li><li><span><a href="#Symbolic-links" data-toc-modified-id="Symbolic-links-2.5"><span class="toc-item-num">2.5&nbsp;&nbsp;</span>Symbolic links</a></span></li><li><span><a href="#Terminal-colours-config" data-toc-modified-id="Terminal-colours-config-2.6"><span class="toc-item-num">2.6&nbsp;&nbsp;</span>Terminal colours config</a></span></li><li><span><a href="#Linux-Server" data-toc-modified-id="Linux-Server-2.7"><span class="toc-item-num">2.7&nbsp;&nbsp;</span>Linux Server</a></span></li><li><span><a href="#SSH-Notes" data-toc-modified-id="SSH-Notes-2.8"><span class="toc-item-num">2.8&nbsp;&nbsp;</span>SSH Notes</a></span></li><li><span><a href="#Common-Bugs" data-toc-modified-id="Common-Bugs-2.9"><span class="toc-item-num">2.9&nbsp;&nbsp;</span>Common Bugs</a></span><ul class="toc-item"><li><span><a href="#write-on-sudo-owned-file-when-did’nt-use-sudo-to-open" data-toc-modified-id="write-on-sudo-owned-file-when-did’nt-use-sudo-to-open-2.9.1"><span class="toc-item-num">2.9.1&nbsp;&nbsp;</span>write on sudo owned file when did’nt use sudo to open<br></a></span></li><li><span><a href="#Colour-scheme" data-toc-modified-id="Colour-scheme-2.9.2"><span class="toc-item-num">2.9.2&nbsp;&nbsp;</span>Colour scheme<br></a></span></li><li><span><a href="#Apt-get-stalling-on-waiting-for-headers" data-toc-modified-id="Apt-get-stalling-on-waiting-for-headers-2.9.3"><span class="toc-item-num">2.9.3&nbsp;&nbsp;</span>Apt-get stalling on waiting for headers<br></a></span></li><li><span><a href="#Problems-with-Linux-software-updater" data-toc-modified-id="Problems-with-Linux-software-updater-2.9.4"><span class="toc-item-num">2.9.4&nbsp;&nbsp;</span>Problems with Linux software updater<br></a></span></li></ul></li><li><span><a href="#Docker" data-toc-modified-id="Docker-2.10"><span class="toc-item-num">2.10&nbsp;&nbsp;</span>Docker</a></span><ul class="toc-item"><li><span><a href="#Install-docker" data-toc-modified-id="Install-docker-2.10.1"><span class="toc-item-num">2.10.1&nbsp;&nbsp;</span>Install docker</a></span></li><li><span><a href="#Docker-commands" data-toc-modified-id="Docker-commands-2.10.2"><span class="toc-item-num">2.10.2&nbsp;&nbsp;</span>Docker commands</a></span></li><li><span><a href="#Docker-Compose-commands" data-toc-modified-id="Docker-Compose-commands-2.10.3"><span class="toc-item-num">2.10.3&nbsp;&nbsp;</span>Docker-Compose commands</a></span></li></ul></li></ul></li><li><span><a href="#Python" data-toc-modified-id="Python-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Python</a></span><ul class="toc-item"><li><span><a href="#Useful-links" data-toc-modified-id="Useful-links-3.1"><span class="toc-item-num">3.1&nbsp;&nbsp;</span>Useful links</a></span></li></ul></li><li><span><a href="#General-Programming" data-toc-modified-id="General-Programming-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>General Programming</a></span><ul class="toc-item"><li><span><a href="#decorators-" data-toc-modified-id="decorators--4.1"><span class="toc-item-num">4.1&nbsp;&nbsp;</span>decorators <br></a></span><ul class="toc-item"><li><span><a href="#wrapping-a-function-with-a-decorator-example-1" data-toc-modified-id="wrapping-a-function-with-a-decorator-example-1-4.1.1"><span class="toc-item-num">4.1.1&nbsp;&nbsp;</span>wrapping a function with a decorator example 1</a></span></li><li><span><a href="#wrapping-a-function-with-a-decorator-example-2" data-toc-modified-id="wrapping-a-function-with-a-decorator-example-2-4.1.2"><span class="toc-item-num">4.1.2&nbsp;&nbsp;</span>wrapping a function with a decorator example 2</a></span></li></ul></li><li><span><a href="#Virtual-Environments" data-toc-modified-id="Virtual-Environments-4.2"><span class="toc-item-num">4.2&nbsp;&nbsp;</span>Virtual Environments</a></span><ul class="toc-item"><li><span><a href="#Install-virtualenv-and-virtualenvwrapper" data-toc-modified-id="Install-virtualenv-and-virtualenvwrapper-4.2.1"><span class="toc-item-num">4.2.1&nbsp;&nbsp;</span>Install virtualenv and virtualenvwrapper<br></a></span></li><li><span><a href="#Wrapper-syntax" data-toc-modified-id="Wrapper-syntax-4.2.2"><span class="toc-item-num">4.2.2&nbsp;&nbsp;</span>Wrapper syntax<br></a></span></li><li><span><a href="#Virtualenv-syntax" data-toc-modified-id="Virtualenv-syntax-4.2.3"><span class="toc-item-num">4.2.3&nbsp;&nbsp;</span>Virtualenv syntax<br></a></span></li><li><span><a href="#Conda-syntax" data-toc-modified-id="Conda-syntax-4.2.4"><span class="toc-item-num">4.2.4&nbsp;&nbsp;</span>Conda syntax</a></span></li><li><span><a href="#Pip-setup" data-toc-modified-id="Pip-setup-4.2.5"><span class="toc-item-num">4.2.5&nbsp;&nbsp;</span>Pip setup<br></a></span></li></ul></li><li><span><a href="#IDE-Tips" data-toc-modified-id="IDE-Tips-4.3"><span class="toc-item-num">4.3&nbsp;&nbsp;</span>IDE Tips</a></span><ul class="toc-item"><li><span><a href="#Vim" data-toc-modified-id="Vim-4.3.1"><span class="toc-item-num">4.3.1&nbsp;&nbsp;</span>Vim</a></span></li><li><span><a href="#Jupyter" data-toc-modified-id="Jupyter-4.3.2"><span class="toc-item-num">4.3.2&nbsp;&nbsp;</span>Jupyter</a></span></li><li><span><a href="#Jupyter-server" data-toc-modified-id="Jupyter-server-4.3.3"><span class="toc-item-num">4.3.3&nbsp;&nbsp;</span>Jupyter server</a></span></li><li><span><a href="#Pycharm" data-toc-modified-id="Pycharm-4.3.4"><span class="toc-item-num">4.3.4&nbsp;&nbsp;</span>Pycharm</a></span></li></ul></li><li><span><a href="#Data-Collection" data-toc-modified-id="Data-Collection-4.4"><span class="toc-item-num">4.4&nbsp;&nbsp;</span>Data Collection</a></span><ul class="toc-item"><li><span><a href="#Web-Scraping/Crawling" data-toc-modified-id="Web-Scraping/Crawling-4.4.1"><span class="toc-item-num">4.4.1&nbsp;&nbsp;</span>Web Scraping/Crawling</a></span><ul class="toc-item"><li><span><a href="#Basic-xpath-syntax" data-toc-modified-id="Basic-xpath-syntax-4.4.1.1"><span class="toc-item-num">4.4.1.1&nbsp;&nbsp;</span>Basic xpath syntax</a></span></li><li><span><a href="#Lxml-Approach-(see-example-scripts)" data-toc-modified-id="Lxml-Approach-(see-example-scripts)-4.4.1.2"><span class="toc-item-num">4.4.1.2&nbsp;&nbsp;</span>Lxml Approach (see example scripts)</a></span></li><li><span><a href="#Scrapy" data-toc-modified-id="Scrapy-4.4.1.3"><span class="toc-item-num">4.4.1.3&nbsp;&nbsp;</span>Scrapy</a></span></li><li><span><a href="#Create-new-project" data-toc-modified-id="Create-new-project-4.4.1.4"><span class="toc-item-num">4.4.1.4&nbsp;&nbsp;</span>Create new project</a></span></li></ul></li></ul></li><li><span><a href="#Data-formatting/Wrangling" data-toc-modified-id="Data-formatting/Wrangling-4.5"><span class="toc-item-num">4.5&nbsp;&nbsp;</span>Data formatting/Wrangling</a></span><ul class="toc-item"><li><span><a href="#Regular-Expressions" data-toc-modified-id="Regular-Expressions-4.5.1"><span class="toc-item-num">4.5.1&nbsp;&nbsp;</span>Regular Expressions</a></span><ul class="toc-item"><li><span><a href="#Useful-Links" data-toc-modified-id="Useful-Links-4.5.1.1"><span class="toc-item-num">4.5.1.1&nbsp;&nbsp;</span>Useful Links</a></span></li></ul></li><li><span><a href="#subn-method" data-toc-modified-id="subn-method-4.5.2"><span class="toc-item-num">4.5.2&nbsp;&nbsp;</span>subn method</a></span></li><li><span><a href="#Search-method" data-toc-modified-id="Search-method-4.5.3"><span class="toc-item-num">4.5.3&nbsp;&nbsp;</span>Search method</a></span></li><li><span><a href="#Pandas-data-formatting" data-toc-modified-id="Pandas-data-formatting-4.5.4"><span class="toc-item-num">4.5.4&nbsp;&nbsp;</span>Pandas data formatting</a></span><ul class="toc-item"><li><span><a href="#prevent-Setting-WithCopyWarning-in-pandas" data-toc-modified-id="prevent-Setting-WithCopyWarning-in-pandas-4.5.4.1"><span class="toc-item-num">4.5.4.1&nbsp;&nbsp;</span>prevent Setting WithCopyWarning in pandas</a></span></li><li><span><a href="#Show-max-rows-and-columns-inline-for-pandas-dataframes" data-toc-modified-id="Show-max-rows-and-columns-inline-for-pandas-dataframes-4.5.4.2"><span class="toc-item-num">4.5.4.2&nbsp;&nbsp;</span>Show max rows and columns inline for pandas dataframes</a></span></li><li><span><a href="#Read-in-series-of-csv-files-and-concatenate-into-one-csv-file" data-toc-modified-id="Read-in-series-of-csv-files-and-concatenate-into-one-csv-file-4.5.4.3"><span class="toc-item-num">4.5.4.3&nbsp;&nbsp;</span>Read in series of csv files and concatenate into one csv file</a></span></li></ul></li></ul></li><li><span><a href="#Visualisations" data-toc-modified-id="Visualisations-4.6"><span class="toc-item-num">4.6&nbsp;&nbsp;</span>Visualisations</a></span><ul class="toc-item"><li><span><a href="#Graph-Database-Packages" data-toc-modified-id="Graph-Database-Packages-4.6.1"><span class="toc-item-num">4.6.1&nbsp;&nbsp;</span>Graph Database Packages</a></span><ul class="toc-item"><li><span><a href="#Gephi-(graph-creator)-and-Yed-(graph-visualiser)" data-toc-modified-id="Gephi-(graph-creator)-and-Yed-(graph-visualiser)-4.6.1.1"><span class="toc-item-num">4.6.1.1&nbsp;&nbsp;</span>Gephi (graph creator) and Yed (graph visualiser)</a></span></li></ul></li><li><span><a href="#Using-ipywidgets-to-give-interactive-graphs" data-toc-modified-id="Using-ipywidgets-to-give-interactive-graphs-4.6.2"><span class="toc-item-num">4.6.2&nbsp;&nbsp;</span>Using ipywidgets to give interactive graphs</a></span></li></ul></li><li><span><a href="#Productionisation-of-code" data-toc-modified-id="Productionisation-of-code-4.7"><span class="toc-item-num">4.7&nbsp;&nbsp;</span>Productionisation of code</a></span><ul class="toc-item"><li><span><a href="#python-pip-package-method-with-GitHub" data-toc-modified-id="python-pip-package-method-with-GitHub-4.7.1"><span class="toc-item-num">4.7.1&nbsp;&nbsp;</span>python pip package method with GitHub</a></span><ul class="toc-item"><li><span><a href="#Create-pip-package" data-toc-modified-id="Create-pip-package-4.7.1.1"><span class="toc-item-num">4.7.1.1&nbsp;&nbsp;</span>Create pip package</a></span></li></ul></li><li><span><a href="#python-pip-package-method-with-Docker,-TeamCity-and-Artifactory" data-toc-modified-id="python-pip-package-method-with-Docker,-TeamCity-and-Artifactory-4.7.2"><span class="toc-item-num">4.7.2&nbsp;&nbsp;</span>python pip package method with Docker, TeamCity and Artifactory</a></span><ul class="toc-item"><li><span><a href="#Useful-links" data-toc-modified-id="Useful-links-4.7.2.1"><span class="toc-item-num">4.7.2.1&nbsp;&nbsp;</span>Useful links<br></a></span></li></ul></li><li><span><a href="#Example-usage-(stock_data_collector)" data-toc-modified-id="Example-usage-(stock_data_collector)-4.7.3"><span class="toc-item-num">4.7.3&nbsp;&nbsp;</span>Example usage (stock_data_collector)</a></span></li><li><span><a href="#Deploy-package-from-Cloudera-to-artifactory" data-toc-modified-id="Deploy-package-from-Cloudera-to-artifactory-4.7.4"><span class="toc-item-num">4.7.4&nbsp;&nbsp;</span>Deploy package from Cloudera to artifactory</a></span></li><li><span><a href="#AWS-Batch-method" data-toc-modified-id="AWS-Batch-method-4.7.5"><span class="toc-item-num">4.7.5&nbsp;&nbsp;</span>AWS Batch method</a></span><ul class="toc-item"><li><span><a href="#Docker-container-of-code" data-toc-modified-id="Docker-container-of-code-4.7.5.1"><span class="toc-item-num">4.7.5.1&nbsp;&nbsp;</span>Docker container of code</a></span></li><li><span><a href="#TeamCity" data-toc-modified-id="TeamCity-4.7.5.2"><span class="toc-item-num">4.7.5.2&nbsp;&nbsp;</span>TeamCity</a></span></li><li><span><a href="#Octopus" data-toc-modified-id="Octopus-4.7.5.3"><span class="toc-item-num">4.7.5.3&nbsp;&nbsp;</span>Octopus</a></span></li><li><span><a href="#AWS-Lambda" data-toc-modified-id="AWS-Lambda-4.7.5.4"><span class="toc-item-num">4.7.5.4&nbsp;&nbsp;</span>AWS Lambda</a></span></li><li><span><a href="#AWS-Batch" data-toc-modified-id="AWS-Batch-4.7.5.5"><span class="toc-item-num">4.7.5.5&nbsp;&nbsp;</span>AWS Batch</a></span></li></ul></li></ul></li><li><span><a href="#Communications-packages" data-toc-modified-id="Communications-packages-4.8"><span class="toc-item-num">4.8&nbsp;&nbsp;</span>Communications packages</a></span><ul class="toc-item"><li><span><a href="#Using-ZMQ-pub/sub-model-for-message-transfer" data-toc-modified-id="Using-ZMQ-pub/sub-model-for-message-transfer-4.8.1"><span class="toc-item-num">4.8.1&nbsp;&nbsp;</span>Using ZMQ pub/sub model for message transfer</a></span><ul class="toc-item"><li><span><a href="#Useful-links" data-toc-modified-id="Useful-links-4.8.1.1"><span class="toc-item-num">4.8.1.1&nbsp;&nbsp;</span>Useful links</a></span></li><li><span><a href="#Simple-pub/sub-example-using-sockets" data-toc-modified-id="Simple-pub/sub-example-using-sockets-4.8.1.2"><span class="toc-item-num">4.8.1.2&nbsp;&nbsp;</span>Simple pub/sub example using sockets</a></span></li></ul></li><li><span><a href="#Automatic-email-updates-in-python-using-smtlib" data-toc-modified-id="Automatic-email-updates-in-python-using-smtlib-4.8.2"><span class="toc-item-num">4.8.2&nbsp;&nbsp;</span>Automatic email updates in python using smtlib</a></span><ul class="toc-item"><li><span><a href="#Useful-Links" data-toc-modified-id="Useful-Links-4.8.2.1"><span class="toc-item-num">4.8.2.1&nbsp;&nbsp;</span>Useful Links</a></span></li><li><span><a href="#Import-necessaary-libraries-including-smtlib" data-toc-modified-id="Import-necessaary-libraries-including-smtlib-4.8.2.2"><span class="toc-item-num">4.8.2.2&nbsp;&nbsp;</span>Import necessaary libraries including smtlib</a></span></li><li><span><a href="#Create-the-MIMEMultipart-message-object-and-load-it-with-appropriate-headers-for-From,-To,-and-Subject-fields" data-toc-modified-id="Create-the-MIMEMultipart-message-object-and-load-it-with-appropriate-headers-for-From,-To,-and-Subject-fields-4.8.2.3"><span class="toc-item-num">4.8.2.3&nbsp;&nbsp;</span>Create the MIMEMultipart message object and load it with appropriate headers for From, To, and Subject fields</a></span></li><li><span><a href="#Set-up-the-SMTP-server-and-log-into-your-account" data-toc-modified-id="Set-up-the-SMTP-server-and-log-into-your-account-4.8.2.4"><span class="toc-item-num">4.8.2.4&nbsp;&nbsp;</span>Set up the SMTP server and log into your account</a></span></li><li><span><a href="#Send-the-message-using-the-SMTP-server-object" data-toc-modified-id="Send-the-message-using-the-SMTP-server-object-4.8.2.5"><span class="toc-item-num">4.8.2.5&nbsp;&nbsp;</span>Send the message using the SMTP server object</a></span></li></ul></li></ul></li><li><span><a href="#Web-Server-(Using-Dash,-Flask,-Gunicorn,-Nginz)" data-toc-modified-id="Web-Server-(Using-Dash,-Flask,-Gunicorn,-Nginz)-4.9"><span class="toc-item-num">4.9&nbsp;&nbsp;</span>Web Server (Using Dash, Flask, Gunicorn, Nginz)</a></span><ul class="toc-item"><li><span><a href="#Useful-Links-to-be-checked-and-moved-where-necessary" data-toc-modified-id="Useful-Links-to-be-checked-and-moved-where-necessary-4.9.1"><span class="toc-item-num">4.9.1&nbsp;&nbsp;</span>Useful Links to be checked and moved where necessary</a></span></li></ul></li><li><span><a href="#Web-Server-(Using-Dash,-Flask,-Gunicorn,-Nginz)" data-toc-modified-id="Web-Server-(Using-Dash,-Flask,-Gunicorn,-Nginz)-4.10"><span class="toc-item-num">4.10&nbsp;&nbsp;</span>Web Server (Using Dash, Flask, Gunicorn, Nginz)</a></span><ul class="toc-item"><li><span><a href="#Useful-Links" data-toc-modified-id="Useful-Links-4.10.1"><span class="toc-item-num">4.10.1&nbsp;&nbsp;</span>Useful Links</a></span></li><li><span><a href="#Overview" data-toc-modified-id="Overview-4.10.2"><span class="toc-item-num">4.10.2&nbsp;&nbsp;</span>Overview</a></span><ul class="toc-item"><li><span><a href="#python-application-(like-Dash/Flask)" data-toc-modified-id="python-application-(like-Dash/Flask)-4.10.2.1"><span class="toc-item-num">4.10.2.1&nbsp;&nbsp;</span>python application (like Dash/Flask)</a></span></li><li><span><a href="#A-WSGI-application-server-(like-Gunicorn)" data-toc-modified-id="A-WSGI-application-server-(like-Gunicorn)-4.10.2.2"><span class="toc-item-num">4.10.2.2&nbsp;&nbsp;</span>A WSGI application server (like Gunicorn)</a></span></li><li><span><a href="#A-web-server-(like-nginx)" data-toc-modified-id="A-web-server-(like-nginx)-4.10.2.3"><span class="toc-item-num">4.10.2.3&nbsp;&nbsp;</span>A web server (like nginx)</a></span></li></ul></li><li><span><a href="#Step-by-step-guide-to-building-a-production-ready-web-server" data-toc-modified-id="Step-by-step-guide-to-building-a-production-ready-web-server-4.10.3"><span class="toc-item-num">4.10.3&nbsp;&nbsp;</span>Step by step guide to building a production ready web server</a></span><ul class="toc-item"><li><span><a href="#Prerequisites" data-toc-modified-id="Prerequisites-4.10.3.1"><span class="toc-item-num">4.10.3.1&nbsp;&nbsp;</span>Prerequisites</a></span></li><li><span><a href="#Installing-the-Components-from-the-Ubuntu-Repositories" data-toc-modified-id="Installing-the-Components-from-the-Ubuntu-Repositories-4.10.3.2"><span class="toc-item-num">4.10.3.2&nbsp;&nbsp;</span>Installing the Components from the Ubuntu Repositories</a></span></li><li><span><a href="#Creating-a-Python-Virtual-Environment" data-toc-modified-id="Creating-a-Python-Virtual-Environment-4.10.3.3"><span class="toc-item-num">4.10.3.3&nbsp;&nbsp;</span>Creating a Python Virtual Environment</a></span></li><li><span><a href="#Setting-Up-a-Flask-Application" data-toc-modified-id="Setting-Up-a-Flask-Application-4.10.3.4"><span class="toc-item-num">4.10.3.4&nbsp;&nbsp;</span>Setting Up a Flask Application</a></span></li><li><span><a href="#Creating-a-Sample-App" data-toc-modified-id="Creating-a-Sample-App-4.10.3.5"><span class="toc-item-num">4.10.3.5&nbsp;&nbsp;</span>Creating a Sample App</a></span></li><li><span><a href="#Setup-WSGI-Endpoint" data-toc-modified-id="Setup-WSGI-Endpoint-4.10.3.6"><span class="toc-item-num">4.10.3.6&nbsp;&nbsp;</span>Setup WSGI Endpoint</a></span></li><li><span><a href="#Configuring-Gunicorn" data-toc-modified-id="Configuring-Gunicorn-4.10.3.7"><span class="toc-item-num">4.10.3.7&nbsp;&nbsp;</span>Configuring Gunicorn</a></span></li><li><span><a href="#Test-Gunicorn-in-terminal" data-toc-modified-id="Test-Gunicorn-in-terminal-4.10.3.8"><span class="toc-item-num">4.10.3.8&nbsp;&nbsp;</span>Test Gunicorn in terminal</a></span></li><li><span><a href="#Setup-to-start-on-boot" data-toc-modified-id="Setup-to-start-on-boot-4.10.3.9"><span class="toc-item-num">4.10.3.9&nbsp;&nbsp;</span>Setup to start on boot</a></span></li><li><span><a href="#Contents-of-gemini_app.service-file" data-toc-modified-id="Contents-of-gemini_app.service-file-4.10.3.10"><span class="toc-item-num">4.10.3.10&nbsp;&nbsp;</span>Contents of gemini_app.service file</a></span></li><li><span><a href="#Start-Gunicorn-Service" data-toc-modified-id="Start-Gunicorn-Service-4.10.3.11"><span class="toc-item-num">4.10.3.11&nbsp;&nbsp;</span>Start Gunicorn Service</a></span></li></ul></li><li><span><a href="#Configuring-Nginx-to-proxy-requests" data-toc-modified-id="Configuring-Nginx-to-proxy-requests-4.10.4"><span class="toc-item-num">4.10.4&nbsp;&nbsp;</span>Configuring Nginx to proxy requests</a></span><ul class="toc-item"><li><span><a href="#Securing-the-Application-with-SSL-encryption-from-Lets-Encrypt" data-toc-modified-id="Securing-the-Application-with-SSL-encryption-from-Lets-Encrypt-4.10.4.1"><span class="toc-item-num">4.10.4.1&nbsp;&nbsp;</span>Securing the Application with SSL encryption from Lets Encrypt</a></span></li><li><span><a href="#Log-out-button-link" data-toc-modified-id="Log-out-button-link-4.10.4.2"><span class="toc-item-num">4.10.4.2&nbsp;&nbsp;</span>Log out button link</a></span></li></ul></li></ul></li></ul></li><li><span><a href="#Scala-and-Spark" data-toc-modified-id="Scala-and-Spark-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Scala and Spark</a></span><ul class="toc-item"><li><span><a href="#Scalable-data-science" data-toc-modified-id="Scalable-data-science-5.1"><span class="toc-item-num">5.1&nbsp;&nbsp;</span>Scalable data science</a></span></li><li><span><a href="#Useful-links" data-toc-modified-id="Useful-links-5.2"><span class="toc-item-num">5.2&nbsp;&nbsp;</span>Useful links</a></span></li><li><span><a href="#Important-note-on-compatible-verisons" data-toc-modified-id="Important-note-on-compatible-verisons-5.3"><span class="toc-item-num">5.3&nbsp;&nbsp;</span>Important note on compatible verisons</a></span></li><li><span><a href="#Initial-setup-linux" data-toc-modified-id="Initial-setup-linux-5.4"><span class="toc-item-num">5.4&nbsp;&nbsp;</span>Initial setup linux</a></span><ul class="toc-item"><li><span><a href="#Java" data-toc-modified-id="Java-5.4.1"><span class="toc-item-num">5.4.1&nbsp;&nbsp;</span>Java</a></span></li><li><span><a href="#Spark" data-toc-modified-id="Spark-5.4.2"><span class="toc-item-num">5.4.2&nbsp;&nbsp;</span>Spark</a></span></li><li><span><a href="#Hadoop" data-toc-modified-id="Hadoop-5.4.3"><span class="toc-item-num">5.4.3&nbsp;&nbsp;</span>Hadoop</a></span></li><li><span><a href="#Scala" data-toc-modified-id="Scala-5.4.4"><span class="toc-item-num">5.4.4&nbsp;&nbsp;</span>Scala</a></span></li><li><span><a href="#SBT" data-toc-modified-id="SBT-5.4.5"><span class="toc-item-num">5.4.5&nbsp;&nbsp;</span>SBT</a></span></li><li><span><a href="#Check-installations" data-toc-modified-id="Check-installations-5.4.6"><span class="toc-item-num">5.4.6&nbsp;&nbsp;</span>Check installations</a></span></li></ul></li><li><span><a href="#Initial-setup-Windows" data-toc-modified-id="Initial-setup-Windows-5.5"><span class="toc-item-num">5.5&nbsp;&nbsp;</span>Initial setup Windows</a></span><ul class="toc-item"><li><span><a href="#Java" data-toc-modified-id="Java-5.5.1"><span class="toc-item-num">5.5.1&nbsp;&nbsp;</span>Java</a></span></li><li><span><a href="#Spark" data-toc-modified-id="Spark-5.5.2"><span class="toc-item-num">5.5.2&nbsp;&nbsp;</span>Spark</a></span></li><li><span><a href="#winutils-(Hadoop-Support)" data-toc-modified-id="winutils-(Hadoop-Support)-5.5.3"><span class="toc-item-num">5.5.3&nbsp;&nbsp;</span>winutils (Hadoop Support)</a></span></li><li><span><a href="#Scala" data-toc-modified-id="Scala-5.5.4"><span class="toc-item-num">5.5.4&nbsp;&nbsp;</span>Scala</a></span></li><li><span><a href="#SBT" data-toc-modified-id="SBT-5.5.5"><span class="toc-item-num">5.5.5&nbsp;&nbsp;</span>SBT</a></span></li><li><span><a href="#Define-all-the-necessary-path-variables" data-toc-modified-id="Define-all-the-necessary-path-variables-5.5.6"><span class="toc-item-num">5.5.6&nbsp;&nbsp;</span>Define all the necessary path variables</a></span><ul class="toc-item"><li><span><a href="#System-and-user-variables-explained" data-toc-modified-id="System-and-user-variables-explained-5.5.6.1"><span class="toc-item-num">5.5.6.1&nbsp;&nbsp;</span>System and user variables explained</a></span></li></ul></li></ul></li><li><span><a href="#Check-installation-of-Spark" data-toc-modified-id="Check-installation-of-Spark-5.6"><span class="toc-item-num">5.6&nbsp;&nbsp;</span>Check installation of Spark</a></span></li><li><span><a href="#IDE-Setup" data-toc-modified-id="IDE-Setup-5.7"><span class="toc-item-num">5.7&nbsp;&nbsp;</span>IDE Setup</a></span><ul class="toc-item"><li><span><a href="#intellij-IDEA" data-toc-modified-id="intellij-IDEA-5.7.1"><span class="toc-item-num">5.7.1&nbsp;&nbsp;</span>intellij IDEA</a></span><ul class="toc-item"><li><span><a href="#Windows-install" data-toc-modified-id="Windows-install-5.7.1.1"><span class="toc-item-num">5.7.1.1&nbsp;&nbsp;</span>Windows install</a></span></li><li><span><a href="#Linux-install" data-toc-modified-id="Linux-install-5.7.1.2"><span class="toc-item-num">5.7.1.2&nbsp;&nbsp;</span>Linux install</a></span></li></ul></li><li><span><a href="#Polynote" data-toc-modified-id="Polynote-5.7.2"><span class="toc-item-num">5.7.2&nbsp;&nbsp;</span>Polynote</a></span></li><li><span><a href="#Zeppelin-notebooks" data-toc-modified-id="Zeppelin-notebooks-5.7.3"><span class="toc-item-num">5.7.3&nbsp;&nbsp;</span>Zeppelin notebooks</a></span><ul class="toc-item"><li><span><a href="#Setup-for-local-zeppelin-(without-docker)" data-toc-modified-id="Setup-for-local-zeppelin-(without-docker)-5.7.3.1"><span class="toc-item-num">5.7.3.1&nbsp;&nbsp;</span>Setup for local zeppelin (without docker)</a></span></li><li><span><a href="#Convert-between-databricks,-JSON-and-Zeppelin-notebook-files-using-Pinot" data-toc-modified-id="Convert-between-databricks,-JSON-and-Zeppelin-notebook-files-using-Pinot-5.7.3.2"><span class="toc-item-num">5.7.3.2&nbsp;&nbsp;</span>Convert between databricks, JSON and Zeppelin notebook files using Pinot</a></span></li></ul></li></ul></li></ul></li><li><span><a href="#Sagemath" data-toc-modified-id="Sagemath-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>Sagemath</a></span></li></ul></div>
 
@@ -52,29 +51,225 @@ https://forums.databricks.com/questions/29588/when-taking-the-2019-crt020-scalas
 https://askubuntu.com/questions/1208109/how-to-upgrade-from-18-10-to-19-10-using-the-command-line
 
 From terminal use release upgrade as shown below. This is best way of preserving virtual box setting etc<br>
-`do-release-upgrade`<br>
+`do-release-upgrade -d`<br>
 If this does not work then try via the GUI software updater<br>
 <br>
-To upgrade between non compliant versions eg 18.10 to 19.10<br>
+You cal also try<br>
+update-manager -d
+
+
+__To upgrade between non compliant versions eg 18.10 to 19.10__<br>
 <br>
-Run do-release-upgrade on the 18.10 system. This will give you an error about being unsupported. But behind the scenes, the tool will download some metadata files we want to modify. <br>
+Run `do-release-upgrade` on the 18.10 system. This will give you an error about being unsupported. But behind the scenes, the tool will download some metadata files we want to modify. <br>
 <br>
-As root, go in to /var/lib/update-manager and copy the file meta-release to a new file meta-release2. This file was downloaded by do-release-upgrade from the Internet and tells the upgrader how to upgrade.<br>
+As root, go in to `/var/lib/update-manager` and copy the file `meta-release` to a new file `meta-release2`. This file was downloaded by do-release-upgrade from the Internet and tells the upgrader how to upgrade.<br>
 <br>
-Edit meta-release2. Remove all entries for eoan entirely. Modify the disco entry so it says Supported: 1<br>
+Edit `meta-release2`. Remove all entries for eoan entirely. Modify the disco entry so it says `Supported: 1`<br>
 <br>
-Edit the file /usr/lib/python3/dist-packages/UpdateManager/Core/MetaRelease.py. Change this line of code self.metarelease_information = open(self.METARELEASE_FILE, "r") To read self.metarelease_information = open(self.METARELEASE_FILE + "2", "r") That will tell the upgrader to use your modified file instead of the original. (It will also avoid any redownloads overwriting your changes.)<br>
+Edit the file `/usr/lib/python3/dist-packages/UpdateManager/Core/MetaRelease.py`. Change this line of code<br>
+`self.metarelease_information = open(self.METARELEASE_FILE, "r") To read self.metarelease_information = open(self.METARELEASE_FILE + "2", "r")`<br>
+
+That will tell the upgrader to use your modified file instead of the original. (It will also avoid any redownloads overwriting your changes.)<br>
 <br>
-Run do-release-upgrade. It should now be doing an upgrade 18.10 → 19.04. Let that run as normal and reboot.<br>
+Run <br> 
+`do-release-upgrade`<br>
+It should now be doing an upgrade 18.10 → 19.04. Let that run as normal and reboot.<br>
 <br>
-Congratulations! You’re now running 19.04. Remove the /var/lib/update-manager/meta-release2 you made.<br>
-Since 19.10 is supported, all you have to do to upgrade 19.04 → 19.10 is run do-release-upgrade again. No hacks necessary, you’re back on the main path.<br>
+Congratulations! You’re now running 19.04. Remove the `/var/lib/update-manager/meta-release2` you made.<br>
+Since 19.10 is supported, all you have to do to upgrade 19.04 → 19.10 is run `do-release-upgrade` again. No hacks necessary, you’re back on the main path.<br>
 
 
 
 ## Virtual Box
-Steps to build linux ubuntu virtual machine:
-   
+
+### Setup for Linux Ubuntu Server with SSH Connections
+This is seen as the optimum setup. A linux server on virtualbox combined with Putty enables:<br>
+1) Much faster response from VM<br>
+2) Much less use of computer resources such as RAM<br>
+3) Ability to port Jupyter etc into host browser<br>
+4) Ability to SSH into VM from IDE like VisualCode<br>
+
+#### Installing VBox and Ubuntu Server disk image
+1) Enable virtualisation on bios<br>
+2) Download latest version of Ubuntu Server (64 bit version) as disk image from https://ubuntu.com/download/server<br>
+3) Download latest version of Oracle VirtualBox from https://www.virtualbox.org/ and install.<br>
+4) Setup virtual machine using VirtualBox using Ubuntu Server disk image as chosen OS.<br>
+5) Use the link below as a guide to vbox setup, there are a few more steps including setting up putty for terminal access etc which I have detailed in separate section but is also mentioned on this site.<br>
+https://hibbard.eu/install-ubuntu-virtual-box/<br>
+(Note the mouse pointer does not really integrate fully with the linux server VM but this is of no concern as we are merely using this as mechanism to launch the server. Once it is launched we will do all our interaction through either putty terminals or VSCode.)
+
+#### Installing Guest additions on Ubuntu Server
+To install guestadditions on Server its different to the GUI below. Please follow the following steps taken from http://en.ig.ma/notebook/2012/virtualbox-guest-additions-on-ubuntu-server.<br>
+a) Start the Ubuntu Server VM and insert the Guest Additions CD image (Devices menu, Install Guest Additions)<br>
+b) `sudo mount /dev/cdrom /media/cdrom` <br>
+c) `sudo apt-get install -y dkms build-essential linux-headers-generic linux-headers-$(uname -r)` <br>
+d) `sudo /media/cdrom/VBoxLinuxAdditions.run`<br>
+
+
+#### Setup Ports for connections into SSH, Jupyter and Zeppelin
+
+To check IP Address for linux vm simly type ifconfig in terminal. <br>
+If it is not installed, install by<br>
+`apt-get install net-tools`<br>
+
+We will use this port when editing settings in virtualbox as show below<br>
+
+To setup ports for Zeppelin, Jpuyter and SSH, go to settings > Network > Port forwarding<br>
+<img src="media/ports_1.png"> <br>
+
+Then add the following three ports:<br>
+<img src="media/ports_2.png"><br>
+
+
+#### Setup SSH on Linux VM
+Change ssh on vm to not allow password and only ssh key in <br>
+/etc/ssh/sshd_config<br>
+If ssh not installed on linux follow this site to repair/install<br>
+https://askubuntu.com/questions/603493/apt-get-dependency-issue-open-ssh-client<br>
+Essentially two commands:<br>
+
+`sudo apt-get remove openssh-server openssh-client --purge && sudo apt-get autoremove && sudo apt-get autoclean && sudo apt-get update`<br>
+
+`sudo apt-get install openssh-server openssh-client`<br>
+
+keys will be stored at ~/.ssh<br>
+need to copy public key from windows into this folder and call it authorized_keys later<br><br>
+
+__(Extra Note Windows ssh config folder)__<br>
+Just to note Windows ssh config in hidden folder ProgramData but we don’t need to change this as we going in opposite direction. If we had to, follow below command in powershell<br>
+`cd $env:ProgramData\ssh`<br>
+
+Or alternatively can get by `windows+r` and enter `%ProgramData%`<br>
+
+
+
+
+#### Ubuntu Server Connection- Username and Password Method
+__Putty__<br>
+Install Putty and puttygen from https://www.puttygen.com/download-putty <br>
+(alternative site https://www.ssh.com/ssh/putty/download#sec-Download-PuTTY-installation-package-for-Windows)<br>
+
+At this stage if just want to access via SSH using username and password each time simply setup putty to connect to localhost 127.0.0.1 as below and it will add to known_hosts however each time you launch a new putty window you will have to re-enter username and password. To avoid this follow on and setup SSH public/private keys which is more secure and avoids hassle of having to reenter username andpassword in VSCode and Putty terminals everytime they launch.<br>
+<img src="media/putty_1.png"><br><br>
+
+__VSCode__<br>
+Open VSCode and click bottom left corner<br>
+<img src="media/vscode_1.png"><br>
+
+Click on REmore-SSH:Open Configuration File...<br>
+<img src="media/vscode_2.png"><br>
+
+Add the following lines to the config file<br>
+<img src="media/vscode_3.png"><br>
+
+Save and click the bottom left corner again and select REmote-SSH Connect to Host...<br>
+<img src="media/vscode_4.png"><br>
+
+Select the name of your connection, you should be prompted for password and it should connect.
+<img src="media/vscode_5.png"><br>
+
+
+
+##### Access via SSH public/private key
+__useful links__<br>
+https://bobcares.com/blog/virtualbox-ssh-nat/<br>
+https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement<br><br>
+
+
+__Putty__<br>
+Follow instructions on here to create key pair for putty and save in `c:\Users\userID\.ssh` as the OpenSSH keys will also be saved in here by default later. Name these keys `ubuntuserver.ppk` and `ubuntuserver_pub` respectively to differentiate from the OpenSSH keys later.<br>
+https://www.wolfenden.org/content/ssh-login-without-password-using-putty<br>
+
+(Note Remember to use line below to copy public key as suggested in link rather than manually copying it. To copy public key into shared folder go into linux VM window and use below command to add to authorized hosts on linux VM)<br>
+`ssh-keygen -i -f ubuntuserver_pub >> .ssh/authorized_keys`<br>
+
+If you open a putty terminal it should now auto-login without need for username or password. Test launching jupyter and zeppelin as they should both now be available in your host browser.
+
+If you get errors and want to start fresh, you can delete the current known hosts for putty by steps below https://superuser.com/questions/197489/where-does-putty-store-known-hosts-information-on-windows<br>
+Open Run by `Windows+R`<br>
+type `regedit` and hit return<br>
+In registry naviagate to `HKEY_CURRENT_USER\Software\SimonTatham\PuTTY\SshHostKeys`<br>
+Delete any keys other than default and can then restart process from beginning.<br>
+
+Unfortunately the putty keys are incompatible with powershell and vSCode etc and vice versa. Consequently we also install a pair of OpenSSH keys below for these apps. Note we could also create OpenSSH keys first and create putty keys from these but it is cleaner to have separate keys for these two distinct use cases.<br>
+
+
+__VSCode__<br>
+Install OpenSSH 8.2p1-1 from https://www.mls-software.com/opensshd.html<br>
+<img src="media/openssh_1.png">
+
+Enter all the defaults for keysize etc but change the password step to one of your choosing.<br>
+
+Next open up a powershell terminal and Type in<br>
+
+`ssh-keygen`<br>
+
+Acccept defaults and dont bother with passphrase etc<br>
+
+Now this method does not write protect the privatw key and so you will get error below if try to SSH. They key will be ignored and the SSH key connection will not work.<br>
+<img src="media/openssh_2.png">
+
+Follow instructions below to change file rights to get past the warning by making key more secure<br>
+https://superuser.com/questions/1296024/windows-ssh-permissions-for-private-key-are-too-open<br>
+Essentially<br>
+`[File] Properties - Security - Advanced`<br>
+Set Owner to the key's user<br>
+Remove all users, groups, and services, except for the key's user, under Permission Entries<br>
+Set key's user to Full Control<br>
+
+(Alternative instructions here if above doesnt work https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement)
+
+Next copy the file to shared folder, enter VM window and append to authorized_keys which already holds the putty key from earlier.<br>
+`cat id_rsa.pub >> ~/.ssh/authorized_keys`<br>
+If Have no other keys can simply overwrite by using single `>`<br>
+`cat id_rsa.pub > ~/.ssh/authorized_keys`<br>
+
+Now you can check connection by opening powershell in admin mode and typing:<br>
+`ssh USERNAME@127.0.0.1 -p 2222`<br>
+Click yes to trust host and it should connect with no password required.<br>
+
+Now simply add a line to the VSCode config file from earlier to point to the public key using `IdentifyFile` as below.<br>
+<img src="media/vscode_6.png">
+
+You should now be able to follow the same instructions as for VSCode with username/password from earleir but now should not need to enter password.
+
+
+
+__OpenSSH Install from binary__<br>
+The above steps used an independent installer which manages the install, if you want to install direct from OpenSSH git source follow steps below. (Note the installer above does make prompt run smoother in powershell etc and is preferred method)<br>
+https://www.mcclellandlegge.com/2017-02-24-installsshd/
+Additional links if hit problems
+https://o7planning.org/en/11409/installing-openssh-server-on-windows
+https://winscp.net/eng/docs/guide_windows_openssh_server
+
+__Summary of steps__<br>
+Download latest release of OpenSSH from here<br>
+https://github.com/PowerShell/Win32-OpenSSH/releases/<br>
+Unzip and save at C:\Program Files\OpenSSH for example<br>
+Open powershell as admin and go to this new OpenSSH folder<br>
+cd 'C:\Program Files\OpenSSH<br>
+Run below command to install ssh-agent and sshd (the-daemon)<br>
+powershell.exe -ExecutionPolicy Bypass -File install-sshd.ps1<br>
+Note step (powershell.exe -ExecutionPolicy Bypass -File install-sshlsa.ps1 IS NOT REQUIRED IF FOLLOWING ON LINKS ABOVE)<br>
+Then set up the ssh host keys that are required by the daemon when it starts, -A takes all defaults which is fine.<br>
+.\ssh-keygen.exe -A
+(ssh flags explained here http://man.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man1/ssh-keygen.1?query=ssh-keygen&sec=1)<br>
+If overwriting current keys run verbose without the -A <br>
+.\ssh-keygen.exe<br>
+You should now have a public private keyp air similar to the installer method and all subsequqnt steps are the same. Note in this method the private key is created with the correct permissions so no changed are needed on that front. <br>
+Just note when using OpenSSH folder like this need to urn commands from the eecutables in that folder. So for example to SSH connect go to that folder and run:<br>
+`./ssh.exe name@127.0.0.1 -p 2222`<br>
+As opposed to just line beloe from the installer method earlier.<br>
+`ssh name:127.0.0.1 -p 2222`<br>
+
+
+
+
+
+
+
+
+### Setup for Linux Ubuntu GUI
 1) Enable virtualisation on bios<br>
 2) Download latest version of Ubuntu (64 bit version) as disk image from https://ubuntu.com/download/desktop<br>
 3) Download latest version of Oracle VirtualBox from https://www.virtualbox.org/ and install.<br>
@@ -115,14 +310,19 @@ __Install dpkg and associated packages__<br>
 `sudo apt-get install dpkg`<br>
 `sudo apt-get install virtualbox-guest-gkms virtualbox-guest-utils virtualbox-guest-x11`<br>
 
+
+
+
+
+
+
 ### Using vboxmanage to configure virtualbox<br>
+These notes are really only for tweaking the config in things like the prefix of the shared folder and its mount location. They are more linked to the GUI option above rather than the server option setup.
 
 __IMPORTANT NOTES:__<br>
 1.Guest Additions 6.0 does not work with below commands use Guest Additions 5.2.4<br>
 2.Make sure virtualbox is set to permanently run as an administrator<br>
 3.vboxmanage and VBoxManage both work, its not case sensitive<br>
-
-
 
 __Allow symbolic links in shared folder (For virtualenv etc)__<br>
 In command prompt in windows change to directory<br>
@@ -156,6 +356,13 @@ __Check location and prefix shared folder details__<br>
 <img src="media/vbox_8.png">
 __Example output__
 <img src="media/vbox_9.png">
+
+
+
+
+
+
+
 
 ### Increase size of VM partition
 
