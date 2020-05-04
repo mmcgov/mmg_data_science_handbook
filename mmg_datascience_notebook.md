@@ -263,7 +263,10 @@ As opposed to just line beloe from the installer method earlier.<br>
 `ssh name:127.0.0.1 -p 2222`<br>
 
 
+#### AutoStart VM Linux Server using shortcut
 
+Simply create a new shortcut by right click > shortcut and add below as path:<br>
+`"C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" startvm "ubuntu_server_20.04"  --type headless`<br>
 
 
 
@@ -372,6 +375,10 @@ http://derekmolloy.ie/resize-a-virtualbox-disk/#prettyPhoto
 Make sure to connect correct new .vdi file afterwards to your VM as below.
 
 <img src="media/vbox_12.png">
+
+
+
+
 
 ## Setup PATH variable correctly<br>
 __PATH__: A list of directories that the system will check when looking for binary files and executables for packages. When a user types in a command, the system will check directories in this order for the executable.<br>
