@@ -191,10 +191,19 @@ type `regedit` and hit return<br>
 In registry naviagate to `HKEY_CURRENT_USER\Software\SimonTatham\PuTTY\SshHostKeys`<br>
 Delete any keys other than default and can then restart process from beginning.<br>
 
-Unfortunately the putty keys are incompatible with powershell and vSCode etc and vice versa. Consequently we also install a pair of OpenSSH keys below for these apps. Note we could also create OpenSSH keys first and create putty keys from these but it is cleaner to have separate keys for these two distinct use cases.<br>
+Unfortunately the putty keys are incompatible with powershell and vSCode etc and vice versa. Consequently we also install a pair of OpenSSH keys below for these apps. Note we could also create OpenSSH keys first and create putty keys from these by converting them as shown in link below but it is cleaner to have separate keys for these two distinct use cases.<br>
+
+https://code.visualstudio.com/docs/remote/troubleshooting#_reusing-a-key-generated-in-puttygen
 
 
 __VSCode__<br>
+__useful links__<br>
+https://www.digitalocean.com/community/tutorials/how-to-use-visual-studio-code-for-remote-development-via-the-remote-ssh-plugin
+
+Install remote development extension which covers SSH, WSL etc.
+<img src="media/vscode_0.png">
+
+
 Install OpenSSH 8.2p1-1 from https://www.mls-software.com/opensshd.html<br>
 <img src="media/openssh_1.png">
 
