@@ -48,8 +48,6 @@ https://forums.databricks.com/questions/29588/when-taking-the-2019-crt020-scalas
 # Linux
 
 ## Upgrading
-https://askubuntu.com/questions/1208109/how-to-upgrade-from-18-10-to-19-10-using-the-command-line
-
 From terminal use release upgrade as shown below. This is best way of preserving virtual box setting etc<br>
 `do-release-upgrade -d`<br>
 If this does not work then try via the GUI software updater<br>
@@ -59,7 +57,7 @@ update-manager -d
 
 
 __To upgrade between non compliant versions eg 18.10 to 19.10__<br>
-<br>
+https://askubuntu.com/questions/1208109/how-to-upgrade-from-18-10-to-19-10-using-the-command-line<br>
 Run `do-release-upgrade` on the 18.10 system. This will give you an error about being unsupported. But behind the scenes, the tool will download some metadata files we want to modify. <br>
 <br>
 As root, go in to `/var/lib/update-manager` and copy the file `meta-release` to a new file `meta-release2`. This file was downloaded by do-release-upgrade from the Internet and tells the upgrader how to upgrade.<br>
@@ -77,6 +75,131 @@ It should now be doing an upgrade 18.10 → 19.04. Let that run as normal and re
 <br>
 Congratulations! You’re now running 19.04. Remove the `/var/lib/update-manager/meta-release2` you made.<br>
 Since 19.10 is supported, all you have to do to upgrade 19.04 → 19.10 is run `do-release-upgrade` again. No hacks necessary, you’re back on the main path.<br>
+
+
+## Windows Subsystem for Linux (WSL2)
+With the windows 2004 update in May 2020 WSL now has a full linux kernel and as such much better compatibility with Docker etc.
+I installed it via the Windows Prevoew build and it is very impressive. It is now my default setup for data science replacing the virtualbox config I had previous which is described in later sections.<br>
+
+
+
+
+
+
+### Install WSL2
+https://docs.microsoft.com/en-us/windows/wsl/wsl2-install
+Upgrade to windows insider preview release (only temporarily needed until next windows update in May 2020).
+
+#### Setup new windows terminal
+Download new windows terminal from windows store and install<br>
+Open setting from top menu and paste in attached json which has updated settings for tango dark etc<br> https://gist.github.com/rkitover/bd9c93d56708f065797739d8ace8c864
+
+
+
+#### Turn on Virtual machine platform and Windows subsystem for linux<br>
+To do this go to `Turn windows feature on and off` and select appropriate boxes. (Note when virtual machine platform is turned on Virtualbox may not work and you may need to turn this off again to access virtualbox which in turn will stop WSL working. It is not currently possible to have both running simultaneously due to non-compatibility with hyper-v in virtualbox but they will probably soon update to fix this issue. WSL1 doesn’t use virtual platform so if want to check files or compare setup between virtualbox and wsl can revert temporarily to this)<br>
+
+Restart computer<br>
+
+#### Download dist
+Go to Microsoft store and install Ubuntu dist of choice (usually 18.04 LTS)
+Enter username and password for linux when prompted 
+
+#### Update dist to WSL2
+https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-powershell-1.0/ee176961(v=technet.10)?redirectedfrom=MSDN
+Open Powershell with admin rights<br>
+Enable all scripts to be run by command:<br>
+`Set-ExecutionPolicy Unrestricted`<br>
+To list dists<br>
+`wsl -l`<br>
+to upgrade it to wsl2<br>
+`wsl –set-version Ubuntu-18.04 2`<br>
+Check version should now be 2, check with below line
+wsl -l -v
+Note if converting from wsl to wsl2 on existing system can take time if large root. Alternative way is to follow steps in link below.<br> 
+https://www.reddit.com/r/bashonubuntuonwindows/comments/c08wjz/wsl_2_conversion_taking_too_long/
+
+
+#### Correct file permissions for linux files
+https://docs.microsoft.com/en-us/windows/wsl/release-notes#build-17063
+Unmount c drive<br>
+sudo umount -l /mnt/c<br>
+remount with metadata<br>
+sudo mount -t drvfs C: /mnt/c -o metadata,uid=1000,gid=1000<br>
+set to automount like this everytime by creating conf file in etc<br>
+https://docs.microsoft.com/en-us/windows/wsl/wsl-config<br>
+`vim /etc/wsl.conf`<br>
+adding following lines<br>
+
+`#metadata options by default`<br>
+`[automount]`<br>
+`enabled = true`<br>
+`options = "metadata,uid=1000,gid=1000"`<br>
+
+#### update system<br>
+`sudo apt-get update`<br>
+`sudo apt-get upgrade`<br>
+
+#### Install zsh with new powerlevel10k theme
+PLease note zsh is faster and more informative that bash so we will move to zsh from this point on and any future config updates will be placed in the .zshrc file instead of the .bashrc.<br>
+https://www.sitepoint.com/zsh-tips-tricks/<br>
+https://medium.com/@hjgraca/style-your-windows-terminal-and-wsl2-like-a-pro-9a2e1ad4c9d0<br>
+https://medium.com/@shivam1/make-your-terminal-beautiful-and-fast-with-zsh-shell-and-powerlevel10k-6484461c6efb<br>
+https://github.com/romkatv/powerlevel10k<br>
+https://unix.stackexchange.com/questions/273529/shorten-path-in-zsh-prompt<br>
+Use below link at step involving fonts to ensure have all fonts installed<br>
+https://medium.com/@slmeng/how-to-install-powerline-fonts-in-windows-b2eedecace58<br>
+set all fonts to `MesloLGS NF` in `profiles.json`<br>
+Restart your terminal, install the recommended font and run p10k configure.<br>
+https://github.com/romkatv/powerlevel10k/issues/455<br>
+to tweak setting <br>
+`vim ~/.p10k.zsh`<br>
+to switch back to bash<br>
+`chsh -s /bin/bash`<br>
+and back to zsh<br>
+`chsh -s /bin/zsh`<br>
+to restart autoconfigure<br>
+`p10k configure`<br>
+__Important to change font to MesloLGS NF in Powershell, Windows Terminal and VS Code__<br>
+__Powershell__ – right click on top bar go to settings<br>
+__WSL terminal__ – right click on top bar go to settings<br>
+__Vs code__ – `file>preferences>settings>text editor>font`<br>
+
+
+
+#### Python pip and virtualenv setup
+__install python and pip__<br>
+`sudo apt install python3-pip`<br>
+
+__Install virtualenv and virtualenvwrapper__<br>
+pip3 install --user virtualenv<br>
+pip3 install --user virtualenvwrapper<br>
+update .bashrc to point to venv files<br>
+export VIRTUALENVWRAPPER_VIRTUALENV=/home/martin/.local/bin/virtualenv<br>
+source /home/martin/.local/bin/virtualenvwrapper.sh<br>
+
+
+#### Setup jupyter IDE
+https://medium.com/@harshityadav95/jupyter-notebook-in-windows-subsystem-for-linux-wsl-8b46fdf0a536<br>
+Try this additional link only if having issues<br>
+https://www.snizami.com/post/jupyter_on_wsl2/<br>
+pip3 install jupyter<Br>
+Add below line to `~/.bashrc`<br>
+`alias jupyter-notebook="~/.local/bin/jupyter-notebook --no-browser`"<br>
+type jupyter-notebook and should load in local host, setup password etc<br>
+
+
+#### Install docker
+https://docs.docker.com/docker-for-windows/wsl-tech-preview/<br>
+https://code.visualstudio.com/blogs/2020/03/02/docker-in-wsl2<br>
+
+
+
+### Extra hints/Tips
+
+#### Add/Remove Linux Tux from File Explorer
+https://www.tenforums.com/tutorials/127506-add-remove-linux-navigation-pane-windows-10-a.html<br>
+https://www.tenforums.com/tutorials/127857-access-wsl-linux-files-windows-10-a.html<br>
 
 
 
@@ -104,6 +227,8 @@ a) Start the Ubuntu Server VM and insert the Guest Additions CD image (Devices m
 b) `sudo mount /dev/cdrom /media/cdrom` <br>
 c) `sudo apt-get install -y dkms build-essential linux-headers-generic linux-headers-$(uname -r)` <br>
 d) `sudo /media/cdrom/VBoxLinuxAdditions.run`<br>
+Additional link if above not working <br>
+https://linuxize.com/post/how-to-install-virtualbox-guest-additions-in-ubuntu/
 
 
 #### Setup Ports for connections into SSH, Jupyter and Zeppelin
@@ -378,12 +503,14 @@ __Example output__
 
 ### Increase size of VM partition
 
-Follow instructions on below link
-http://derekmolloy.ie/resize-a-virtualbox-disk/#prettyPhoto
+Follow instructions on below link<br>
+http://derekmolloy.ie/resize-a-virtualbox-disk/#prettyPhoto<br>
+Please note need to be in virtualbox directory for the resize step to work. See code line below<br>
+`C:\Program Files\Oracle\VirtualBox>VBoxmanage modifyhd "C:\Users\ah0164151\VirtualBox VMs\ubuntu_server_20.04\ubuntu_server_20.04.vdi" --resize 100000`<br>
 
-Make sure to connect correct new .vdi file afterwards to your VM as below.
+Make sure to connect correct new .vdi file afterwards to your VM as below.<br>
 
-<img src="media/vbox_12.png">
+<img src="media/vbox_12.png"><br>
 
 
 
