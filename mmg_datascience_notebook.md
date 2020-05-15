@@ -47,6 +47,9 @@ https://forums.databricks.com/questions/29588/when-taking-the-2019-crt020-scalas
 
 # Linux
 
+## Check current distribution
+`lsb_release -a` 
+
 ## Upgrading
 From terminal use release upgrade as shown below. This is best way of preserving virtual box setting etc<br>
 `do-release-upgrade -d`<br>
@@ -78,12 +81,27 @@ Since 19.10 is supported, all you have to do to upgrade 19.04 → 19.10 is run `
 
 
 ## Windows Subsystem for Linux (WSL2)
+### Useful links
+https://adamtheautomator.com/windows-subsystem-for-linux/<br><Br>
+
+
+
 With the windows 2004 update in May 2020 WSL now has a full linux kernel and as such much better compatibility with Docker etc.
 I installed it via the Windows Prevoew build and it is very impressive. It is now my default setup for data science replacing the virtualbox config I had previous which is described in later sections.<br>
 
+### Backup and restore WSL2
+https://www.howtogeek.com/426562/how-to-export-and-import-your-linux-systems-on-windows-10/<br>
 
+To create a backup of current dist:<br>
+`wsl --export distro_name file_name.tar`<br>
+Example:<br>
+`wsl --export Ubuntu-18.04 ubuntu.tar`<br><br>
 
-
+To import a backup and create a dist:<br>
+`wsl --import distro_name install_location file_name.tar`<br>
+Example:<br>
+`wsl --import Ubuntu-18.04 C:\Users\Chris\ubuntu C:\Users\Martin\ubuntu.tar`<br>
+If you want to match where Windows normally installs them to by default, they’re generally in their own folder in `C:\Users\NAME\AppData\Local\Packages`. For example, you might want to put Ubuntu in `C:\Users\NAME\AppData\Local\Packages\Ubuntu`<br><br>
 
 
 ### Install WSL2
@@ -93,9 +111,14 @@ Upgrade to windows insider preview release (only temporarily needed until next w
 #### Setup new windows terminal
 Download new windows terminal from windows store and install<br>
 Open setting from top menu and paste in attached json which has updated settings for tango dark etc<br> https://gist.github.com/rkitover/bd9c93d56708f065797739d8ace8c864
-
-
-
+To setup more than one profile remember to change line below:<br>
+`"commandline": "wsl"`<br>
+To this line<br>
+`"commandline": "wsl -d Ubuntu-18.04"`<br>
+Otherwise all distribution profiles will launch the default dist and not the various different distributions available. So if you choose Ubuntu 20.04 it will still launch Ubuntu 18.04.<br>
+https://github.com/microsoft/terminal/blob/master/doc/user-docs/UsingJsonSettings.md
+    
+    
 #### Turn on Virtual machine platform and Windows subsystem for linux<br>
 To do this go to `Turn windows feature on and off` and select appropriate boxes. (Note when virtual machine platform is turned on Virtualbox may not work and you may need to turn this off again to access virtualbox which in turn will stop WSL working. It is not currently possible to have both running simultaneously due to non-compatibility with hyper-v in virtualbox but they will probably soon update to fix this issue. WSL1 doesn’t use virtual platform so if want to check files or compare setup between virtualbox and wsl can revert temporarily to this)<br>
 
@@ -178,6 +201,17 @@ update .bashrc to point to venv files<br>
 export VIRTUALENVWRAPPER_VIRTUALENV=/home/martin/.local/bin/virtualenv<br>
 source /home/martin/.local/bin/virtualenvwrapper.sh<br>
 
+You may get errors, please follow below link for extra help:
+https://gist.github.com/dixneuf19/a398c08f00aac24609c3cc44c29af1f0
+
+__Common Error__<br>
+The virtualenvwrapper.sh script throws an error like:<br>
+`virtualenvwrapper_run_hook:12: permission denied:-`<br>
+`virtualenvwrapper.sh: There was a problem running the initialization hooks.`<br>
+It's probably your system use python3 command and not python. Adding alias python=python3 doesn't seem to work.<br>
+You need to add in `.zshrc`, before the plugins line:<br>
+`export VIRTUALENVWRAPPER_PYTHON=$(which python3)`<br>
+
 
 #### Setup jupyter IDE
 https://medium.com/@harshityadav95/jupyter-notebook-in-windows-subsystem-for-linux-wsl-8b46fdf0a536<br>
@@ -186,9 +220,15 @@ https://www.snizami.com/post/jupyter_on_wsl2/<br>
 pip3 install jupyter<Br>
 Add below line to `~/.bashrc`<br>
 `alias jupyter-notebook="~/.local/bin/jupyter-notebook --no-browser`"<br>
+    
 type jupyter-notebook and should load in local host, setup password etc<br>
 
-
+If having difficulties run below command to toally remove it and start fresh.<br>
+`python3 -m pip uninstall -y jupyter jupyter_core jupyter-client jupyter-console notebook qtconsole nbconvert nbformat`<br>
+You may need to also remove any jpuyter binary folders in `/usr/bin/jupyter` etc <br>
+(See https://stackoverflow.com/questions/33052232/how-to-uninstall-jupyter)<br>
+ 
+ 
 #### Install docker
 https://docs.docker.com/docker-for-windows/wsl-tech-preview/<br>
 https://code.visualstudio.com/blogs/2020/03/02/docker-in-wsl2<br>
@@ -196,7 +236,6 @@ https://code.visualstudio.com/blogs/2020/03/02/docker-in-wsl2<br>
 
 
 ### Extra hints/Tips
-
 #### Add/Remove Linux Tux from File Explorer
 https://www.tenforums.com/tutorials/127506-add-remove-linux-navigation-pane-windows-10-a.html<br>
 https://www.tenforums.com/tutorials/127857-access-wsl-linux-files-windows-10-a.html<br>
@@ -756,6 +795,11 @@ list size of containers, objects etc<br>
 `sudo du -h --max-depth=1`<br>
 Clean up docker related items<br>
 `docker system prune -a` <br>
+
+# Git
+
+to check git <br>
+`${HOME}/.gitconfig<br>`
 
 # Python
 
@@ -2429,6 +2473,11 @@ interact(plot_new,
     interactive(children=(Dropdown(description='ticker', index=50, options=('PNRA', 'BANR', 'TER', 'DGX', 'UAA', '…
 
 
+## Machine learning
+
+### Choosing the right estimator
+https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html
+
 ## Productionisation of code
 
 
@@ -3806,3 +3855,10 @@ https://www.youtube.com/watch?v=A59flmBEVzk<br>
 `sudo apt-get install sagemath`
 
 
+
+# Mendeley
+
+Mendeley is great for storing research papers. However it does not scale correctly with HDPI screens and so you need to create your own manifest file. Follow steps in link below to create a manifest file and save it in the mendeley directory in program files.<br><br>
+__NOTE:__ You cannot save direct from notepad or whatever editor you create the manifest file in. So save it first then copy it in file explorer and paste into the correct mendeley folder in program files using admin access.)<br><br>
+There is an example mainfest file in the example datasets folder in this repo.<br><br>
+https://danantonielli.com/adobe-app-scaling-on-high-dpi-displays-fix/
