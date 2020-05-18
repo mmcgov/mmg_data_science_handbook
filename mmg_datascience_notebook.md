@@ -38,6 +38,7 @@ https://www.kryteriononline.com/sites/default/files/docs/PreparingForYourExam.pd
 https://go.proctoru.com/students/order<br>
 #### Study guide<br>
 https://www.linkedin.com/pulse/spark-simplified-certification-study-guide-raki-rahman/
+https://forums.databricks.com/questions/29588/when-taking-the-2019-crt020-scalaspark-certification.html
 #### Blog on linkedin with detailed prep notes<br>
 https://www.linkedin.com/pulse/all-you-need-clear-crt020-databricks-certified-associate-kumar<br>
 https://www.linkedin.com/pulse/spark-simplified-certification-study-guide-raki-rahman/
@@ -56,7 +57,7 @@ From terminal use release upgrade as shown below. This is best way of preserving
 If this does not work then try via the GUI software updater<br>
 <br>
 You cal also try<br>
-update-manager -d
+`update-manager -d`<br>
 
 
 __To upgrade between non compliant versions eg 18.10 to 19.10__<br>
@@ -81,13 +82,14 @@ Since 19.10 is supported, all you have to do to upgrade 19.04 → 19.10 is run `
 
 
 ## Windows Subsystem for Linux (WSL2)
-### Useful links
-https://adamtheautomator.com/windows-subsystem-for-linux/<br><Br>
-
-
 
 With the windows 2004 update in May 2020 WSL now has a full linux kernel and as such much better compatibility with Docker etc.
 I installed it via the Windows Prevoew build and it is very impressive. It is now my default setup for data science replacing the virtualbox config I had previous which is described in later sections.<br>
+
+### Useful links
+https://adamtheautomator.com/windows-subsystem-for-linux/<br><br>
+
+
 
 ### Backup and restore WSL2
 https://www.howtogeek.com/426562/how-to-export-and-import-your-linux-systems-on-windows-10/<br>
@@ -595,6 +597,8 @@ Then add below line to ~/.bashrc file<br>
 You can change modify any colours in the ~/.dir_colors file and it will show the new colour instantly.
 
 Note you can also use the gui method by right clicking inside terminal and going to preferences. It is useful to create a new profile here and set it default.
+
+
 
 ## Linux Server
 
@@ -1646,7 +1650,14 @@ That's it. You have successfully installed PhantomJS on Ubuntu 16.04 server<br>
 ### Regular Expressions
 
 #### Useful Links
+
+https://www.quora.com/From-where-and-how-should-I-learn-regex-in-Python-to-be-good-at-it<br>
 https://regexr.com/<br>
+https://www.tutorialspoint.com/python/python_reg_expressions.htm<br>
+https://www.datacamp.com/community/tutorials/python-regular-expression-tutorial<br>
+https://developers.google.com/edu/python/regular-expressions<br>
+https://www.pythonforbeginners.com/regex/regular-expressions-in-python<br>
+
 
 Generall python regex is structured re.METHOD(PATTERN, STRING)<br>
 
@@ -1761,8 +1772,6 @@ def get_pybites_top_tags(n=10):
 
 ```
 
-
-```python
 ### String formatting
 
 See code cell below for example of using F string to create clean standardised output for variable length strings.<br>
@@ -1775,7 +1784,6 @@ f’{Variable_1:<15} means Variable will be left justified with the total column
 ie    `“Variable_1     #”`
 
 See example code below
-```
 
 
 ```python
@@ -2990,7 +2998,11 @@ https://www.shanelynn.ie/asynchronous-updates-to-a-webpage-with-flask-and-socket
 https://community.plot.ly/t/valueerror-received-for-the-x-property-of-scatter-zeromq-live-chart/11692/3<br>
 https://docs.google.com/document/d/1DjWL2DxLiRaBrlD3ELyQlCBRu7UQuuWfgjv9LncNp_M/edit<br>
 
-
+<br>
+Example Dash web app and notes from sites<br>
+https://davidcomfort-dash-app1.herokuapp.com/cc-travel-report/paid-search/<br>
+https://towardsdatascience.com/how-to-build-a-complex-reporting-dashboard-using-dash-and-plotl-4f4257c18a7f<br>
+https://dash.plotly.com/sharing-data-between-callbacks<br>
 
 
 
@@ -3343,18 +3355,40 @@ From now on to turn the web server on.<br>
 #### Log out button link
 `https://dash.plot.ly/dash-core-components/logoutbutton`
 
+#### Docker setup of Nginx/Gunicorn/Flask
+https://github.com/sladkovm/docker-flask-gunicorn-nginx
+https://github.com/tiangolo/uwsgi-nginx-flask-docker
+https://github.com/sladkovm/docker-flask-gunicorn-nginx/tree/master/nginx
+
+
+```python
+
+```
+
+
+```python
+
+```
+
+
+```python
+
+```
+
 # Scala and Spark
 
 ## Scalable data science
 This is a course I completed when Raazesh Sainudiin gave us a face to face course in scalable data science tools including spark, scala and zeppelin notebooks.I have included the most important links for the course below.<br>
 
-https://lamastex.github.io/scalable-data-science/sds/2/x/
-https://community.cloud.databricks.com/login.html#notebook/3206445649578041/command/3206445649578046
-https://developer.twitter.com/en/account/get-started
-GitHub - lamastex/mrs2: a C++ class library for statistical set processing and computer-aided proofs in statistics.
-https://github.com/lamastex/scalable-data-science/blob/master/_sds/basics/infrastructure/onpremise/dockerCompose.zip
-https://github.com/lamastex/scalable-data-science
-https://github.com/lamastex/scalable-data-science/tree/master/dbcArchives/2017/parts/studentProjects
+https://lamastex.github.io/scalable-data-science/in/2019/<br>
+https://github.com/lamastex/scalable-data-science/tree/master/dbcArchives/2019<br>
+https://lamastex.github.io/scalable-data-science/sds/2/x/<br>
+https://community.cloud.databricks.com/login.html#notebook/3206445649578041/command/3206445649578046<br>
+https://developer.twitter.com/en/account/get-started<br>
+GitHub - lamastex/mrs2: a C++ class library for statistical set processing and computer-aided proofs in statistics.<br>
+https://github.com/lamastex/scalable-data-science/blob/master/_sds/basics/infrastructure/onpremise/dockerCompose.zip<br>
+https://github.com/lamastex/scalable-data-science<br>
+https://github.com/lamastex/scalable-data-science/tree/master/dbcArchives/2017/parts/studentProjects<br>
 
 
 ## Useful links
