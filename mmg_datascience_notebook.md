@@ -38,6 +38,7 @@ https://www.kryteriononline.com/sites/default/files/docs/PreparingForYourExam.pd
 https://go.proctoru.com/students/order<br>
 #### Study guide<br>
 https://www.linkedin.com/pulse/spark-simplified-certification-study-guide-raki-rahman/
+https://forums.databricks.com/questions/29588/when-taking-the-2019-crt020-scalaspark-certification.html
 #### Blog on linkedin with detailed prep notes<br>
 https://www.linkedin.com/pulse/all-you-need-clear-crt020-databricks-certified-associate-kumar<br>
 https://www.linkedin.com/pulse/spark-simplified-certification-study-guide-raki-rahman/
@@ -56,7 +57,7 @@ From terminal use release upgrade as shown below. This is best way of preserving
 If this does not work then try via the GUI software updater<br>
 <br>
 You cal also try<br>
-update-manager -d
+`update-manager -d`<br>
 
 
 __To upgrade between non compliant versions eg 18.10 to 19.10__<br>
@@ -81,52 +82,127 @@ Since 19.10 is supported, all you have to do to upgrade 19.04 → 19.10 is run `
 
 
 ## Windows Subsystem for Linux (WSL2)
-### Useful links
-https://adamtheautomator.com/windows-subsystem-for-linux/<br><Br>
+
+## Useful links
+https://superuser.com/questions/1365258/how-to-change-the-dark-blue-in-wsl-to-something-brighter
+https://github.com/microsoft/terminal/blob/master/doc/user-docs/UsingJsonSettings.md
+https://towardsdatascience.com/setting-up-a-data-science-environment-using-windows-subsystem-for-linux-wsl-c4b390803dd
+
+This link below is very good and covers powershell and wsl terminal customisation including installing oh-my-posh for powerline. It is referenced at different stages.<br>
+https://medium.com/@hjgraca/style-your-windows-terminal-and-wsl2-like-a-pro-9a2e1ad4c9d0<br>
+
+### Setup new windows terminal
+Before we begin important to get the num multishell windows terminal whcih offers WSL, Powershell etc all in one place. We can add config colours etc to the settings json for each of our WSL dists as we go along to customise how each looks. The template json is setup for two different dists of wsl on one machine as an example setup.<br>
+
+Download new windows terminal from windows store and install<br>
+Open setting json from top menu and paste in attached json which has updated settings for tango dark etc<br> (https://gist.github.com/rkitover/bd9c93d56708f065797739d8ace8c864)
+To setup more than one profile remember to change line below:<br>
+`"commandline": "wsl"`<br>
+To this line naming the correct distribution<br>
+`"commandline": "wsl -d Ubuntu-18.04"`<br>
+Otherwise all distribution profiles will launch the default dist and not the various different distributions available. So if you choose Ubuntu 20.04 it will still launch Ubuntu 18.04.<br>
+https://github.com/microsoft/terminal/blob/master/doc/user-docs/UsingJsonSettings.md<br>
 
 
+https://github.com/JanDeDobbeleer/oh-my-posh/blob/master/README.md#configuration
 
-With the windows 2004 update in May 2020 WSL now has a full linux kernel and as such much better compatibility with Docker etc.
-I installed it via the Windows Prevoew build and it is very impressive. It is now my default setup for data science replacing the virtualbox config I had previous which is described in later sections.<br>
+### Install necessary fonts
+A range of fonts are used later in linux and powershell. We will install these now in advance. My choice for all shells etc is `MesloLGS NF` and this is a good choice as works with most packages etc.<br>
+Use below link at step involving fonts to ensure have all fonts installed<br>
+https://medium.com/@slmeng/how-to-install-powerline-fonts-in-windows-b2eedecace58<br>
+set all fonts to `MesloLGS NF` in `profiles.json`<br>
+Essentially the steps are summarised below.<br>
 
-### Backup and restore WSL2
-https://www.howtogeek.com/426562/how-to-export-and-import-your-linux-systems-on-windows-10/<br>
+1. Go to the Powerline Fonts Github page https://github.com/powerline/fonts<br>
+2. Click on the green “Clone or download” button.<br>
+3. Click “Download ZIP”<br>
+4. Save the file fonts-master.zip to your Downloads folder or wherever you want to put it.<br>
+5. Extract fonts-master.zip.<br>
+6. Go into the fonts-master folder and the other fonts-master folder inside that. Rather than opening each folder and trying to install each font file ending with .ttf or .otf with the Windows Font Viewer, we will use a PowerShell batch script ( .ps1) called install.ps1. But a few things need to be done to make it work.<br>
+7. You need to open PowerShell as an Administrator ( Window Key + X then select “Windows PowerShell (Admin)”. Click “Yes” when the User Access Control (UAC) prompt shows up. Because PowerShell started with the Administrator user rather than the regular user (you), PowerShell starts up in `C:\WINDOWS\system32 instead of C:\Users\${env:UserName}`, you will need to navigate to the fonts-master folder in the Downloads folder. You can do this by typing `cd ${HOME}\Downloads\fonts-master\fonts-master`.<br>
+8. Next we need to tell the Execution Policy to stand down. If you don’t do this, the script won’t be allowed to run. This isn’t the same as what Linux does where the script is given execution privileges. Rather it is the inverse. The Execution Policy is a blanket approach to preventing scripts from executing. We will need to set to Execution Policy to Bypass, so that we may run this script. If you entered something else, you can reset the execution policy to Restricted later. So type Set-ExecutionPolicy Bypass. You will likely be warned you are changing the Execution Policy, type y for Yes then enter.<br>
+9. Now we can run the install.ps1 file! Type .\install.ps1. If you are Installing a newer version, you will likely be prompted for every font that is replaced. (I should look into that.) Otherwise new fonts will be installed.<br>
+10. Just to be sure, reset the Execution Policy back to the Default setting. Set-ExecutionPolicy Default then type y for Yes like before.<br>
 
-To create a backup of current dist:<br>
-`wsl --export distro_name file_name.tar`<br>
-Example:<br>
-`wsl --export Ubuntu-18.04 ubuntu.tar`<br><br>
+__Important to change font to MesloLGS NF in Powershell, Windows Terminal and VS Code__<br>
+__Powershell__ – right click on top bar go to settings<br>
+__WSL terminal__ – right click on top bar go to settings<br>
+__Vs code__ – `file>preferences>settings>text editor>font`<br>
 
-To import a backup and create a dist:<br>
-`wsl --import distro_name install_location file_name.tar`<br>
-Example:<br>
-`wsl --import Ubuntu-18.04 C:\Users\Chris\ubuntu C:\Users\Martin\ubuntu.tar`<br>
-If you want to match where Windows normally installs them to by default, they’re generally in their own folder in `C:\Users\NAME\AppData\Local\Packages`. For example, you might want to put Ubuntu in `C:\Users\NAME\AppData\Local\Packages\Ubuntu`<br><br>
+If still having difficulty with fonts use below link at step involving fonts to ensure have all fonts installed<br>
+https://medium.com/@slmeng/how-to-install-powerline-fonts-in-windows-b2eedecace58<br>
+Restart your terminal, install the recommended font and run p10k configure.<br>
+Also try below link if having issues<br>
+https://github.com/romkatv/powerlevel10k/issues/455<br>
+https://github.com/Powerlevel9k/powerlevel9k/issues/809<br>
+https://www.nerdfonts.com/font-downloads<br>
+
+As last resort can try installing all the fonts:<br>
+`git clone https://github.com/powerline/fonts.git`<br>
+`cd fonts`<br>
+`./install.sh`<br>
+
+### Install oh-my-posh for powershell
+This link below covers powershell and wsl terminal customisation including installing oh-my-posh for powerline<br>
+https://medium.com/@hjgraca/style-your-windows-terminal-and-wsl2-like-a-pro-9a2e1ad4c9d0<br>
+Source page for oh-my-posh<br>
+https://github.com/JanDeDobbeleer/oh-my-posh/blob/master/README.md#configuration<br>
+
+You will need to have installed Git for Windows.<br>
+https://git-scm.com/downloads<br>
+Follow these directions, this will install Posh-Git and Oh-My-Posh.<br>
+https://github.com/JanDeDobbeleer/oh-my-posh?WT.mc_id=-blog-scottha#installation<br>
+
+steps to install posh-git and oh-my-posh:<br>
+
+`# You could have the following to allow for scripts execution` <br>
+`# Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser` <br>
+`Install-Module posh-git -Scope CurrentUser` <br>
+`Install-Module oh-my-posh -Scope CurrentUser`<br><br>
+
+Enable the prompt:<br>
+`# Start the default settings (might not work so optional)`<br>
+`Set-Prompt`<br>
+`# To enable the engine edit your PowerShell profile, run`<br>
+`notepad $PROFILE`<br>
+`# and append the following lines to the profile file you just opened (or created in case the file was not there already):`<br>
+`Import-Module posh-git`<br>
+`Import-Module oh-my-posh`<br>
+`Set-Theme Paradox`<br>
+
+Once you are done this is what your PowerShell will look like. You can get other themes here (https://github.com/JanDeDobbeleer/oh-my-posh?WT.mc_id=-blog-scottha#themes). And as you can see all icons are there including the git icons.
+<img src="media/wsl_3.png"> <br>
+
+
 
 
 ### Install WSL2
-https://docs.microsoft.com/en-us/windows/wsl/wsl2-install
-Upgrade to windows insider preview release (only temporarily needed until next windows update in May 2020).
+With the windows 2004 update in May 2020 WSL now has a full linux kernel and as such much better compatibility with Docker etc.
+I installed it via the Windows Preview build and it is very impressive. It is now my default setup for data science replacing the virtualbox config I had previous which is described in later sections.<br>
 
-#### Setup new windows terminal
-Download new windows terminal from windows store and install<br>
-Open setting from top menu and paste in attached json which has updated settings for tango dark etc<br> https://gist.github.com/rkitover/bd9c93d56708f065797739d8ace8c864
-To setup more than one profile remember to change line below:<br>
-`"commandline": "wsl"`<br>
-To this line<br>
-`"commandline": "wsl -d Ubuntu-18.04"`<br>
-Otherwise all distribution profiles will launch the default dist and not the various different distributions available. So if you choose Ubuntu 20.04 it will still launch Ubuntu 18.04.<br>
-https://github.com/microsoft/terminal/blob/master/doc/user-docs/UsingJsonSettings.md
-    
+### Useful links
+https://adamtheautomator.com/windows-subsystem-for-linux/<br>
+https://www.google.com/search?q=how+to+install+wsl2&oq=how+to+install+wsl2&aqs=chrome..69i57j0l7.3205j0j7&sourceid=chrome&ie=UTF-8#kpvalbx=_AdzCXq-JMePzxgOqqpTICQ32<br>
+https://docs.microsoft.com/en-us/windows/wsl/wsl2-install<br>
+
+
+
+
+
+### Upgrade to windows insider (Only needed until May 26th 2020)
+Upgrade to windows insider preview release (only temporarily needed until next windows update in May 2020).
+TO get on insider program go to `windows insider program settings`. And follow instructions to join choosing the preview build. The preview build keeps you on the main release only with some new preview features whereas the fast and slow rings move you off the main release. This is important as once you move to fast or slow rings you may need a full fresh install to get back to main release windows or wait to the next stable release comes and you can jump back. With the preview ring you dont have same issues as its still the main release only with extra bells and whistles. You can simple clikc out of it and when next stable release comes along preview updates will stop and you will automatically be back on the main release. In summary the preview release is very safe unlike the fast and slow rings.
+
+
     
 #### Turn on Virtual machine platform and Windows subsystem for linux<br>
 To do this go to `Turn windows feature on and off` and select appropriate boxes. (Note when virtual machine platform is turned on Virtualbox may not work and you may need to turn this off again to access virtualbox which in turn will stop WSL working. It is not currently possible to have both running simultaneously due to non-compatibility with hyper-v in virtualbox but they will probably soon update to fix this issue. WSL1 doesn’t use virtual platform so if want to check files or compare setup between virtualbox and wsl can revert temporarily to this)<br>
 
-Restart computer<br>
+__Restart computer__<br>
 
 #### Download dist
-Go to Microsoft store and install Ubuntu dist of choice (usually 18.04 LTS)
-Enter username and password for linux when prompted 
+Go to Microsoft store and install Ubuntu dist of choice (usually 20.04 LTS)<br>
+Enter username and password for linux when prompted, this is only for your linux machine for sudo etc.<br>
 
 #### Update dist to WSL2
 https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-powershell-1.0/ee176961(v=technet.10)?redirectedfrom=MSDN
@@ -137,18 +213,20 @@ To list dists<br>
 `wsl -l`<br>
 to upgrade it to wsl2<br>
 `wsl –set-version Ubuntu-18.04 2`<br>
-Check version should now be 2, check with below line
-wsl -l -v
+Check version should now be 2, check with below line<br>
+`wsl -l -v`
 Note if converting from wsl to wsl2 on existing system can take time if large root. Alternative way is to follow steps in link below.<br> 
 https://www.reddit.com/r/bashonubuntuonwindows/comments/c08wjz/wsl_2_conversion_taking_too_long/
 
 
 #### Correct file permissions for linux files
-https://docs.microsoft.com/en-us/windows/wsl/release-notes#build-17063
+https://docs.microsoft.com/en-us/windows/wsl/release-notes#build-17063<br>
+When initally launch everything has full rwx rights as they are all windows files. At this stage create new folder for any files you will mainly be accessing via linux and we will now change their rights to be standard 755 setup. Note there is no shared folder you can access all windows files via wsl but its just best practice to keep all the files you will be working on via wsl in one folder.<br>
+
 Unmount c drive<br>
-sudo umount -l /mnt/c<br>
+`sudo umount -l /mnt/c`<br>
 remount with metadata<br>
-sudo mount -t drvfs C: /mnt/c -o metadata,uid=1000,gid=1000<br>
+`sudo mount -t drvfs C: /mnt/c -o metadata,uid=1000,gid=1000`<br>
 set to automount like this everytime by creating conf file in etc<br>
 https://docs.microsoft.com/en-us/windows/wsl/wsl-config<br>
 `vim /etc/wsl.conf`<br>
@@ -164,29 +242,110 @@ adding following lines<br>
 `sudo apt-get upgrade`<br>
 
 #### Install zsh with new powerlevel10k theme
-PLease note zsh is faster and more informative that bash so we will move to zsh from this point on and any future config updates will be placed in the .zshrc file instead of the .bashrc.<br>
+__Useful Links__<br>
 https://www.sitepoint.com/zsh-tips-tricks/<br>
 https://medium.com/@hjgraca/style-your-windows-terminal-and-wsl2-like-a-pro-9a2e1ad4c9d0<br>
 https://medium.com/@shivam1/make-your-terminal-beautiful-and-fast-with-zsh-shell-and-powerlevel10k-6484461c6efb<br>
 https://github.com/romkatv/powerlevel10k<br>
 https://unix.stackexchange.com/questions/273529/shorten-path-in-zsh-prompt<br>
-Use below link at step involving fonts to ensure have all fonts installed<br>
-https://medium.com/@slmeng/how-to-install-powerline-fonts-in-windows-b2eedecace58<br>
-set all fonts to `MesloLGS NF` in `profiles.json`<br>
-Restart your terminal, install the recommended font and run p10k configure.<br>
-https://github.com/romkatv/powerlevel10k/issues/455<br>
+https://www.freecodecamp.org/news/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156/
+https://blog.joaograssi.com/windows-subsystem-for-linux-with-oh-my-zsh-conemu/
+
+Please note zsh is faster and more informative that bash so we will move to zsh from this point on and any future config updates will be placed in the `~/.zshrc` file instead of the `~/.bashrc`.<br>
+See below for comparison between bash and zsh<br>
+https://sunlightmedia.org/bash-vs-zsh/<br>
+
+Install zsh by:<br>
+`sudo apt-get install zsh`<br>
+Check version<br>
+`zsh --version`<br>
+Change to zsh shell<br>
+`chsh -s $(which zsh)`<br>
+Or<br>
+`chsh -s /bin/zsh`<br>
+Change back to bash shell<br>
+`chsh -s $(which bash)`<br>
+Or<br>
+`chsh -s /bin/bash`<br>
+First time you open zsh shell will get below screen<br>
+<img src="media/wsl_1.png"> <br>
+If you select (1) you’ll be taken to a menu that allows you to configure history, keybindings and a bunch of other things. However, I suggest selecting (2) which will create a configuration profile with the recommended default settings.<br>
+
+The config file is stored at ~/.zshrc and this is where you should add any path information etc for Spark later in place of the bashrc if using the zsh shell.<br>
+
+#### Install oh-my-zsh 
+https://www.sitepoint.com/zsh-tips-tricks/<br>
+Install using curl<br>
+`sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`<br>
+Or wget<br>
+`sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"`<br>
+This assumes you have git installed, which you hopefully do already. If not, you can grab it from the project’s homepage.<br>
+https://git-scm.com/downloads<br>
+
+Oh My Zsh creates a backup of your .zshrc file, then replaced it with its own version. This means that you’ll need to copy over any custom configuration (such as our myip alias) to your new .zshrc file
+
+#### Install powerlevel10k theme
+https://medium.com/@shivam1/make-your-terminal-beautiful-and-fast-with-zsh-shell-and-powerlevel10k-6484461c6efb
+I have chosen powerlevel10k as my these to install first git clone the repo<br>
+`git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k`<br>
+to start/restart autoconfigure run<br>
+`p10k configure`<br>
+
+Should bring up screen like below. There are a few tests that the fonts are installed correctly, if they are not go back and repeat steps for installing fonts then restart shell and run autoconfigure again.<br>
+
+
 to tweak setting <br>
 `vim ~/.p10k.zsh`<br>
-to switch back to bash<br>
-`chsh -s /bin/bash`<br>
-and back to zsh<br>
-`chsh -s /bin/zsh`<br>
-to restart autoconfigure<br>
-`p10k configure`<br>
-__Important to change font to MesloLGS NF in Powershell, Windows Terminal and VS Code__<br>
-__Powershell__ – right click on top bar go to settings<br>
-__WSL terminal__ – right click on top bar go to settings<br>
-__Vs code__ – `file>preferences>settings>text editor>font`<br>
+
+
+#### zsh Plug-ins
+
+https://medium.com/@hjgraca/style-your-windows-terminal-and-wsl2-like-a-pro-9a2e1ad4c9d0<br>
+Zsh is great for plugins the below list comes out of the box<br>
+https://github.com/ohmyzsh/ohmyzsh/wiki/plugins<br>
+
+
+Z  is a cool example of builtin plugin<br>
+__z directory plugin__<br>
+To install the plugin, all you have to do is add it to your .zshrc file like so:<br>
+plugins=(z zsh-autosuggestions)<br>
+Then restart your terminal.<br>
+
+Once installed, z will have a short learning phase as it observes you navigating around your PC with the terminal. After a while however, you will be able to type z followed by any word that is in your desired directory path. The plugin will use fuzzy matching to figure out which folder you want to go to and expand the path accordingly. If there is more than one possibility you can tab through the options as described in the previous tip.<br>
+
+This might not sound like a big deal, but you’ll be able to open a shell, type z my-project and have it expand the path to /home/jim/files/some/deeply/nested/directory/or/other/my-project. Then when you’re in that directory, you can type z my-other-project and have it expand the path to /var/www/html/projects/top/secret/my-other.project.<br>
+
+
+
+A few extra cool ones not included can be downloaded<br>
+__Auto-suggestions__<br>
+Git clone below repo<br>
+`git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions`<br>
+Add the plugin to the list of plugins for Oh My Zsh to load (inside ~/.zshrc): (you will probably have git already)
+`plugins=(zsh-autosuggestions)`<br>
+and bellow that add this line to fix the suggestion style<br>
+`ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=244"`
+
+__Syntax highlighting__<br>
+Git clone below repo<br>
+`git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting`<br>
+
+
+
+
+If you want to enable auto correction then find uncomment the line by removing # from<br>
+`#ENABLE_CORRECTION="true"`<br>
+//to this<br>
+`ENABLE_CORRECTION="true"`<br>
+<br>
+
+#### Shorted prompt path
+Vim into ~/.p10k.zsh and update below lines:<br>
+
+`typeset -g POWERLEVEL9K_DIR_TRUNCATE_BEFORE_MARKER=false`<br>
+`# Don't shorten this many last directory segments. They are anchors.`<br>
+`typeset -g POWERLEVEL9K_SHORTEN_DIR_LENGTH=1`<br>
+
 
 
 
@@ -225,13 +384,58 @@ type jupyter-notebook and should load in local host, setup password etc<br>
 
 If having difficulties run below command to toally remove it and start fresh.<br>
 `python3 -m pip uninstall -y jupyter jupyter_core jupyter-client jupyter-console notebook qtconsole nbconvert nbformat`<br>
-You may need to also remove any jpuyter binary folders in `/usr/bin/jupyter` etc <br>
+You should completely remove all jupyter* and ipython* files from binary folders in `/usr/bin/` /usr/local/bin etc as well as in `/usr/local/lib/python3.8/dist-packages` and  `/home/martin/.local/lib/python3.8/site-packages`<br>
 (See https://stackoverflow.com/questions/33052232/how-to-uninstall-jupyter)<br>
+ 
+ 
  
  
 #### Install docker
 https://docs.docker.com/docker-for-windows/wsl-tech-preview/<br>
 https://code.visualstudio.com/blogs/2020/03/02/docker-in-wsl2<br>
+
+
+#### VS Code
+
+Download VS code here https://code.visualstudio.com/docs/?dv=win<br>
+
+Main instructions are in this link<br>
+https://code.visualstudio.com/docs/remote/wsl<br>
+
+__Installation__<br>
+To get started, you need to:<br>
+
+Install the Windows Subsystem for Linux along with your preferred Linux distribution.<br>
+
+Note: WSL 1 does have some known limitations for certain types of development and WSL 2 support is experimental. Also, extensions installed in Alpine Linux may not work due to glibc dependencies in native code inside the extension. See the Remote Development and Linux article for details.<br>
+
+Install Visual Studio Code on the Windows side (not in WSL).<br>
+
+Note: When prompted to Select Additional Tasks during installation, be sure to check the Add to PATH option so you can easily open a folder in WSL using the code command.<br>
+
+Install the Remote Development extension pack.<br>
+
+Also install the python extension to enable you to choose which virtualenv you want to use.<br>
+
+Now by simply typing `code .` inside any folder in the linux dist should launch VSCode on host with direct connection to the linux kernel.<br>
+
+
+
+
+
+### Backup and restore WSL2
+https://www.howtogeek.com/426562/how-to-export-and-import-your-linux-systems-on-windows-10/<br>
+
+To create a backup of current dist:<br>
+`wsl --export distro_name file_name.tar`<br>
+Example:<br>
+`wsl --export Ubuntu-18.04 ubuntu.tar`<br><br>
+
+To import a backup and create a dist:<br>
+`wsl --import distro_name install_location file_name.tar`<br>
+Example:<br>
+`wsl --import Ubuntu-18.04 C:\Users\Chris\ubuntu C:\Users\Martin\ubuntu.tar`<br>
+If you want to match where Windows normally installs them to by default, they’re generally in their own folder in `C:\Users\NAME\AppData\Local\Packages`. For example, you might want to put Ubuntu in `C:\Users\NAME\AppData\Local\Packages\Ubuntu`<br><br>
 
 
 
@@ -595,6 +799,8 @@ Then add below line to ~/.bashrc file<br>
 You can change modify any colours in the ~/.dir_colors file and it will show the new colour instantly.
 
 Note you can also use the gui method by right clicking inside terminal and going to preferences. It is useful to create a new profile here and set it default.
+
+
 
 ## Linux Server
 
@@ -1646,7 +1852,14 @@ That's it. You have successfully installed PhantomJS on Ubuntu 16.04 server<br>
 ### Regular Expressions
 
 #### Useful Links
+
+https://www.quora.com/From-where-and-how-should-I-learn-regex-in-Python-to-be-good-at-it<br>
 https://regexr.com/<br>
+https://www.tutorialspoint.com/python/python_reg_expressions.htm<br>
+https://www.datacamp.com/community/tutorials/python-regular-expression-tutorial<br>
+https://developers.google.com/edu/python/regular-expressions<br>
+https://www.pythonforbeginners.com/regex/regular-expressions-in-python<br>
+
 
 Generall python regex is structured re.METHOD(PATTERN, STRING)<br>
 
@@ -1761,8 +1974,6 @@ def get_pybites_top_tags(n=10):
 
 ```
 
-
-```python
 ### String formatting
 
 See code cell below for example of using F string to create clean standardised output for variable length strings.<br>
@@ -1775,7 +1986,6 @@ f’{Variable_1:<15} means Variable will be left justified with the total column
 ie    `“Variable_1     #”`
 
 See example code below
-```
 
 
 ```python
@@ -2990,7 +3200,11 @@ https://www.shanelynn.ie/asynchronous-updates-to-a-webpage-with-flask-and-socket
 https://community.plot.ly/t/valueerror-received-for-the-x-property-of-scatter-zeromq-live-chart/11692/3<br>
 https://docs.google.com/document/d/1DjWL2DxLiRaBrlD3ELyQlCBRu7UQuuWfgjv9LncNp_M/edit<br>
 
-
+<br>
+Example Dash web app and notes from sites<br>
+https://davidcomfort-dash-app1.herokuapp.com/cc-travel-report/paid-search/<br>
+https://towardsdatascience.com/how-to-build-a-complex-reporting-dashboard-using-dash-and-plotl-4f4257c18a7f<br>
+https://dash.plotly.com/sharing-data-between-callbacks<br>
 
 
 
@@ -3343,18 +3557,40 @@ From now on to turn the web server on.<br>
 #### Log out button link
 `https://dash.plot.ly/dash-core-components/logoutbutton`
 
+#### Docker setup of Nginx/Gunicorn/Flask
+https://github.com/sladkovm/docker-flask-gunicorn-nginx
+https://github.com/tiangolo/uwsgi-nginx-flask-docker
+https://github.com/sladkovm/docker-flask-gunicorn-nginx/tree/master/nginx
+
+
+```python
+
+```
+
+
+```python
+
+```
+
+
+```python
+
+```
+
 # Scala and Spark
 
 ## Scalable data science
 This is a course I completed when Raazesh Sainudiin gave us a face to face course in scalable data science tools including spark, scala and zeppelin notebooks.I have included the most important links for the course below.<br>
 
-https://lamastex.github.io/scalable-data-science/sds/2/x/
-https://community.cloud.databricks.com/login.html#notebook/3206445649578041/command/3206445649578046
-https://developer.twitter.com/en/account/get-started
-GitHub - lamastex/mrs2: a C++ class library for statistical set processing and computer-aided proofs in statistics.
-https://github.com/lamastex/scalable-data-science/blob/master/_sds/basics/infrastructure/onpremise/dockerCompose.zip
-https://github.com/lamastex/scalable-data-science
-https://github.com/lamastex/scalable-data-science/tree/master/dbcArchives/2017/parts/studentProjects
+https://lamastex.github.io/scalable-data-science/in/2019/<br>
+https://github.com/lamastex/scalable-data-science/tree/master/dbcArchives/2019<br>
+https://lamastex.github.io/scalable-data-science/sds/2/x/<br>
+https://community.cloud.databricks.com/login.html#notebook/3206445649578041/command/3206445649578046<br>
+https://developer.twitter.com/en/account/get-started<br>
+GitHub - lamastex/mrs2: a C++ class library for statistical set processing and computer-aided proofs in statistics.<br>
+https://github.com/lamastex/scalable-data-science/blob/master/_sds/basics/infrastructure/onpremise/dockerCompose.zip<br>
+https://github.com/lamastex/scalable-data-science<br>
+https://github.com/lamastex/scalable-data-science/tree/master/dbcArchives/2017/parts/studentProjects<br>
 
 
 ## Useful links
