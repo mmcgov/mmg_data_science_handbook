@@ -82,6 +82,7 @@ Since 19.10 is supported, all you have to do to upgrade 19.04 → 19.10 is run `
 
 
 ## Windows Subsystem for Linux (WSL2)
+<<<<<<< HEAD
 
 ## Useful links
 https://superuser.com/questions/1365258/how-to-change-the-dark-blue-in-wsl-to-something-brighter
@@ -90,10 +91,13 @@ https://towardsdatascience.com/setting-up-a-data-science-environment-using-windo
 
 This link below is very good and covers powershell and wsl terminal customisation including installing oh-my-posh for powerline. It is referenced at different stages.<br>
 https://medium.com/@hjgraca/style-your-windows-terminal-and-wsl2-like-a-pro-9a2e1ad4c9d0<br>
+=======
+>>>>>>> 29424661abdde38e4567f23472cfb7afe9fc7811
 
 ### Setup new windows terminal
 Before we begin important to get the num multishell windows terminal whcih offers WSL, Powershell etc all in one place. We can add config colours etc to the settings json for each of our WSL dists as we go along to customise how each looks. The template json is setup for two different dists of wsl on one machine as an example setup.<br>
 
+<<<<<<< HEAD
 Download new windows terminal from windows store and install<br>
 Open setting json from top menu and paste in attached json which has updated settings for tango dark etc<br> (https://gist.github.com/rkitover/bd9c93d56708f065797739d8ace8c864)
 To setup more than one profile remember to change line below:<br>
@@ -172,6 +176,15 @@ Enable the prompt:<br>
 
 Once you are done this is what your PowerShell will look like. You can get other themes here (https://github.com/JanDeDobbeleer/oh-my-posh?WT.mc_id=-blog-scottha#themes). And as you can see all icons are there including the git icons.
 <img src="media/wsl_3.png"> <br>
+=======
+### Useful links
+https://adamtheautomator.com/windows-subsystem-for-linux/<br><br>
+
+
+
+### Backup and restore WSL2
+https://www.howtogeek.com/426562/how-to-export-and-import-your-linux-systems-on-windows-10/<br>
+>>>>>>> 29424661abdde38e4567f23472cfb7afe9fc7811
 
 
 
