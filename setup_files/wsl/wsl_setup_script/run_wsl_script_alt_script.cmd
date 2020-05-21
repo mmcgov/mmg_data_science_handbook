@@ -24,4 +24,4 @@ pushd "%CD%"
 CD /D "%~dp0"
 
 PowerShell -Command "Set-ExecutionPolicy Unrestricted" >> "%TEMP%\StartupLog.txt" 2>&1
-PowerShell C:\Users\mmcgo\OneDrive\Desktop\linux_shared\initial_setup\wsl\restart_lxss_manager.ps1 >> "%TEMP%\StartupLog.txt" 2>&1
+PowerShell C:\Users\mmcgo\OneDrive\Desktop\linux_shared\initial_setup\wsl\setup_wsl.ps1 >> "%TEMP%\StartupLog.txt" 2>&1
