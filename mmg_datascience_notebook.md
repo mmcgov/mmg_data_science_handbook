@@ -92,7 +92,7 @@ This link below is very good and covers powershell and wsl terminal customisatio
 https://medium.com/@hjgraca/style-your-windows-terminal-and-wsl2-like-a-pro-9a2e1ad4c9d0<br>
 
 ### Setup new windows terminal
-Before we begin important to get the num multishell windows terminal whcih offers WSL, Powershell etc all in one place. We can add config colours etc to the settings json for each of our WSL dists as we go along to customise how each looks. The template json is setup for two different dists of wsl on one machine as an example setup.<br>
+Before we begin important to get the new multishell windows terminal whcih offers WSL, Powershell etc all in one place. We can add config colours etc to the settings json for each of our WSL dists as we go along to customise how each looks. The template json is setup for two different dists of wsl on one machine as an example setup. The template is in the setup folder in this repo.<br>
 
 Download new windows terminal from windows store and install<br>
 Open setting json from top menu and paste in attached json which has updated settings for tango dark etc<br> (https://gist.github.com/rkitover/bd9c93d56708f065797739d8ace8c864)
@@ -377,17 +377,53 @@ You need to add in `.zshrc`, before the plugins line:<br>
 https://medium.com/@harshityadav95/jupyter-notebook-in-windows-subsystem-for-linux-wsl-8b46fdf0a536<br>
 Try this additional link only if having issues<br>
 https://www.snizami.com/post/jupyter_on_wsl2/<br>
-pip3 install jupyter<Br>
-Add below line to `~/.bashrc`<br>
+
+Add below line to `~/.zshrc`<br>
 `alias jupyter-notebook="~/.local/bin/jupyter-notebook --no-browser`"<br>
-    
+<br><br>
+
+pip3 install jupyter --user<Br>
+pip3 install jupyter_contrib_nbextensions --user <br>
+pip3 install jupyter_nbextensions_configurator --user <br>
+jupyter-contrib nbextension install --user <br>
+jupyter-nbextensions_configurator enable --user <br>
+
+
+
+   
+   
 type jupyter-notebook and should load in local host, setup password etc<br>
 
-If having difficulties run below command to toally remove it and start fresh.<br>
+
+__Complete reinstall of Jupyter__
+If having trouble accessing jupyter via host broswer please see wsl bugs section and the lxss manager bug fix. If this doesnt work first time you can also try a complete uninstall and follow the fix commands again. I have a bash script that will totally uninstall jupyter and reinstall, it essentially follows the commands below. The script should be run as:<br>
+`./reinstall_jupyter.sh`<br>
+
+To totally uninstall first run:<br>
 `python3 -m pip uninstall -y jupyter jupyter_core jupyter-client jupyter-console notebook qtconsole nbconvert nbformat`<br>
+Next remove jupyter and ipywidets and qtconsole from any location on system using variations of below commands for each location jupyter may be in. (All the variations are covered in the bash script in the setup_files folder of this repo).<br>
+
+`sudo rm -r /usr/lib/python3/dist-packages/ju*`<br>
+`sudo rm -r /usr/lib/python3/dist-packages/ipy*`<br>
+`sudo rm -r /usr/lib/python3/dist-packages/qtconsole*`<br>
+`sudo rm -r /usr/local/lib/python3.8/dist-packages/ju*`<br>
+`sudo rm -r /usr/local/lib/python3.8/dist-packages/ipy*`<br>
+`sudo rm -r /usr/local/lib/python3.8/dist-packages/qtconsole*`<br>
+`sudo rm -r /home/martin/.local/lib/python3.8/site-packages/ju*`<br>
+`sudo rm -r /home/martin/.local/lib/python3.8/site-packages/ipy*`<br>
+`sudo rm -r /home/martin/.local/lib/python3.8/site-packages/qtconsole*`<br>
+`sudo rm -r ~/.jupyter`<br>
+
 You should completely remove all jupyter* and ipython* files from binary folders in `/usr/bin/` /usr/local/bin etc as well as in `/usr/local/lib/python3.8/dist-packages` and  `/home/martin/.local/lib/python3.8/site-packages`<br>
 (See https://stackoverflow.com/questions/33052232/how-to-uninstall-jupyter)<br>
  
+
+
+
+
+
+
+
  
  
  
@@ -444,6 +480,71 @@ If you want to match where Windows normally installs them to by default, they’
 #### Add/Remove Linux Tux from File Explorer
 https://www.tenforums.com/tutorials/127506-add-remove-linux-navigation-pane-windows-10-a.html<br>
 https://www.tenforums.com/tutorials/127857-access-wsl-linux-files-windows-10-a.html<br>
+
+
+
+
+
+
+__WSL bugs__<br>
+
+__lxss_manager__<br>
+
+I have experienced a bug with jupyter where it is working fine but after I shutdown then on the next reboot Jupyter does not work where the access is denied by the host broswer. I solved this by restarting the lxss manager on boot using the following powershell command. Note the ps1 and cmd files necessary to fix this bug is in the setup_files folder of this repo.<br>
+
+`Restart-Service LxssManager`<br>
+
+__NOTE on LXSS Manager__<br>
+LXSS Manager Service is the service in charge of interacting with the subsystem (through the drivers lxss.sys and lxcore.sys), and the way that Bash.exe (not to be confused with the Shells provided by the Linux distributions) launches the Linux processes, as well as handling the Linux system calls and the binary locks during their execution.<br>
+
+All Linux processes invoked by a particular user go into a "Linux Instance" (usually, the first invoked process is init). Once all the applications are closed, the instance is closed.<br>
+
+
+I saved this command in a powershell file (restart_lxss_manager.ps1) and then created a cmd file to run it. This is necessary to set it up to run on boot as if you run the ps1 file directly it merely opens the command in notebook (https://stackoverflow.com/questions/20575257/how-do-i-run-a-powershell-script-when-the-computer-starts).<br>
+The command file (restart_lxss_manager.cmd) should have the below two lines. The first ensures the correct unrestricted execution policy is activated which is neseaary to run the script. The second line runs the ps1 file. In both cases the last part of each line places the command/file in the startuplog and redirects type 2 erros to same place as type 1 successes. (https://stackoverflow.com/questions/17931338/what-does-21-mean-in-powershell)<br>
+
+`PowerShell -Command "Set-ExecutionPolicy Unrestricted" >> "%TEMP%\StartupLog.txt" 2>&1`<br>
+`PowerShell C:\Users\mmcgo\OneDrive\Desktop\linux_shared\initial_setup\wsl\restart_lxss_manager.ps1 >> "%TEMP%\StartupLog.txt" 2>&1`<br>
+
+
+__Task Manager__<br>
+https://www.howtogeek.com/138159/how-to-enable-programs-and-custom-scripts-to-run-at-boot/<br>
+Final stage involves setting up task to run on login in windows using task scheduler.<br>
+
+First launch task scheduler<br>
+<img src="media/task_scheduler_1.png"> <br>
+
+
+Next click create new task<br>
+<img src="media/task_scheduler_2.png"> <br>
+
+You will be presented with the below options<br>
+<img src="media/task_scheduler_3.png"> <br>
+
+First in the general tab fill in short description as for example below. Also select whether this task is for all users or only certain users. Below I have selected just my profile.<br>
+<img src="media/task_scheduler_4.png"> <br>
+
+Next in the triggers tab create new trigger as shown in example below, choosing at log-on and specific user in this case for this task.<br>
+<img src="media/task_scheduler_6.png"> <br>
+
+This should then show up in the list of triggers like below<br>
+<img src="media/task_scheduler_5.png"> <br>
+
+
+Next in actions choose run a progam option andpoint to the cmd file you want to run.<br>
+<img src="media/task_scheduler_7.png"> <br>
+
+This should then show up in the list of actions like below<br>
+<img src="media/task_scheduler_8.png"> <br>
+
+
+Finally in conditions set the task to always run by deselecting only run when connected to AC power as shown below.<br>
+<img src="media/task_scheduler_9.png"> <br>
+
+You can ignore the remaining tabs for this task. You should be all good to go and can test by rebooting.
+
+
+
 
 
 
