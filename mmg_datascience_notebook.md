@@ -459,7 +459,7 @@ Now by simply typing `code .` inside any folder in the linux dist should launch 
 
 ### Backup and restore WSL2
 https://www.howtogeek.com/426562/how-to-export-and-import-your-linux-systems-on-windows-10/<br>
-https://murrahjm.github.io/Exporting-WSL-data/
+https://murrahjm.github.io/Exporting-WSL-data/<br>
 https://github.com/microsoft/WSL/issues/3974
 
 To create a backup of current dist:<br>
