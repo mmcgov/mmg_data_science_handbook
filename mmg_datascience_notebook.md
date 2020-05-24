@@ -766,7 +766,7 @@ Now you can check connection by opening powershell in admin mode and typing:<br>
 `ssh USERNAME@127.0.0.1 -p 2222`<br>
 Click yes to trust host and it should connect with no password required.<br>
 
-Now simply add a line to the VSCode config file from earlier to point to the public key using `IdentifyFile` as below.<br>
+Now simply add a line to the VSCode config file from earlier to point to the private key using `IdentifyFile` as below.<br>
 <img src="media/vscode_7.png">
 
 You should now be able to follow the same instructions as for VSCode with username/password from earleir but now should not need to enter password.
@@ -1490,6 +1490,13 @@ Dracula will be available in Settings > Style Configurator <br>
 __Useful links__<br>
 Shougo/neocomplcache.vim: Ultimate auto-completion system for Vim.<br>
 https://github.com/Shougo/neocomplcache.vim<br>
+
+
+__Add mouse scroll__<br>
+If mouse scroll missing add below line to .vimrc.<br>
+`mouse=a`<br>
+
+
 
 __Quick Setup Guide__<br>
 Use existing setup by using existing vimrc and bashrc and screenrc and .vim folder from templates<br>
