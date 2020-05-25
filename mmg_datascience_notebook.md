@@ -1331,7 +1331,22 @@ https://help.github.com/en/github/using-git/changing-a-remotes-url<br>
 To switch back individual repo<br>
 git remote set-url origin https://github.com/USERNAME/REPOSITORY.git<br>
 
-To switch back globally<br>
+To switch back globally simply comment out the lines url ... and insteadof .... in ~/.gitconfig<br>
+`[user]`<br>
+ `   email = mmcgov@outlook.com`<br>
+  `  name = mmcgov`<br>
+`#[url "ssh://git@github.com/"]`<br>
+`#    insteadOf = https://github.com/`<br>
+
+Basically comment out the last two lines above. Simply uncommenting them will then move back to ssh.<br>
+
+
+Alternatively you can use below links and syntax to do same thing only using the git commands. The simplist of which is probably to just remove any instead of lines by:<br>
+https://gist.github.com/taoyuan/bfa3ff87e4b5611b5cbe
+
+`git config --global --unset-all url.https://github.com/.insteadof`<br>
+`git config --global --unset-all url.https://.insteadof`<br>
+
 https://stackoverflow.com/questions/1722807/how-to-convert-git-urls-to-http-urls<br>
 https://stackoverflow.com/questions/50020142/how-to-change-git-remote-origin-git-to-https<br>
 `git config --global url.https://github.com/.insteadOf git://github.com`
