@@ -1983,10 +1983,10 @@ __Change theme__<br>
 
 __Past Chosen layouts__<br>
 `jt -t chesterish -fs 110 -ofs 10 -tfs 11 -nfs 125 -cellw 88% -T -N -kl -cursc r`<br>
-`jt -t chesterish -fs 100 -ofs 10 -tfs 11 -nfs 100 -cellw 88% -T -N -kl -cursc r -dfonts`
+`jt -t chesterish -fs 100 -ofs 10 -tfs 11 -nfs 100 -cellw 88% -T -N -kl -cursc r -dfonts`<br>
 
 current setup needed bigger fonts and added in new command for dataframe font size dfs<br>
-`jt -t chesterish -fs 150 -ofs 14 -tfs 14 -dfs 14-nfs 150 -cellw 88% -T -N -kl -cursc r -dfonts`
+`jt -t chesterish -fs 150 -ofs 14 -tfs 14 -dfs 14-nfs 150 -cellw 88% -T -N -kl -cursc r -dfonts`<br>
 
 
 
@@ -2001,12 +2001,12 @@ N = Name<br>
 KL = Kernel logo<br>
 
 Ensure graphs match theme<br>
-Pro-tip: Include the following two lines in `~/.ipython/profile_default/startup/startup.ipy` file to set plotting style automatically whenever you start a notebook:
+Pro-tip: Include the following two lines in `~/.ipython/profile_default/startup/startup.ipy` file to set plotting style automatically whenever you start a notebook.
 
 import jtplot submodule from jupyterthemes<br>
 `from jupyterthemes import jtplot`<br>
 
-currently installed theme will be used to set plot style if no arguments provided
+currently installed theme will be used to set plot style if no arguments provided<br>
 `jtplot.style()`<br>
 
 
@@ -2056,41 +2056,41 @@ instead of<br>
 
 __SSL - new key pem pair__<br>
 `openssl req -x509 -nodes -days 365 -newkey rsa:1024 -out cert.pem -keyout cert.key`<br>
-they are created in current folder (files cert.pem and cert.key) and need to be referenced in jupyter notebook config file<br>
+they are created in current folder (files cert.pem and cert.key) and need to be referenced in jupyter notebook config file<br><br>
 
-__Create password for Jupyter server__
+__Create password for Jupyter server__<br>
 To create password for use with SSL and jupyter server<br> 
 `ipython`<br>
 `import notebook.auth`<br>
 `type passwd`<br>
-You will be prompted for password. After you type in and hit return ipython will then give you in hash form.<br>
+You will be prompted for password. After you type in and hit return ipython will then give you in hash form.<br><br>
 
-__Jupyter Notebook Configuration File__
-VIM setup config file saved at `~/.jupyter/jupyter_notebook_config.py` on server and make sure contents as below:
+__Jupyter Notebook Configuration File__<br>
+VIM setup config file saved at `~/.jupyter/jupyter_notebook_config.py` on server and make sure contents as below:<br><br>
 
 __SSL ENCRYPTION__<br>
 replace the following file names (and files used) by your choice/files<br>
 `c.NotebookApp.certfile = u'/root/.jupyter/cert.pem'`<br>
-`c.NotebookApp.keyfile = u'/root/.jupyter/cert.key'`<br>
+`c.NotebookApp.keyfile = u'/root/.jupyter/cert.key'`<br><br>
 
 __IP ADDRESS AND PORT__<br>
 set ip to '*' to bind on all IP addresses of the cloud instance<br>
 `c.NotebookApp.ip = '*'`<br>
 it is a good idea to set a known, fixed default port for server access<br>
-`c.NotebookApp.port = 8888`
+`c.NotebookApp.port = 8888`<br><br>
 
 __PASSWORD PROTECTION__<br>
 replace the hash code with the one for your password<br>
-`c.NotebookApp.password = HASH_CODE`<br>
+`c.NotebookApp.password = HASH_CODE`<br><br>
 
-__NO BROWSER OPTION__
-prevent Jupyter from trying to open a browser
-`c.NotebookApp.open_browser = False`
+__NO BROWSER OPTION__<br>
+prevent Jupyter from trying to open a browser<br>
+`c.NotebookApp.open_browser = False`<br><br>
  
 
-Then simply run jupyter notebook& (in background and close terminal)
+Then simply run jupyter notebook& (in background and close terminal)<br>
 
-You should then be able to access it by the url:
+You should then be able to access it by the url:<br>
 
 https://IP_ADDRESS:PORT_NUMBER<br>
 (Default 8888)    <br>
