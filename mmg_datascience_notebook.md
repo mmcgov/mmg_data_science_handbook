@@ -1952,7 +1952,10 @@ To remove a kernel<br>
 https://stackoverflow.com/questions/42635310/remove-kernel-on-jupyter-notebook<br>
 jupyter kernelspec uninstall yourKernel
 
-
+You can also manually rename them etc by cd into the following folder:<br>
+`cd /home/martin/.local/share/jupyter/kernels`<br>
+Then cd into chosen folder for whichever venv you want to change name of and edit the name in the kernel.json file.
+https://janakiev.com/blog/jupyter-virtual-envs/<br><br>
 
 
 __Jupyter notebook themes__<br>
@@ -1986,8 +1989,7 @@ __Past Chosen layouts__<br>
 `jt -t chesterish -fs 100 -ofs 10 -tfs 11 -nfs 100 -cellw 88% -T -N -kl -cursc r -dfonts`<br>
 
 current setup needed bigger fonts and added in new command for dataframe font size dfs<br>
-`jt -t chesterish -fs 150 -ofs 14 -tfs 14 -dfs 14-nfs 150 -cellw 88% -T -N -kl -cursc r -dfonts`<br>
-
+`jt -t chesterish -fs 150 -ofs 14 -tfs 14 -dfs 14 -nfs 150 -cellw 88% -T -N -kl -cursc r -dfonts`<br><br>
 
 
 fs=code font size<br>
