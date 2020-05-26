@@ -497,6 +497,15 @@ You need to run it with host set to 0.0.0.0. To change host you need to copy con
 
 ###Setup alias for each IDE
 Insert lines below into .zshrc changing path where necessary. This means you can launch zeppelin with zep_start from any folder etc.<br>
+
+
+alias browser='/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.exe'<br>
+alias jupyter-notebook='browser http://localhost:8888/ & ~/.local/bin/jupyter-notebook --no-browser'<br>
+alias zep_start='/home/martin/projects/code_projects/spark_scala_projects/software/zeppelin-0.8.1-bin-all/bin/zeppelin-daemon.sh start && browser http://localhost:8080'<br>
+alias zep_stop='/home/martin/projects/code_projects/spark_scala_projects/software/zeppelin-0.8.1-bin-all/bin/zeppelin-daemon.sh stop'<br>
+alias polynote='browser http://localhost:8192 & python3 /home/martin/projects/code_projects/spark_scala_projects/software/polynote/polynote.py' <br>
+
+Example screenshot<br>
 <img src="media/wsl_6.png"> <br>
 
 
