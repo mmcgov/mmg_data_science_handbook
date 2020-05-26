@@ -1341,8 +1341,10 @@ https://stackoverflow.com/questions/11200237/how-do-i-get-git-to-default-to-ssh-
 To do it for individual repo:<br>
 https://stackoverflow.com/questions/14762034/push-to-github-without-a-password-using-ssh-key<br>
 git remote set-url origin git@github.com:<Username>/<Project>.git<br>
-
+<br><br>
 ### Auto launch ssh-agent and add key on boot
+https://stackoverflow.com/questions/18880024/start-ssh-agent-on-login<br>
+<br>
 This saves having to run the commands below each time you open a shell:<br>
 eval `ssh-agent -s`<br>
 ssh-add ~/.ssh/github_id_rsa<br>
@@ -1946,6 +1948,11 @@ From inside a virtualenv install ipykernel and create new kernel<br>
 `pip install ipykernel`<br>
 `ipython kernel install --user --name=py3`<br>
 
+To remove a kernel<br>
+https://stackoverflow.com/questions/42635310/remove-kernel-on-jupyter-notebook<br>
+jupyter kernelspec uninstall yourKernel
+
+
 
 
 __Jupyter notebook themes__<br>
@@ -1974,11 +1981,11 @@ solarizedl<br>
 __Change theme__<br>
 `Jt -t chesterish`
 
-__Chosen layout__
+__Past Chosen layouts__<br>
 `jt -t chesterish -fs 110 -ofs 10 -tfs 11 -nfs 125 -cellw 88% -T -N -kl -cursc r`<br>
 `jt -t chesterish -fs 100 -ofs 10 -tfs 11 -nfs 100 -cellw 88% -T -N -kl -cursc r -dfonts`
 
-current putty setup needed bigger fonts and added in new command for dataframe font size dfs<br>
+current setup needed bigger fonts and added in new command for dataframe font size dfs<br>
 `jt -t chesterish -fs 150 -ofs 14 -tfs 14 -dfs 14-nfs 150 -cellw 88% -T -N -kl -cursc r -dfonts`
 
 
