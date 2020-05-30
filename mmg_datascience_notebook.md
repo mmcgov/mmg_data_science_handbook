@@ -66,6 +66,7 @@ https://towardsdatascience.com/my-10-recommendations-after-getting-the-databrick
 `lsb_release -a` 
 
 ## Upgrading
+https://www.digitalocean.com/community/tutorials/how-to-upgrade-to-ubuntu-20-04-focal-fossa<br>
 From terminal use release upgrade as shown below. This is best way of preserving virtual box setting etc<br>
 `do-release-upgrade -d`<br>
 If this does not work then try via the GUI software updater<br>
@@ -3588,6 +3589,13 @@ To convert incoming message to a dataframe for manipulstion in python<br>
  `msg = socket.recv_string()`<br>
  `msg = json.loads(msg)`<br>
  `msg = pd.DataFrame.from_dict(msg)`<br>
+ 
+ __Multiple publishers to a single subscriber__<br>
+  https://stackoverflow.com/questions/6700149/python-zeromq-multiple-publishers-to-a-single-subscriber<br>
+The sub channel doesn't have to be the one to bind, so you can have the subscriber bind, and each of the children pub channels can connect to that and send their messages. The examples above are written in this way with the publisher doing the binding, this enables the multi publisher to single subscriber structure.
+ 
+
+ 
 
 ### Automatic email updates in python using smtlib
 #### Useful Links
