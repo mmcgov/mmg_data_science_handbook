@@ -1151,6 +1151,10 @@ Note you can also use the gui method by right clicking inside terminal and going
 
 ## Linux Server
 
+__change name of server__<br>
+https://www.digitalocean.com/community/questions/how-do-i-change-hostname<br>
+
+
 __find job on certain port__<br>
 `lsof -t -i :PORT_NUMBER`
 
