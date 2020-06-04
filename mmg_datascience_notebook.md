@@ -459,6 +459,9 @@ Add following lines to zshrc/bashrc:<br>
 `export PYSPARK_DRIVER_PYTHON_OPTS="notebook"`<br>
 `export PYSPARK_PYTHON=python3`<br>
 
+To check if working go into pyspark_env and launch jupyter, select pyspark_env kernel and try below command:<br>
+`from pyspark.sql import SparkSession`<br>
+
 __sparkmagic__<br>
 https://stackoverflow.com/questions/26053982/setup-script-exited-with-error-command-x86-64-linux-gnu-gcc-failed-with-exit<br>
 https://github.com/jupyter-incubator/sparkmagic/blob/master/examples/Magics%20in%20IPython%20Kernel.ipynb<br>
@@ -479,11 +482,25 @@ you may need to run these commands:<br>
 `build-essential libssl-dev libffi-dev \`<br>
 `libxml2-dev libxslt1-dev zlib1g-dev`<br>
 
+To check if working go into pyspark_env and launch jupyter, select pyspark_env kernel and try below command, it should display a table in jupyter.<br>
+`%load_ext sparkmagic.magics`<br>
+`%manage_spark`<br>
+
+
+
+
 __scala kernel__<br>
 https://medium.com/@bogdan.cojocar/how-to-run-scala-and-spark-in-the-jupyter-notebook-328a80090b3b<br>
 Must be inside already created pyspark_env as need to use python 3.7<br>
 pip install spylon-kernel<br>
 python -m spylon_kernel install<br>
+
+To check if working go into pyspark_env and launch jupyter, select pyspark_env kernel and try below command.<br>
+`val x = 3`<br>
+`val y = 4`<br>
+`x + y`<br>
+
+
 
 __julia__<br>
 https://julialang.org/downloads/<br>
@@ -509,6 +526,11 @@ use below two commands to setup ijulia<br>
 
 additional command required for vbox to add julia to jupyter<br>
 VBoxManage setextradata global VBoxInternal/CPUM/CMPXCHG16B 1<br>
+
+
+To check if working launch jupyter, select julia kernel and try below command.<br>
+`println('hello world')`<br>
+
 
 __check which kernels are installed__<br>
  jupyter kernelspec list
