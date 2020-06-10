@@ -1440,6 +1440,9 @@ Finall locally point to the SSH url for that repo rather than the https.<br>
 To do this go into the repo folder and use below command replacing username and password with your own.<br>
 `git remote set-url origin git@github.com:username/projectname.git`<br>
 
+To change back to original https url use below command<br>
+`git remote set-url origin https://github.com/username/projectname.git`<br>
+
 Notes and tips<br>
 https://stackoverflow.com/questions/1221840/remote-origin-already-exists-on-git-push-to-a-new-repository<br>
 https://stackoverflow.com/questions/14762034/push-to-github-without-a-password-using-ssh-key<br>
