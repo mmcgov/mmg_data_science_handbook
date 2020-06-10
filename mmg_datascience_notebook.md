@@ -1436,15 +1436,22 @@ ssh -T mmcgov@github.com<br>
 You should get a message like<br>
 `Hi mmcgov! You've successfully authenticated, but GitHub does not provide shell access.`<br>
 
-Finally change ssh config locally to point to the ssh url rather than the password one:<br>
-https://stackoverflow.com/questions/11200237/how-do-i-get-git-to-default-to-ssh-and-not-https-for-new-repositories<br>
-`git config --global url.ssh://git@github.com/.insteadOf https://github.com/`<br>
-
-To do it for individual repo go into the repo folder and use below command replacing username and password with your own.<br>
+Finall locally point to the SSH url for that repo rather than the https.<br>
+To do this go into the repo folder and use below command replacing username and password with your own.<br>
 `git remote set-url origin git@github.com:username/projectname.git`<br>
 
+Notes and tips<br>
 https://stackoverflow.com/questions/1221840/remote-origin-already-exists-on-git-push-to-a-new-repository<br>
 https://stackoverflow.com/questions/14762034/push-to-github-without-a-password-using-ssh-key<br>
+
+
+Note you can also change the global gitconfig file locally meaning all git repos will use the SSH key. This can be convenient but also means other processes such as julia github repos etc will not work and so is not advised.<br>
+
+`git config --global url.ssh://git@github.com/.insteadOf https://github.com/`<br>
+
+notes<br>
+https://stackoverflow.com/questions/11200237/how-do-i-get-git-to-default-to-ssh-and-not-https-for-new-repositories<br>
+
 
 <br><br>
 ### Auto launch ssh-agent and add key on boot
