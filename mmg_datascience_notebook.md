@@ -1440,9 +1440,12 @@ Finally change ssh config locally to point to the ssh url rather than the passwo
 https://stackoverflow.com/questions/11200237/how-do-i-get-git-to-default-to-ssh-and-not-https-for-new-repositories<br>
 `git config --global url.ssh://git@github.com/.insteadOf https://github.com/`<br>
 
-To do it for individual repo:<br>
+To do it for individual repo go into the repo folder and use below command replacing username and password with your own.<br>
+`git remote set-url origin git@github.com:username/projectname.git`<br>
+
+https://stackoverflow.com/questions/1221840/remote-origin-already-exists-on-git-push-to-a-new-repository<br>
 https://stackoverflow.com/questions/14762034/push-to-github-without-a-password-using-ssh-key<br>
-git remote set-url origin git@github.com:<Username>/<Project>.git<br>
+
 <br><br>
 ### Auto launch ssh-agent and add key on boot
 https://stackoverflow.com/questions/18880024/start-ssh-agent-on-login<br>
