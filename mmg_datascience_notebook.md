@@ -434,6 +434,9 @@ You should completely remove all jupyter* and ipython* files from binary folders
 
 __pyspark__<br>
 NOTE: For both pyspark and sparkmagic need to launch jupyter from the pyspark virtualenv<br>
+
+
+
 https://jamiekt.wordpress.com/2017/04/23/running-spark-on-ubuntu-un-windows-subsystem-for-linux/<br>
 https://opensource.com/article/18/11/pyspark-jupyter-notebook<br>
 https://www.lukaskawerau.com/local-pyspark-jupyter-mac/<br><br>
@@ -454,6 +457,8 @@ pip install pyspark<br><br>
 
 __setup zshrc/bashrc__<br>
 Add following lines to zshrc/bashrc:<br>
+NOTE: By setting the pyspark driver to python means can launch a jupyter pyspark kernel by simply typing pyspark as well as normally launching pyspark. IF want to use pyspark as terminal option comment these two lines out (PYSPARK_DRIVER_PYTHON, PYSPARK_DRIVER_PYTHON_OPTS)<br>
+
 `export PYTHONPATH=$SPARK_HOME/python:$PYTHONPATH`<br>
 `export PYSPARK_DRIVER_PYTHON="jupyter"`<br>
 `export PYSPARK_DRIVER_PYTHON_OPTS="notebook"`<br>
