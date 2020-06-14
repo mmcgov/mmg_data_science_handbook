@@ -586,8 +586,9 @@ Then go to the option `Python: Data Science Send selection to interactive window
 
 ### Polynote
 __useful links__<br>
-https://github.com/polynote/polynote/issues/531<br><br>
-
+https://github.com/polynote/polynote/issues/531<br>
+https://towardsdatascience.com/getting-started-with-polynote-netflixs-data-science-notebooks-47fa01eae156<br>
+https://towardsdatascience.com/trying-polynote-from-netflix-a-better-notebook-for-data-engineers-5107277ff2e5<br>
 
 NOTE: For python/pyspark kernels to work correctly need to launch polynote from the pyspark virtualenv<br>
 https://towardsdatascience.com/getting-started-with-polynote-netflixs-data-science-notebooks-47fa01eae156<br>
@@ -608,17 +609,18 @@ You need to run it with host set to 0.0.0.0. To change host you need to copy con
 Similar as for jupyter kernels, the python/pyspark kernel part of polynote wont work with python3.8. Consequently we need to set the python version in the config file to the specific pyspark_env we created earlier (see pyspark jupyter kernel).<br>
 Add the below line at end of config file in appropriate env section.<br>
 
-'env:'<br>
+`env:`<br>
   `PYTHONPATH: /home/martin/.virtualenvs/pyspark_env/bin/python`<br>
 
 <img src="media/polynote_1.png"> <br>
 
-You will also need to remove the she bang line from the start of the polynote.py file. Remove the line at start that looks like below. This will ensure it runs with python 3.7 from the pyspark_env like we want and not the default python3.8<br>
+You will also need to remove the shebang line from the start of the polynote.py file. Remove the line at start that looks like below. This will ensure it runs with python 3.7 from the pyspark_env like we want and not the default python3.8<br>
 https://github.com/polynote/polynote/issues/531<br>
 `#!/usr/bin/env python3`<br>
 
 Finally the spark config needs at least one line so you sohuld add the following line to the config file also:<br>
-
+NOTE this is still a little buggy and may need also set in the notebook if not working<br>
+https://towardsdatascience.com/trying-polynote-from-netflix-a-better-notebook-for-data-engineers-5107277ff2e5<br>
 `spark:`<br>
     `properties:`<br>
         `spark.master: local[*]`<br>
@@ -646,6 +648,9 @@ Example screenshot<br>
 
 
 ### zeppelin
+https://community.cloudera.com/t5/Support-Questions/Version-of-Python-of-Pyspark-for-Spark2-and-Zeppelin/td-p/227019?lightbox-message-images-227022=15317i14B7F3BEB6ED972F<br>
+https://dziganto.github.io/anaconda/shiro/spark/zeppelin/zeppelinhub/How-To-Locally-Install-Apache-Spark-And-Zeppelin/#:~:text=If%20you%20get%20an%20error%20or%20a%20message%20that%20says,Python%203.6%20will%20break%20PySpark.<br>
+
 
 Zeppelin python/spark kerlne should be set to pyspark_env as will not work with python3.8.<br>
 
@@ -1184,7 +1189,7 @@ __Create symbolic link to python 3__<br>
 `Sudo ln -s /usr/python3 /usr/bin/python`<br>
 <pre>          TARGET       LINK_NAME</pre>
 
-<font color=red>DANGER:</font> Don not symbolic link ‘python’ to ‘python3’ as linux system needs python2 for some processes and its uses python as its command syntax. Instead use as alias in .bashrc like
+<font color=red>DANGER:</font> Do not symbolic link ‘python’ to ‘python3’ as linux system needs python2 for some processes and its uses python as its command syntax. Instead use as alias in .bashrc like
 alias python=python3
 
 
