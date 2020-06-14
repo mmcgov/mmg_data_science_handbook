@@ -611,11 +611,23 @@ Add the below line at end of config file in appropriate env section.<br>
 'env:'<br>
   `PYTHONPATH: /home/martin/.virtualenvs/pyspark_env/bin/python`<br>
 
-<img src="media/polynote_8.png"> <br>
+<img src="media/polynote_1.png"> <br>
 
 You will also need to remove the she bang line from the start of the polynote.py file. Remove the line at start that looks like below. This will ensure it runs with python 3.7 from the pyspark_env like we want and not the default python3.8<br>
 https://github.com/polynote/polynote/issues/531<br>
 `#!/usr/bin/env python3`<br>
+
+Finally the spark config needs at least one line so you sohuld add the following line to the config file also:<br>
+
+`spark:`<br>
+    `properties:`<br>
+        `spark.master: local[*]`<br>
+ 
+ <img src="media/polynote_3.png"> <br>
+    
+You can also xhange this at the config options in polynote GUI for individual notebooks as well as setting other spark config options if nexessary. However for the above config options as they are always needed it is better to set them in the config file itself.<br>
+
+<img src="media/polynote_2.png"> <br>
 
 
 ###Setup alias for each IDE
