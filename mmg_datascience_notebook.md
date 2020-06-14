@@ -443,6 +443,11 @@ https://www.lukaskawerau.com/local-pyspark-jupyter-mac/<br><br>
 
 needs python 3.7, not currently compatible with python 3.8. Will get TypeError: an integer is required (got type bytes) if try with python3.8.<br>
 
+NOTE WHEN INSTALLING VARIOUS VERSIONS OF PYTHON IMPORTANT TO ALSO INSTALL DEV TOOLS USING BELOW LINE AND REPLACING X WITH APPROPRIATE VERSION<br>
+https://gist.github.com/SRJ9/5cd7c52da9fffebfccfa7efd0d34fcef<br>
+`sudo apt-get install python3.x-dev`<br>
+
+
 https://linoxide.com/linux-how-to/install-python-3-7-on-ubuntu-18-04-lts/<br>
 
 sudo apt update <br>
