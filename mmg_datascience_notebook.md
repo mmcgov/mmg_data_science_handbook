@@ -585,6 +585,10 @@ Then go to the option `Python: Data Science Send selection to interactive window
 
 
 ### Polynote
+__useful links__<br>
+https://github.com/polynote/polynote/issues/531<br><br>
+
+
 NOTE: For python/pyspark kernels to work correctly need to launch polynote from the pyspark virtualenv<br>
 https://towardsdatascience.com/getting-started-with-polynote-netflixs-data-science-notebooks-47fa01eae156<br>
 `pip3 install jep jedi pyspark virtualenv`<br>
@@ -608,6 +612,11 @@ Add the below line at end of config file in appropriate env section.<br>
   `PYTHONPATH: /home/martin/.virtualenvs/pyspark_env/bin/python`<br>
 
 <img src="media/polynote_8.png"> <br>
+
+You will also need to remove the she bang line from the start of the polynote.py file. Remove the line at start that looks like below. This will ensure it runs with python 3.7 from the pyspark_env like we want and not the default python3.8<br>
+https://github.com/polynote/polynote/issues/531<br>
+`#!/usr/bin/env python3`<br>
+
 
 ###Setup alias for each IDE
 Insert lines below into .zshrc changing path where necessary. This means you can launch zeppelin with zep_start from any folder etc.<br>
