@@ -518,7 +518,7 @@ https://julialang.org/downloads/platform/<br>
 https://discourse.julialang.org/t/julia-in-a-vm/12781/12<br>
 https://datatofish.com/add-julia-to-jupyter/<br>
 
-NOTE: Need to temporarily stop ssh keys setup for github (see git section)<br>
+NOTE: Need to temporarily stop ssh keys setup for github (see git section), only if ssh set in global config and not individually for each repo<br>
 Need to first install julia<br>
 Download tar file from below link (take LTS version)<br>
 `https://julialang.org/downloads/`<br>
@@ -540,6 +540,29 @@ VBoxManage setextradata global VBoxInternal/CPUM/CMPXCHG16B 1<br>
 
 To check if working launch jupyter, select julia kernel and try below command.<br>
 `println('hello world')`<br>
+
+
+
+__sql__<br>
+https://towardsdatascience.com/heres-how-to-run-sql-in-jupyter-notebooks-f26eb90f3259<br>
+
+install any database libraries as necessary:<br>
+NOTE EXTRA CONFIG MAY BE NECESSARY TO CONNECT TO DATABASES<br>
+
+__cx oracle__<br>
+`pip install cs_Oracle`<br>
+
+__mysql__<br>
+`sudo apt-get install mysql-server`<br>
+
+__odbc for sql server__<br>
+Note before installing pyobsc you need to run below command:<br>
+https://github.com/mkleehammer/pyodbc/issues/252
+`sudo apt-get install unixodbc unixodbc-dev`<br>
+`pip install pyodbc`<br>
+
+__pycopg2__<br>
+`pip install psycopg2-binary`<br>
 
 
 __check which kernels are installed__<br>
@@ -651,8 +674,14 @@ Example screenshot<br>
 https://community.cloudera.com/t5/Support-Questions/Version-of-Python-of-Pyspark-for-Spark2-and-Zeppelin/td-p/227019?lightbox-message-images-227022=15317i14B7F3BEB6ED972F<br>
 https://dziganto.github.io/anaconda/shiro/spark/zeppelin/zeppelinhub/How-To-Locally-Install-Apache-Spark-And-Zeppelin/#:~:text=If%20you%20get%20an%20error%20or%20a%20message%20that%20says,Python%203.6%20will%20break%20PySpark.<br>
 
+__useful links__<br>
+https://zeppelin.apache.org/docs/0.8.0/usage/interpreter/installation.html<br>
+https://zeppelin.apache.org/docs/0.8.0/quickstart/sql_with_zeppelin.html<br>
+https://zeppelin.apache.org/docs/0.8.0/interpreter/python.html#sql-over-pandas-dataframes<br>
 
-Zeppelin python/spark kerlne should be set to pyspark_env as will not work with python3.8.<br>
+
+
+Zeppelin python/spark kernel should be set to pyspark_env as will not work with python3.8.<br>
 
 in interpreters change the following lines:<br>
 
