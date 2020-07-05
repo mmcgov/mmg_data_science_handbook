@@ -573,6 +573,46 @@ __check which kernels are installed__<br>
 https://docs.docker.com/docker-for-windows/wsl-tech-preview/<br>
 https://code.visualstudio.com/blogs/2020/03/02/docker-in-wsl2<br>
 
+UPDATE: Until recently just installing docker desktop and enabling WSL interaction in its settings was sifficient. However this was buggy and did not allow images to be pulled down from docer hub. Consequently I have changed to a native full docker install in linux WSL itself.<br>
+
+Seps are summarised in below links<br>
+https://linuxconfig.org/how-to-install-docker-on-ubuntu-20-04-lts-focal-fossa <br>
+https://bugs.launchpad.net/ubuntu/+source/docker.io/+bug/1830237 <br>
+https://forums.docker.com/t/failed-to-start-docker-service-unit-is-masked/67413 <br>
+https://docs.docker.com/engine/install/linux-postinstall/#configure-docker-to-start-on-boot<br>
+
+First uninstall docker desktop using `Add Remove programs` options.<br>
+
+Next Use the apt command to install the docker.io package:<br>
+sudo apt install docker.io<br>
+
+You may get this error `docker.io : Depends: containerd (>= 1.2.6-0ubuntu1~)` if so then use:<br>
+` sudo apt-get remove containerd.io`<br>
+
+
+Start docker and enable it to start after the system reboot:<br>
+`sudo systemctl enable --now docker`<br>
+
+You may get the error `Failed to enable unit, unit /etc/systemd/system/docker.service is masked.` if so use:<br>
+`sudo systemctl unmask docker`<br>
+
+Finally use below command as sudo systemctl start docker might give error `Failed to connect to bus: Host is down`<br>
+`sudo dockerd`<br>
+
+To auto start on boot:<br>
+`sudo systemctl enable docker`<br>
+
+And then add this command to .zshrc:<br>
+`sudo service docker start`<br>
+
+Optionally give any user administrative privileges to docker:<br>
+`sudo usermod -aG docker SOMEUSERNAME`<br>
+You will need to log out and log in to apply the changes.<br>
+
+Check docker version:<br>
+`docker --version`<br>
+
+
 
 #### VS Code
 
