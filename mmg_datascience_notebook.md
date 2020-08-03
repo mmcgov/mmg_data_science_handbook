@@ -7,11 +7,6 @@
 
 ### Useful Links
 
-
-
-
-
-
 #### Official exam page and AWS prep material<br>
 https://aws.amazon.com/certification/certified-machine-learning-specialty/<br>
 https://www.aws.training/Certification<br>
@@ -32,13 +27,7 @@ https://github.com/noahgift/aws-ml-guide<br>
 https://noahgift.github.io/aws-ml-guide/intro<br>
 https://www.qwiklabs.com/quests/5<Br>
 https://www.oreilly.com/library/view/aws-certified-machine/9780135556597/<br>
-    
-    
 
-    
-
-    
-    
 ## Databricks Certified Associate Developer for Apache Spark 2.4
 ## Databricks Certified Associate ML Practitioner for Apache Spark 2.4
 
@@ -63,7 +52,7 @@ https://towardsdatascience.com/my-10-recommendations-after-getting-the-databrick
 # Linux
 
 ## Check current distribution
-`lsb_release -a` 
+`lsb_release -a`
 
 ## Upgrading
 https://www.digitalocean.com/community/tutorials/how-to-upgrade-to-ubuntu-20-04-focal-fossa<br>
@@ -94,7 +83,6 @@ It should now be doing an upgrade 18.10 → 19.04. Let that run as normal and re
 <br>
 Congratulations! You’re now running 19.04. Remove the `/var/lib/update-manager/meta-release2` you made.<br>
 Since 19.10 is supported, all you have to do to upgrade 19.04 → 19.10 is run `do-release-upgrade` again. No hacks necessary, you’re back on the main path.<br>
-
 
 ## Windows Subsystem for Linux (WSL2)
 
@@ -157,6 +145,7 @@ As last resort can try installing all the fonts:<br>
 `cd fonts`<br>
 `./install.sh`<br>
 
+
 ### Install oh-my-posh for powershell
 This link below covers powershell and wsl terminal customisation including installing oh-my-posh for powerline<br>
 https://medium.com/@hjgraca/style-your-windows-terminal-and-wsl2-like-a-pro-9a2e1ad4c9d0<br>
@@ -189,9 +178,6 @@ Once you are done this is what your PowerShell will look like. You can get other
 
 <img src="media/wsl_3.png"> <br>
 
-
-
-
 ### Install WSL2
 With the windows 2004 update in May 2020 WSL now has a full linux kernel and as such much better compatibility with Docker etc.
 I installed it via the Windows Preview build and it is very impressive. It is now my default setup for data science replacing the virtualbox config I had previous which is described in later sections.<br>
@@ -200,9 +186,6 @@ I installed it via the Windows Preview build and it is very impressive. It is no
 https://adamtheautomator.com/windows-subsystem-for-linux/<br>
 https://www.google.com/search?q=how+to+install+wsl2&oq=how+to+install+wsl2&aqs=chrome..69i57j0l7.3205j0j7&sourceid=chrome&ie=UTF-8#kpvalbx=_AdzCXq-JMePzxgOqqpTICQ32<br>
 https://docs.microsoft.com/en-us/windows/wsl/wsl2-install<br>
-
-
-
 
 
 ### Upgrade to windows insider (Only needed until May 26th 2020)
@@ -284,10 +267,11 @@ Change back to bash shell<br>
 Or<br>
 `chsh -s /bin/bash`<br>
 First time you open zsh shell will get below screen<br>
-<img src="media/wsl_1.png"> <br>
+<img src="media/wsl_1.png" width="600"> <br>
 If you select (1) you’ll be taken to a menu that allows you to configure history, keybindings and a bunch of other things. However, I suggest selecting (2) which will create a configuration profile with the recommended default settings.<br>
 
 The config file is stored at ~/.zshrc and this is where you should add any path information etc for Spark later in place of the bashrc if using the zsh shell.<br>
+
 
 #### Install oh-my-zsh 
 https://www.sitepoint.com/zsh-tips-tricks/<br>
@@ -355,15 +339,13 @@ If you want to enable auto correction then find uncomment the line by removing #
 `ENABLE_CORRECTION="true"`<br>
 <br>
 
+
 #### Shorted prompt path
 Vim into ~/.p10k.zsh and update below lines:<br>
 
 `typeset -g POWERLEVEL9K_DIR_TRUNCATE_BEFORE_MARKER=false`<br>
 `# Don't shorten this many last directory segments. They are anchors.`<br>
 `typeset -g POWERLEVEL9K_SHORTEN_DIR_LENGTH=1`<br>
-
-
-
 
 #### Python pip and virtualenv setup
 __install python and pip__<br>
@@ -613,7 +595,6 @@ Check docker version:<br>
 `docker --version`<br>
 
 
-
 #### VS Code
 
 Download VS code here https://code.visualstudio.com/docs/?dv=win<br>
@@ -645,6 +626,7 @@ You can choose between python and the ipython interactive terminal by going to e
 
 Then go to the option `Python: Data Science Send selection to interactive window`<br>
 <img src="media/vscode_12.png"> <br>
+
 
 
 ### Polynote
@@ -681,18 +663,20 @@ You will also need to remove the shebang line from the start of the polynote.py 
 https://github.com/polynote/polynote/issues/531<br>
 `#!/usr/bin/env python3`<br>
 
-Finally the spark config needs at least one line so you sohuld add the following line to the config file also:<br>
+Finally the spark config needs at least one line so you should add the following line to the config file also:<br>
 NOTE this is still a little buggy and may need also set in the notebook if not working<br>
 https://towardsdatascience.com/trying-polynote-from-netflix-a-better-notebook-for-data-engineers-5107277ff2e5<br>
 `spark:`<br>
     `properties:`<br>
         `spark.master: local[*]`<br>
  
- <img src="media/polynote_7.png"> <br>
-    
-You can also xhange this at the config options in polynote GUI for individual notebooks as well as setting other spark config options if nexessary. However for the above config options as they are always needed it is better to set them in the config file itself.<br>
+ from IPython.display import display
+from PIL import Image
+ <img src="media/polynote_7.png" width="400"> <br>
+ 
+You can also change this at the config options in polynote GUI for individual notebooks as well as setting other spark config options if nexessary. However for the above config options as they are always needed it is better to set them in the config file itself.<br>
 
-<img src="media/polynote_8.png"> <br>
+<img src="media/polynote_9.png" width="800"> <br>
 
 
 ### Setup alias for each IDE
@@ -708,8 +692,6 @@ alias polynote='browser http://localhost:8192 & python3 /home/martin/projects/co
 
 Example screenshot<br>
 <img src="media/wsl_6.png"> <br>
-
-
 
 ### zeppelin
 https://community.cloudera.com/t5/Support-Questions/Version-of-Python-of-Pyspark-for-Spark2-and-Zeppelin/td-p/227019?lightbox-message-images-227022=15317i14B7F3BEB6ED972F<br>
@@ -781,20 +763,15 @@ This points to a ps1 powershell script which should have the following lines in 
 
 This only takes a few mins at login and means at worst you will only lose changes made that day to files in your linux distribution. It is important to backup like this regularly as wsl is outside your Onedrive files and as such will not be automatically backup up like other windows files.
 
-
 ### Remove a WSL2 dist
 
 Simply use command below in powershell:<br>
 `wsl --unregister Ubuntu-test`
 
-
 ### Extra hints/Tips
 #### Add/Remove Linux Tux from File Explorer
 https://www.tenforums.com/tutorials/127506-add-remove-linux-navigation-pane-windows-10-a.html<br>
 https://www.tenforums.com/tutorials/127857-access-wsl-linux-files-windows-10-a.html<br>
-
-
-
 
 ### WSL bugs<br>
 
@@ -849,34 +826,34 @@ https://www.howtogeek.com/138159/how-to-enable-programs-and-custom-scripts-to-ru
 Final stage involves setting up task to run on login in windows using task scheduler.<br>
 
 First launch task scheduler<br>
-<img src="media/task_scheduler_01.png"> <br>
+<img src="media/task_scheduler_01.png" width="400"> <br>
 
 
 Next click create new task<br>
-<img src="media/task_scheduler_2.png"> <br>
+<img src="media/task_scheduler_2.png" width="200"> <br>
 
 You will be presented with the below options<br>
-<img src="media/task_scheduler_3.png"> <br>
+<img src="media/task_scheduler_3.png" width="400"> <br>
 
 First in the general tab fill in short description as for example below. Also select whether this task is for all users or only certain users. Below I have selected just my profile.<br>
-<img src="media/task_scheduler_4.png"> <br>
+<img src="media/task_scheduler_4.png" width="400"> <br>
 
 Next in the triggers tab create new trigger as shown in example below, choosing at log-on and specific user in this case for this task.<br>
-<img src="media/task_scheduler_6.png"> <br>
+<img src="media/task_scheduler_6.png" width="400"> <br>
 
 This should then show up in the list of triggers like below<br>
-<img src="media/task_scheduler_5.png"> <br>
+<img src="media/task_scheduler_5.png" width="400"> <br>
 
 
 Next in actions choose run a progam option andpoint to the cmd file you want to run.<br>
-<img src="media/task_scheduler_7.png"> <br>
+<img src="media/task_scheduler_7.png" width="400"> <br>
 
 This should then show up in the lhexiist of actions like below<br>
-<img src="media/task_scheduler_8.png"> <br>
+<img src="media/task_scheduler_8.png" width="400"> <br>
 
 
 Finally in conditions set the task to always run by deselecting only run when connected to AC power as shown below.<br>
-<img src="media/task_scheduler_9.png"> <br>
+<img src="media/task_scheduler_9.png" width="400"> <br>
 
 You can ignore the remaining tabs for this task. You should be all good to go and can test by rebooting.
 
@@ -904,7 +881,7 @@ Only use visudo as it will check that the syntax is correct.<br>
 To change the visudo editor to vim<br>
 sudo update-alternatives --config editor<br>
 This will open the below options<br>
-<img src="media/wsl_4.png"> <br>
+<img src="media/wsl_4.png" width="400"> <br>
 
 Choose option 3 and now when you use visudo command it will default to vim editor.<br>
 
@@ -916,7 +893,6 @@ At the end of the /etc/sudoers file add this line:<br>
 `username     ALL=(ALL) NOPASSWD:ALL`<br>
 
 Save and close file. If you have any sort of syntax problem, visudo will warn you and you can abort the change or open the file for editing again. <br>
-
 
 
 ## Virtual Box
@@ -956,10 +932,10 @@ If it is not installed, install by<br>
 We will use this port when editing settings in virtualbox as show below<br>
 
 To setup ports for Zeppelin, Jpuyter and SSH, go to settings > Network > Port forwarding<br>
-<img src="media/ports_1.png"> <br>
+<img src="media/ports_1.png" width="600"> <br>
 
 Then add the following three ports:<br>
-<img src="media/ports_2.png"><br>
+<img src="media/ports_2.png" width="600"><br>
 
 
 #### Setup SSH on Linux VM
@@ -982,34 +958,29 @@ Just to note Windows ssh config in hidden folder ProgramData but we don’t need
 
 Or alternatively can get by `windows+r` and enter `%ProgramData%`<br>
 
-
-
-
 #### Ubuntu Server Connection- Username and Password Method
 __Putty__<br>
 Install Putty and puttygen from https://www.puttygen.com/download-putty <br>
 (alternative site https://www.ssh.com/ssh/putty/download#sec-Download-PuTTY-installation-package-for-Windows)<br>
 
 At this stage if just want to access via SSH using username and password each time simply setup putty to connect to localhost 127.0.0.1 as below and it will add to known_hosts however each time you launch a new putty window you will have to re-enter username and password. To avoid this follow on and setup SSH public/private keys which is more secure and avoids hassle of having to reenter username andpassword in VSCode and Putty terminals everytime they launch.<br>
-<img src="media/putty_1.png"><br><br>
+<img src="media/putty_1.png" width="600"><br><br>
 
 __VSCode__<br>
 Open VSCode and click bottom left corner<br>
-<img src="media/vscode_1.png"><br>
+<img src="media/vscode_1.png" width="600"><br>
 
 Click on REmore-SSH:Open Configuration File...<br>
-<img src="media/vscode_2.png"><br>
+<img src="media/vscode_2.png" width="600"><br>
 
 Add the following lines to the config file<br>
-<img src="media/vscode_3.png"><br>
+<img src="media/vscode_3.png" width="600"><br>
 
 Save and click the bottom left corner again and select REmote-SSH Connect to Host...<br>
-<img src="media/vscode_4.png"><br>
+<img src="media/vscode_4.png" width="600"><br>
 
 Select the name of your connection, you should be prompted for password and it should connect.
-<img src="media/vscode_5.png"><br>
-
-
+<img src="media/vscode_5.png" width="600"><br>
 
 ##### Access via SSH public/private key
 __useful links__<br>
@@ -1042,11 +1013,11 @@ __useful links__<br>
 https://www.digitalocean.com/community/tutorials/how-to-use-visual-studio-code-for-remote-development-via-the-remote-ssh-plugin
 
 Install remote development extension which covers SSH, WSL etc.
-<img src="media/vscode_0.png">
+<img src="media/vscode_0.png" width="600">
 
 
 Install OpenSSH 8.2p1-1 from https://www.mls-software.com/opensshd.html<br>
-<img src="media/openssh_1.png">
+<img src="media/openssh_1.png" width="600">
 
 Enter all the defaults for keysize etc but change the password step to one of your choosing.<br>
 
@@ -1057,7 +1028,7 @@ Next open up a powershell terminal and Type in<br>
 Acccept defaults and dont bother with passphrase etc<br>
 
 Now this method does not write protect the private key and so you will get error below if try to SSH. They key will be ignored and the SSH key connection will not work.<br>
-<img src="media/openssh_3.png">
+<img src="media/openssh_3.png" width="600">
 
 Follow instructions below to change file rights to get past the warning by making key more secure<br>
 https://superuser.com/questions/1296024/windows-ssh-permissions-for-private-key-are-too-open<br>
@@ -1079,7 +1050,7 @@ Now you can check connection by opening powershell in admin mode and typing:<br>
 Click yes to trust host and it should connect with no password required.<br>
 
 Now simply add a line to the VSCode config file from earlier to point to the private key using `IdentifyFile` as below.<br>
-<img src="media/vscode_7.png">
+<img src="media/vscode_7.png" width="600">
 
 You should now be able to follow the same instructions as for VSCode with username/password from earleir but now should not need to enter password.
 
@@ -1112,15 +1083,10 @@ Just note when using OpenSSH folder like this need to urn commands from the eecu
 As opposed to just line beloe from the installer method earlier.<br>
 `ssh name:127.0.0.1 -p 2222`<br>
 
-
 #### AutoStart VM Linux Server using shortcut
 
 Simply create a new shortcut by right click > shortcut and add below as path:<br>
 `"C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" startvm "ubuntu_server_20.04"  --type headless`<br>
-
-
-
-
 
 ### Setup for Linux Ubuntu GUI
 1) Enable virtualisation on bios<br>
@@ -1131,7 +1097,7 @@ Simply create a new shortcut by right click > shortcut and add below as path:<br
    To install manually download the iso file from https://download.virtualbox.org/virtualbox/5.2.0_RC1/ 
    and then choose it in the mount in Virtualbox.
 
-<img src="media/vbox_1.png">
+<img src="media/vbox_1.png" width="600">
 
 __Enabling best performance for full screen on second monitor__<br>
 In VB Manager---settings---display ensure:
@@ -1162,12 +1128,6 @@ At top left of VM window Go to Devices then Drag and Drop then select Bidirectio
 __Install dpkg and associated packages__<br>
 `sudo apt-get install dpkg`<br>
 `sudo apt-get install virtualbox-guest-gkms virtualbox-guest-utils virtualbox-guest-x11`<br>
-
-
-
-
-
-
 
 ### Using vboxmanage to configure virtualbox<br>
 These notes are really only for tweaking the config in things like the prefix of the shared folder and its mount location. They are more linked to the GUI option above rather than the server option setup.
@@ -1218,13 +1178,6 @@ __Check location and prefix shared folder details__<br>
 __Example output__
 <img src="media/vbox_9.png">
 
-
-
-
-
-
-
-
 ### Increase size of VM partition
 
 Follow instructions on below link<br>
@@ -1236,11 +1189,8 @@ Make sure to connect correct new .vdi file afterwards to your VM as below.<br>
 
 <img src="media/vbox_12.png"><br>
 
-
-
 ### Tips on how to speed up performance of VM Setup
 https://superuser.com/questions/809396/virtualbox-consuming-100-cpu-even-when-the-guest-is-idle
-
 
 ## Setup PATH variable correctly<br>
 __PATH__: A list of directories that the system will check when looking for binary files and executables for packages. When a user types in a command, the system will check directories in this order for the executable.<br>
@@ -1248,6 +1198,7 @@ https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environment
 
 Vim environment file in etc folder and check if contents same as below<br>
 `PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"`<br>
+
 
 ## Immediate activation of any path updates without closing session<br>
 `source /etc/environment && export PATH`<br>
@@ -1266,7 +1217,6 @@ alias python=python3
 __Create symbolic link to virtual env activation file__
 ln -s  ~/Desktop/virtualenvs/py3/bin/activate  ~/py3_env
 
-
 ## Terminal colours config
 http://linux-sxs.org/housekeeping/lscolors.html
 https://askubuntu.com/questions/466198/how-do-i-change-the-color-for-directories-with-ls-in-the-console
@@ -1280,7 +1230,6 @@ Then add below line to ~/.bashrc file<br>
 You can change modify any colours in the ~/.dir_colors file and it will show the new colour instantly.
 
 Note you can also use the gui method by right clicking inside terminal and going to preferences. It is useful to create a new profile here and set it default.
-
 
 
 ## Linux Server
@@ -1441,7 +1390,6 @@ change to
 `deb http://eng.archive.ubuntu.com/ubuntu/ bionic main restricted`
 If this does not fix then see below for changing default repo for linux
 
-
 ### Problems with Linux software updater<br>
 Untick below repo as can cause problems with updates
 `https://packages.microsoft.com/ubuntu/16.04/mssql-server xenial main`
@@ -1483,7 +1431,6 @@ Add following to Dockerfile for useful system packages. Can run once in the ‘m
  `RUN apt-get update -y && apt-get -o Dpkg::Options::="--force-overwrite"` 
 
 
-      
 ### Docker-Compose commands
 
 To start docker run this from inside docker directory<br>
@@ -1531,11 +1478,6 @@ Next add below lines, these are setting the actual authenticated proxies you wan
 IMPORTANT need to use bash script as entrypoint rather than say `ENTRYPOINT ['python3', 'main.py']` as need it to run squid service everytime on running. Use the below command to run any additional commands:<br>
 
 `exec "$@"`<br>
-
-
-
-
-
 
 # Git
 
@@ -1830,6 +1772,8 @@ https://medium.com/@__pamaron__/understanding-and-use-python-virtualenvs-from-da
 https://favoorr.github.io/2017/01/03/python3-6-virtualenvwrapper-problem-md/<br>
 
 
+
+
 ### Install virtualenv and virtualenvwrapper<br>
 
 __NOTE:__ For typical linux server eg digital ocean ubuntu server, new virtualenvs will automatically be added as long as the first time you ssh in you ssh in to at the same level as where the virtualenvs are saved. The .virtualenvs folder for virtualenvwrapper is saved at ~/ so first time to get new env linked to VSCode open at this level, then from that point onwards can open at any level and still select the new virtualenv.<br><br>
@@ -1851,6 +1795,7 @@ In the case of virtualenv wrapper you also need to add the following lines to th
 __NOTE__<br>
 If having difficulties with symbolic links on shared folder of VM for example then use flag --always-copy to vreate a virtualenv without symlinks where all the executables are copied into the new env.<br>
 
+
 ### Wrapper syntax<br>
 https://howchoo.com/g/nwewzjmzmjc/a-guide-to-python-virtual-environments-with-virtualenvwrapper
 
@@ -1869,6 +1814,7 @@ __exit virtualenv__
 
 __remove virtualenv__
 `rmvirtualenv py3`
+
 
 
 ### Virtualenv syntax<br>
@@ -1904,6 +1850,9 @@ pandas==0.23.4<br>
 jellyfish==0.6.1<br>
 sqlalchemy<br>
 screen<br>
+
+
+
 
 ### Conda syntax
 
@@ -1959,6 +1908,8 @@ Place Dracula.xml inside that folder <br>
 Restart Notepad++ <br>
 
 Dracula will be available in Settings > Style Configurator <br>
+
+
 
 
 
@@ -2414,6 +2365,7 @@ Need to use get first routine to remove list structure<br>
 `def get_first(container):`<br>
 `    return container[1] if container else None`
 
+
 #### Scrapy
 #### Create new project
 `scrapy startproject PROJECT_NAME`
@@ -2575,6 +2527,11 @@ You should see the following output:<br>
    `"patch": 1`<br>
 `}`<br>
 That's it. You have successfully installed PhantomJS on Ubuntu 16.04 server<br>
+
+
+
+
+
 
 ## Data formatting/Wrangling
 
@@ -2766,12 +2723,9 @@ def enumerate_names_countries():
 enumerate_names_countries()
 ```
 
-    1. Julian     Australia
-    2. Bob        Spain
-    3. PyBites    Global
-    4. Dante      Argentina
-    5. Martin     USA
-    6. Rodolfo    Mexico
+    1. Martin    Australia
+    2. Niamh     Ireland
+    3. Paul      France
 
 
 ### Pandas data formatting
@@ -2822,7 +2776,7 @@ else:
     print('joined')
 ```
 
-    3 files to join
+    2 files to join
     Already Joined
 
 
@@ -3409,7 +3363,7 @@ interact(plot_new,
 ```
 
 
-    interactive(children=(Dropdown(description='ticker', index=50, options=('PNRA', 'BANR', 'TER', 'DGX', 'UAA', '…
+    interactive(children=(Dropdown(description='ticker', index=25, options=('TGT', 'HTLF', 'SBUX', 'TWTR', 'ADBE',…
 
 
 ## Machine learning
@@ -3486,7 +3440,7 @@ Now run this command from the same directory where setup.py is located:<br>
 
 You should now have the below file tree:
 
-<img src="media/pip_1.png">
+<img src="media/pip_1.png" width="600">
 
 You should add all of these three folders to your .gitignore file.
 
@@ -3498,6 +3452,8 @@ Then upload all the archives to PyPi:<br>
 `twine upload dist/*`<br>
 ... enter your PyPi username and password<br>
 After successful uploading, go to PyPi website, under your project, you can found your published package.<br>
+
+
 
 
 ### python pip package method with Docker, TeamCity and Artifactory
@@ -4121,6 +4077,22 @@ if __name__ == '__main__':
     app.run_server(debug=True, host='0.0.0.0', port='80')
 ```
 
+
+    ---------------------------------------------------------------------------
+
+    ModuleNotFoundError                       Traceback (most recent call last)
+
+    <ipython-input-38-28712532bd3c> in <module>
+          1 #Import required packages
+    ----> 2 import dash
+          3 import dash_core_components as dcc
+          4 import dash_html_components as html
+          5 from dash.dependencies import Input, Output
+
+
+    ModuleNotFoundError: No module named 'dash'
+
+
 #### Setup WSGI Endpoint
 The above code would only launch a dev server. To properly run a website you should use a production server which can scal as previously discussed. In order to do this we nneed to now create our WSGI application server (Gunicorn) and then our web server (Nginx).<br>
 
@@ -4359,6 +4331,7 @@ https://github.com/lamastex/scalable-data-science<br>
 https://github.com/lamastex/scalable-data-science/tree/master/dbcArchives/2017/parts/studentProjects<br>
 
 
+
 ## Useful links
 Flint (time series library from two sigma using spark)<br>
 https://databricks.com/blog/2018/09/11/introducing-flint-a-time-series-library-for-apache-spark.html<br>
@@ -4381,6 +4354,9 @@ The latest compatible set of versions are:<br>
 `scala=2.13.1`<br>
 `hadoop=2.7`<br>
 `sbt=1.3.5`<br>
+
+
+
 
 
 ## Initial setup linux
@@ -4408,7 +4384,6 @@ List all java versions:<br>
 
 Set java version as default (needs root permissions):<br>
 `sudo update-java-alternatives --set /path/to/java/version`<br>
-
 
 
 
@@ -4490,6 +4465,7 @@ Finally add following line to .bashrc<br>
 `Export PATH=$PATH:/usr/local/sbt/bin`<br>
 
 
+
 ### Check installations
 Update bashrc<br>
 `Command source ~/.bashrc`<br>
@@ -4499,13 +4475,6 @@ check if installed<br>
 `Result: openjdk version "1.8.0_212"`<br>
 `Command: hadoop version`<br>
 `Result: Hadoop 2.7.3`<br>
-
-
-
-
-
-
-
 
 
 ## Initial setup Windows
@@ -4518,7 +4487,7 @@ Install the JDK for java 8, do not install Java 9,10 or 11, go-to the following 
 Note change the install path to avoid spaces like in `program files` so change to `C:jdk/`<br>
 https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
    
-<img src="media/spark_1.png">    
+<img src="media/spark_1.png" width="400">    
     
 After the JDK is installed verify the installation by issuing the following command:<br>
 `Java -version`<br> 
@@ -4528,7 +4497,7 @@ Try and run the next steps in the order they are presented here.<br>
 Download a pre-built version of Spark from link below<br>
 https://spark.apache.org/downloads.html
     
-<img src="media/spark_2.png">      
+<img src="media/spark_2.png" width="400">      
 
 Download 7-zip: https://www.7-zip.org/ (note: you may have this installed already)<br>
 Right click on the `spark-XXXX.tgz` file, Choose `7-zip > extract here`. This should create a `.tar` file in the downloads folder. <br>
@@ -4538,7 +4507,7 @@ Copy the contents of `spark-XXXX` folder from the Downloads folder to the `C:\sp
 Rename file `log4j.properties.template` to `log4j.properties` in `C:\spark\spark\conf`<br>
 Change `log4j.rootCategory=Error, console`<br>
 
-<img src="media/spark_4.png">
+<img src="media/spark_4.png" width="600">
 
 
 ### winutils (Hadoop Support)
@@ -4553,12 +4522,12 @@ open windows cmd prompt and follwo below steps to trick windows into thinking ha
 ### Scala
 Download Scala binary msi from the following link https://www.scala-lang.org/download/ and follow installation instructions.
 
-<img src="media/spark_7.png">
+<img src="media/spark_7.png" width="400">
 
 ### SBT 
 Download and install SBT msi from the following link  https://www.scala-sbt.org/download.html
 
-<img src="media/spark_6.png">
+<img src="media/spark_6.png" width="400">
 
 
 
@@ -4602,6 +4571,12 @@ Just for your information since we are discussing the topic in depth. System Var
 
 
 
+
+
+
+
+
+
 ## IDE Setup 
 
 __NOTE__
@@ -4642,8 +4617,6 @@ Download latest release from https://github.com/polynote/polynote/releases and e
 `cd polynote`<br>
 to open polynote simple run polynote.py<br>
 `./polynote.py`
-
-
 
 
 
@@ -4760,7 +4733,6 @@ Run the two commands below inside the pinot folder to install pinot<br>
 `Stack setup --allow-different-user`<br>
 `Stack build –allow-different-user`<br>
 
-
 ##### Zeppelin notebooks run on EMR Cluster<br>
 Push your json format notebooks saved in folder zepArchives to your git repo<br>
 
@@ -4782,13 +4754,6 @@ Open a tunnel in a separate terminal<br>
 
 open browser with url http://localhost:8890<br>
 Any notebooks you converted using zimport should now be visible on the zeppelin server where you can now run them on the EMR cluster.<br>
-
-
-
-
-
-
-
 
 
 ##### Zeppelin notebooks for local Docker development<br>
@@ -4849,6 +4814,8 @@ dockerCompose – docker container with zeppelin service<br>
 LICENSE  <br>
 README.md  <br>
 
+
+
 ##### Convert dbcArchive files to json<br>
 In the babel folder vim into makeZeppelinnotes.sh file and change where necessary for your filepaths as below with line numbers for reference.<br>
 
@@ -4886,10 +4853,6 @@ https://github.com/pixiedust/pixiedust/blob/master/notebook/DSX/Welcome%20to%20P
 https://stackoverflow.com/questions/34998433/create-pyspark-kernel-for-jupyter<br>
 https://www.sicara.ai/blog/2017-05-02-get-started-pyspark-jupyter-notebook-3-minutes<br>
 https://medium.com/@bogdan.cojocar/how-to-run-scala-and-spark-in-the-jupyter-notebook-328a80090b3b<br>
-
-
-
-
 
 # Julia
 
