@@ -2528,17 +2528,12 @@ You should see the following output:<br>
 `}`<br>
 That's it. You have successfully installed PhantomJS on Ubuntu 16.04 server<br>
 
-
-
-
-
-
 ## Data formatting/Wrangling
 
 ### Regular Expressions
 
 #### Useful Links
-
+http://www.regular-expressions.info/repeat.html
 https://www.quora.com/From-where-and-how-should-I-learn-regex-in-Python-to-be-good-at-it<br>
 https://regexr.com/<br>
 https://www.tutorialspoint.com/python/python_reg_expressions.htm<br>
@@ -2601,7 +2596,7 @@ group(0) returns the entire string including the filter of "dp/", while group(1)
 
 
 ```python
- re.search("dp/(.+)", 'www.test/dp/12341234').group(1)#.split('/')[0]
+ re.search(r"dp/(.+)", 'www.test/dp/12341234').group(1)
 ```
 
 
@@ -2610,55 +2605,6 @@ group(0) returns the entire string including the filter of "dp/", while group(1)
     '12341234'
 
 
-
-
-```python
-
-```
-
-
-```python
-import os
-import re
-from collections import Counter
-import urllib.request
-
-# prep
-tempfile = os.path.join('/tmp', 'feed')
-urllib.request.urlretrieve(
-    'https://bites-data.s3.us-east-2.amazonaws.com/feed',
-    tempfile
-)
-
-with open(tempfile) as f:
-    content = f.read().lower()
-
-
-# start coding
-def get_pybites_top_tags(n=10):
-    """use Counter to get the top 10 PyBites tags from the feed
-       data already loaded into the content variable"""
-    pattern = r"(?:<category>)([a-zA-Z0-9]+)(?:</category>)"
-    check = re.compile(pattern)
-    tags = check.findall(content)
-    count = Counter(tags)
-    return count.most_common(n)
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
 
 ### String formatting
 
