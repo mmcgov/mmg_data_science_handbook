@@ -2533,7 +2533,7 @@ That's it. You have successfully installed PhantomJS on Ubuntu 16.04 server<br>
 ### Regular Expressions
 
 #### Useful Links
-http://www.regular-expressions.info/repeat.html
+http://www.regular-expressions.info/repeat.html<br>
 https://www.quora.com/From-where-and-how-should-I-learn-regex-in-Python-to-be-good-at-it<br>
 https://regexr.com/<br>
 https://www.tutorialspoint.com/python/python_reg_expressions.htm<br>
