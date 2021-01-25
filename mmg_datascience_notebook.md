@@ -1219,7 +1219,7 @@ __Example output__
 Follow instructions on below link<br>
 http://derekmolloy.ie/resize-a-virtualbox-disk/#prettyPhoto<br>
 Please note need to be in virtualbox directory for the resize step to work. See code line below<br>
-`C:\Program Files\Oracle\VirtualBox>VBoxmanage modifyhd "C:\Users\ah0164151\VirtualBox VMs\ubuntu_server_20.04\ubuntu_server_20.04.vdi" --resize 100000`<br>
+`C:\Program Files\Oracle\VirtualBox>VBoxmanage modifyhd "C:\VirtualBox VMs\ubuntu_server_20.04\ubuntu_server_20.04.vdi" --resize 100000`<br>
 
 Make sure to connect correct new .vdi file afterwards to your VM as below.<br>
 
